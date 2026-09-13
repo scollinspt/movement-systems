@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../physiolog"
+		},
+		{
+			"path": "../scollinspt"
+		},
+		{
+			"path": "../movement-models-"
+		},
+		{
+			"path": "../opensim-core"
+		},
+		{
+			"path": "../scone-core"
+		}
+	],
+	"settings": {}
+}

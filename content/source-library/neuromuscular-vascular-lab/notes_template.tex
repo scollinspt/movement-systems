@@ -1,0 +1,180 @@
+% !TEX root = ./notes_template.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%% preamble %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt]{report}
+%\documentclass[11pt,twoside]{book}
+\renewcommand{\chaptername}{Week}
+% Font and layout
+\usepackage[mono=false]{libertine} % Font family
+%\usepackage{geometry}
+%\geometry{margin=2.5cm}
+\usepackage[left=2.5cm, right=2.5cm, top=2cm, bottom=2cm]{geometry}
+
+% Math and symbols
+\usepackage{amsmath,amssymb}
+\usepackage{bm}
+\usepackage{amssymb}
+
+% Figures and graphics
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage{float}
+
+% Tables
+\usepackage{tabularx}
+\usepackage{multirow}
+
+% Lists and formatting
+\usepackage{enumitem}
+
+% Hyperlinks and references
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    citecolor=magenta,
+    linkcolor=blue,
+    filecolor=green,
+    urlcolor=cyan
+}
+\usepackage[capitalise]{cleveref}
+
+% Custom boxes for lab activities
+\usepackage{tcolorbox}
+\newtcolorbox{labactivitybox}{
+  colback=gray!10,
+  colframe=black,
+  fonttitle=\bfseries,
+  title=Lab Activity,
+  left=1em,
+  right=1em,
+  top=1em,
+  bottom=1em,
+  boxrule=0.5pt,
+  arc=4pt
+}
+
+
+
+%%%%%%%%%%%%%%%% ToC %%%%%%%%%%%%%%%%%%%%%
+% Link Chapter title to ToC: https://tex.stackexchange.com/questions/32495/linking-the-section-text-to-the-toc
+\usepackage[explicit]{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}{\chaptertitlename\ {\thechapter}}{20pt}{\hyperlink{chap-\thechapter}{\Huge#1}
+\addtocontents{toc}{\protect\hypertarget{chap-\thechapter}{}}}
+\titleformat{name=\chapter,numberless}
+  {\normalfont\huge\bfseries}{}{-20pt}{\Huge#1}
+
+%%%%%%%%%%%%%%%%%%% fancyhdr - Customized for Lab Manual %%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0.0pt} % remove header rule
+\fancyhf{} % clear header and footer
+
+% Define header layout
+\fancyhead[LO,LE]{\nouppercase{\leftmark}} % Week title
+\fancyhead[RO,RE]{\textbf{Week \thechapter}} % Week number
+\fancyfoot[CE,CO]{\hyperref[toc-contents]{\thepage}} % clickable page number
+
+% Update chapter and section marks with "Week" and link support
+\makeatletter
+\renewcommand{\chaptermark}[1]{%
+  \markboth{\protect\hyper@linkstart{link}{\@currentHref}{Week \thechapter\quad #1}\protect\hyper@linkend}{}}
+\renewcommand{\sectionmark}[1]{%
+  \markright{\protect\hyper@linkstart{link}{\@currentHref}{\thesection\quad #1}\protect\hyper@linkend}}
+\makeatother
+%%%%%%%%%%%%%%%%%%% fancyhdr %%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%% biblatex %%%%%%%%%%%%%%%%%
+\usepackage[doi=false,url=false,isbn=false,style=alphabetic,backend=biber,backref=true]{biblatex}
+\addbibresource{bib.bib}
+
+\newbibmacro{string+doiurlisbn}[1]{%
+  \iffieldundef{doi}{%
+    \iffieldundef{url}{%
+      \iffieldundef{isbn}{%
+        \iffieldundef{issn}{%
+          #1%
+        }{%
+          \href{http://books.google.com/books?vid=ISSN\thefield{issn}}{#1}%
+        }%
+      }{%
+        \href{http://books.google.com/books?vid=ISBN\thefield{isbn}}{#1}%
+      }%
+    }{%
+      \href{\thefield{url}}{#1}%
+    }%
+  }{%
+    \href{http://dx.doi.org/\thefield{doi}}{#1}%
+  }%
+}
+
+% https://tex.stackexchange.com/questions/94089/remove-quotes-from-inbook-reference-title-with-biblatex
+\DeclareFieldFormat[article,incollection,inproceedings,book,misc]{title}{\usebibmacro{string+doiurlisbn}{\mkbibemph{#1}}}
+% https://tex.stackexchange.com/questions/454672/biblatex-journal-name-non-italic
+\DeclareFieldFormat{journaltitle}{#1\isdot}
+\DeclareFieldFormat{booktitle}{#1\isdot}
+% https://tex.stackexchange.com/questions/10682/suppress-in-biblatex
+\renewbibmacro{in:}{}
+% add video field: https://tex.stackexchange.com/questions/111846/biblatex-2-custom-fields-only-one-is-working
+\DeclareSourcemap{
+    \maps[datatype=bibtex]{
+      \map{
+        \step[fieldsource=video]
+        \step[fieldset=usera,origfieldval]
+    }
+  }
+}
+\DeclareFieldFormat{usera}{\href{#1}{\textsc{Online video}}}
+\AtEveryBibitem{
+    \csappto{blx@bbx@\thefield{entrytype}}{% put at end of entry
+        \iffieldundef{usera}{}{\space \printfield{usera}}
+    }
+}
+%%%%%%%%%%%%%%%%%%% biblatex %%%%%%%%%%%%%%%%%
+
+
+\input{./macros.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%% begin of document %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\title{{\Large A Lab Manual for the:}\\
+[0.5em]{\bf \Huge Neuromuscular \& Vascular Lab}\\
+[0.5em]{\Large Functional Movement, Manual Testing \& Rehabilitative Ultrasound Imaging}}
+
+\author{Sean Collins, Janine DeBaets \& Kaylee Pobocik \\
+{\small Instructional support assisted by the Clinical Anatomy Lab Assistant GPT (OpenAI),}\\
+{\small a custom tool designed by Sean Collins for the Plymouth State DPT Program.}}
+
+
+
+
+
+\date{Update on \today}
+\maketitle
+\input{copyright} 
+\setcounter{tocdepth}{2}
+\tableofcontents
+%%%%%%%%%%%%%%%Content%%%%%%%%%%%%%%%
+
+\input{./chapter/preface.tex}
+\input{chapter/schedule}
+
+\input{./chapter/muscle_testing.tex}
+\input{./chapter/reflex_pulse}
+\input{chapter/shoulder_complex.tex}
+\input{chapter/distal_ue.tex}
+\input{chapter/pelvis_hip}
+\input{chapter/knee}
+\input{chapter/ankle_foot}
+\input{chapter/lumbopelvic}
+\input{chapter/cervical_thoracic}
+\input{chapter/skills_checklist}
+
+\end{document}
