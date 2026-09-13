@@ -55,6 +55,7 @@ content/
 docs/                     # Curriculum, site, publication, and workspace decisions
 research/                # Questions, notes, and outputs related to the course sequence
 ROADMAP.md                # Phased project plan and current status
+PROJECT_LOG.md            # Dated decisions, pending questions, and return-to-work prompt
 ```
 
 Existing syllabi belong under `references/`; new authoritative syllabus sources belong
@@ -69,6 +70,8 @@ release. See [workspace integration](docs/workspace-integration.md).
 
 ## Current Status
 
-The initial repository scaffold and governing roadmap are complete. Current work is
-curriculum architecture and content classification, followed by coordinated course
-design and the public website foundation.
+The initial repository scaffold and governing roadmap are complete. A working Spring
+2027 semester map is drafted, with its gait allocation awaiting Eydie Kendall's reply.
+Start the next work session with the copy-ready prompt in
+[PROJECT_LOG.md](PROJECT_LOG.md). Current work remains Phase 1 curriculum architecture;
+website implementation has not begun.

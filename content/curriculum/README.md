@@ -19,3 +19,7 @@ Existing syllabi used to understand the curriculum belong under `syllabi/referen
 New LaTeX syllabus sources belong under `syllabi/development/`. The planned
 concept-to-course-to-practice matrix should live in this directory when course outcomes
 and schedules are available.
+
+The [Spring 2027 working semester map](spring-2027-semester-map.md) is the initial
+calendar-level synthesis of the legacy syllabi, the gait transition from Dynamic Systems
+I, the DAM and adaptation writing plan in Physiolog, and the shared-laboratory model.

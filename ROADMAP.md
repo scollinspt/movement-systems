@@ -218,7 +218,12 @@ The detailed contract is in
 
 The repository has its initial curriculum and source-library scaffold. The roadmap and
 governance decisions are documented. Phase 1, Curriculum architecture, is the next work
-stage. Resume by refining the current synthesis and shared terminology, then build the
+stage. An initial
+[Spring 2027 semester map](content/curriculum/spring-2027-semester-map.md) now provides a
+working calendar and identifies its remaining decisions. The
+[project log](PROJECT_LOG.md) records the pending gait-allocation decision and provides
+the copy-ready prompt for resuming work after Eydie Kendall replies. Resume by resolving
+that response, refining the current synthesis and shared terminology, then turn the map into the
 concept-to-course-to-practice matrix and course-level role definitions. Finish Phase 1
 by drafting the Spring 2027 Movement Systems and EP&N LaTeX syllabi from
 `content/curriculum/syllabi/development/shared/example/PTH6111_Syllabus/template.tex`.
