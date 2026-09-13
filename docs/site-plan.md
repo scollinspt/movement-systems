@@ -4,8 +4,8 @@
 
 The public Movement Systems site is a durable learning environment supporting Movement
 Systems, shared concepts with Exercise Prescription & Nutrition, and the shared Movement
-and Exercise Laboratory. Its primary audience is DPT students, with public usefulness to
-educators and clinicians as a secondary benefit.
+and Exercise Laboratory. Its primary audience is the single DPT cohort enrolled in both
+courses, with public usefulness to educators and clinicians as a secondary benefit.
 
 The site is not a complete mirror of either course and is not the learning management
 system.

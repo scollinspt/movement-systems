@@ -11,6 +11,17 @@ scaffold that accumulates complexity over time.
 This project applies that program frame rather than treating Movement Systems and
 Exercise Prescription & Nutrition as isolated content areas.
 
+## Course Structure
+
+Movement Systems is a 4-credit course that includes the shared Movement and Exercise
+Laboratory. EP&N is a 3-credit course and supplies the primary content basis for that
+laboratory. The same DPT cohort takes both courses for 7 total credits, allowing their
+concepts, cases, and applied work to be coordinated directly.
+
+The laboratory is not a separately registered course. There are two course syllabi, not
+three: the Movement Systems syllabus includes the laboratory, and the EP&N syllabus
+references the laboratory. The same laboratory schedule appears in both syllabi.
+
 ## Complementary Course Roles
 
 ### Movement Systems: Systems Theory

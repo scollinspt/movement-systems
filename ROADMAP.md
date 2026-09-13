@@ -24,6 +24,17 @@ understanding, evaluating, and changing human movement:
 The fuller rationale is in
 [docs/curriculum-architecture.md](docs/curriculum-architecture.md).
 
+## Course and Enrollment Model
+
+- Movement Systems is a 4-credit registered course whose syllabus includes the shared
+  Movement and Exercise Laboratory.
+- EP&N is a 3-credit registered course and provides the primary content basis for the
+  shared laboratory.
+- The same DPT cohort enrolls in both courses for 7 total credits.
+- The laboratory is not separately registered and has no separate syllabus. Its shared
+  schedule appears in both course syllabi, and the EP&N syllabus references its
+  relationship to the laboratory.
+
 ## Delivery Model
 
 The repository and website do not replace Canvas.
@@ -47,7 +58,7 @@ Publication and ownership rules are defined in
 
 ### Spring 2027
 
-Sean Collins teaches both lectures and retains the shared laboratory. Development can
+Sean Collins teaches both courses and retains the shared laboratory. Development can
 therefore coordinate outcomes, terminology, cases, interactive activities, and lab work
 across the two courses. EP&N may still use the future adjunct's PowerPoints in Canvas.
 
@@ -91,7 +102,8 @@ See [docs/site-plan.md](docs/site-plan.md) for the detailed information architec
 - [ ] Preserve the supplied DPT curriculum concepts document as historical curricular
       evidence when its original file and redistribution status are available.
 - [ ] Write a current synthesis of systems, adaptation, causation, theory, and practice.
-- [ ] Define course-level roles for Movement Systems, EP&N, and the shared laboratory.
+- [ ] Define course-level roles for Movement Systems and EP&N and the embedded role of
+  their shared laboratory.
 - [ ] Map prerequisite contributions, PCM III co-requisite applications, and PCM IV-V
       expectations.
 - [ ] Define shared terms, including movement, motion, function, capacity, performance,
@@ -107,14 +119,14 @@ in complete LaTeX sources.
 
 ### 2. Coordinated course design
 
-- [ ] Establish learning outcomes for each lecture and the laboratory.
+- [ ] Establish learning outcomes for each course and the shared laboratory component.
 - [ ] Build coordinated module sequences and a Spring 2027 calendar.
 - [ ] Identify handoffs between lectures without duplicating instructor-owned artifacts.
 - [ ] Design longitudinal cases that enter through interactive work and the laboratory.
 - [ ] Align foundational knowledge, systems reasoning, procedural practice, and
       whole-task practice.
-- [ ] Develop the shared-laboratory syllabus and refine the two lecture syllabi against
-  the coordinated calendar, assessments, and laboratory sequence.
+- [ ] Refine both course syllabi against the coordinated calendar, assessments, and
+  laboratory sequence, keeping the shared lab schedule synchronized in both.
 - [ ] Document the Spring 2028 ownership and maintenance handoff.
 
 **Exit criterion:** outcomes, modules, assessments, and laboratory activities align while

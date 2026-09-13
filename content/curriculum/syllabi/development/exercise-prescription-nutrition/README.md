@@ -1,8 +1,10 @@
 # Exercise Prescription & Nutrition Syllabus
 
-Build the new Exercise Prescription & Nutrition lecture syllabus here. Keep its LaTeX
-entry point at `syllabus.tex`; place extracted sections and course-specific assets in the
-corresponding subdirectories when they are needed.
+Build the new 3-credit Exercise Prescription & Nutrition syllabus here. EP&N provides
+the primary content basis for the shared Movement and Exercise Laboratory, so this
+syllabus must reference the laboratory and include the same lab schedule as the
+Movement Systems syllabus. Keep its LaTeX entry point at `syllabus.tex`; place extracted
+sections and course-specific assets in the corresponding subdirectories when needed.
 
 The syllabus should position EP&N in Knowledge Foundations and identify its contribution
 to shared concepts, laboratory work, and patient/client management. This directory does

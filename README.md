@@ -4,14 +4,17 @@ This private repository is the authoritative home for the coordinated educationa
 development, public learning resources, and research integration supporting two courses
 in the Plymouth State University Doctor of Physical Therapy program:
 
-- **Movement Systems (MS):** 3-credit lecture
-- **Exercise Prescription & Nutrition (EP&N):** 3-credit lecture
-- **Movement and Exercise Laboratory:** shared 1-credit, 3-hour lab
+- **Movement Systems (MS):** 4 credits, including the shared Movement and Exercise
+  Laboratory
+- **Exercise Prescription & Nutrition (EP&N):** 3 credits and the primary content basis
+  for the shared laboratory
 
-Movement Systems contributes to the curriculum's Systems Theory sequence. EP&N
-contributes to Knowledge Foundations. Shared conceptual work connects systems,
-adaptation, and causation across both lectures; the shared lab is the principal applied
-bridge into patient/client management. Nutrition content belongs to the EP&N lecture.
+The same DPT cohort enrolls in both courses for 7 total credits. Movement Systems
+contributes to the curriculum's Systems Theory sequence, and EP&N contributes to
+Knowledge Foundations. Shared conceptual work connects systems, adaptation, and
+causation across both courses; the shared lab is the principal applied bridge into
+patient/client management. Its schedule appears in both syllabi, but it is not a
+separately registered course and does not have a third syllabus.
 
 This repository does not need to contain every artifact used in either course. Each
 course's Canvas shell remains the operational home for semester logistics, assignments,
@@ -46,7 +49,7 @@ content/
   curriculum/
     syllabi/
       references/        # Existing syllabi used as curricular context
-      development/       # LaTeX sources for the new MS, EP&N, and shared-lab syllabi
+      development/       # LaTeX sources for the two new course syllabi
   source-library/        # Legacy materials retained for deliberate review and adaptation
   shared-lab/            # Coordinated movement and exercise lab materials
 docs/                     # Curriculum, site, publication, and workspace decisions
