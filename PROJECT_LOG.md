@@ -1,5 +1,36 @@
 # Project Log
 
+## 2026-09-14: Gait Module Decision Resolved
+
+### Decision
+
+Eydie Kendall approved the proposed three-normal-gait-lecture/one-lab opening block,
+provided that the displaced material is covered later in Movement Systems or in other
+courses. The Spring 2027 semester map now assigns:
+
+- Sean's Movement Systems introduction to January 26;
+- Eydie's normal-gait lectures to January 28, February 2, and February 4;
+- Eydie's normal-gait laboratory to the second instructional week;
+- the start of Movement Systems proper to February 9; and
+- a later Movement Systems atypical-gait module to neuromuscular and musculoskeletal
+  contributors, constraints, variability, capacity, compensation, dysfunction, and
+  clinical synthesis.
+
+This later module satisfies the coverage condition within Movement Systems rather than
+depending on unverified coverage in another course.
+
+### Validation And Next Step
+
+The dated sequence retains 14 instructional weeks, excludes Spring Break (March 22-26),
+and reserves May 10-14 for finals. Exact meeting times, rooms, lab sections, and assigned
+exam periods remain to be confirmed.
+
+The next smallest step toward the concept-to-course-to-practice matrix is to create its
+seven-column scaffold from `docs/curriculum-architecture.md` and populate one gait row.
+That row should trace normal-gait prerequisite knowledge through the Movement Systems
+and shared-lab contributions to PCM III application and PCM IV-V transfer before the
+matrix expands to other concepts.
+
 ## 2026-09-13: Spring 2027 Semester Map
 
 ### Completed
@@ -12,7 +43,7 @@
 - Drafted an integrated Movement Systems, EP&N, and shared-laboratory sequence in
   [content/curriculum/spring-2027-semester-map.md](content/curriculum/spring-2027-semester-map.md).
 
-### Pending Faculty Decision
+### Faculty Decision Pending At Time Of Entry
 
 Sean emailed Eydie Kendall proposing that her opening gait block be reduced from the
 current five-lecture/two-lab fallback to three normal-gait lectures and one lab. Under
@@ -25,10 +56,10 @@ the proposal:
 - Sean introduces atypical gait later, after students have systems concepts for
   constraints, variability, capacity, compensation, and dysfunction.
 
-No curriculum document should adopt that proposal until Eydie replies. The current
-semester map deliberately retains the five-lecture/two-lab version as the fallback.
+This proposal was approved on September 14, 2026, with the coverage condition recorded
+in the entry above.
 
-### Resume Here
+### Original Resume Point
 
 The easiest return path is to paste Eydie's reply and use this prompt:
 
@@ -39,6 +70,4 @@ The easiest return path is to paste Eydie's reply and use this prompt:
 > concept-to-course-to-practice matrix. Do not begin the website or syllabus drafting
 > yet.
 
-If Eydie has not replied, resume with Phase 1 work that does not depend on the gait
-allocation: refine shared terminology or begin the concept-to-course-to-practice matrix
-with the gait rows marked provisional.
+This resume point is retained as project history; the decision is no longer pending.

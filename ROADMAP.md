@@ -1,6 +1,6 @@
 # Movement Systems Roadmap
 
-_Last updated: 2026-09-13_
+_Last updated: 2026-09-14_
 
 This roadmap coordinates curriculum development, the public website, the shared
 Movement and Exercise Laboratory, and related research across the workspace.
@@ -220,12 +220,17 @@ The repository has its initial curriculum and source-library scaffold. The roadm
 governance decisions are documented. Phase 1, Curriculum architecture, is the next work
 stage. An initial
 [Spring 2027 semester map](content/curriculum/spring-2027-semester-map.md) now provides a
-working calendar and identifies its remaining decisions. The
-[project log](PROJECT_LOG.md) records the pending gait-allocation decision and provides
-the copy-ready prompt for resuming work after Eydie Kendall replies. Resume by resolving
-that response, refining the current synthesis and shared terminology, then turn the map into the
-concept-to-course-to-practice matrix and course-level role definitions. Finish Phase 1
-by drafting the Spring 2027 Movement Systems and EP&N LaTeX syllabi from
+working calendar and identifies its remaining decisions. Eydie Kendall has approved the
+three-normal-gait-lecture/one-lab opening block, and the map now preserves the displaced
+material in a later systems-based atypical-gait module. The [project log](PROJECT_LOG.md)
+records the decision and its coverage condition.
+
+The next smallest matrix step is to create the seven-column scaffold already specified
+in [docs/curriculum-architecture.md](docs/curriculum-architecture.md) and populate one
+gait row from prerequisite normal-gait knowledge through PCM III application and PCM
+IV-V transfer. Then refine the current synthesis and shared terminology, expand the
+concept-to-course-to-practice matrix, and define course-level roles. Finish Phase 1 by
+drafting the Spring 2027 Movement Systems and EP&N LaTeX syllabi from
 `content/curriculum/syllabi/development/shared/example/PTH6111_Syllabus/template.tex`.
 
 Content classification follows in Phase 3, and site implementation should begin only
