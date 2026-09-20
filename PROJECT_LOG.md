@@ -1,5 +1,48 @@
 # Project Log
 
+## 2026-09-20: Public Domain Registered
+
+### Decision
+
+`movementsystems.org` is registered and is the canonical public domain for the planned
+Movement Systems site and book. GitHub Pages remains the planned host, but the production
+site will be built for the custom-domain root rather than the
+`/movement-systems` project base path.
+
+### Implementation Note
+
+The first approved website release must coordinate the repository's GitHub Pages custom
+domain setting and the registrar's DNS records using the deployment method's current
+requirements. Until then, registration does not imply that the domain is configured or
+serving repository content.
+
+## 2026-09-20: Clinical Inquiry Ecosystem Role
+
+### Decision
+
+Movement Systems is not only a course and public educational site. It also develops the
+movement-domain knowledge needed by the broader Clinical Inquiry Ecosystem, including
+biomechanics, neuromechanics, neuromuscular control, motor control, motor learning, task
+performance, and adaptation.
+
+Reviewed movement-domain contributions may inform Models4PT population causal knowledge
+alongside scientific evidence and Physiolog mechanisms. Models4PT remains distinct from
+`movement-models-`, and the Clinical Inference Engine retains responsibility for
+patient-specific reasoning. The professional profile provides discovery rather than
+duplicating authoritative project content.
+
+### Validation And Next Step
+
+The governing role, contribution contract, boundaries, and feedback loop are documented
+in [docs/clinical-inquiry-integration.md](docs/clinical-inquiry-integration.md) and linked
+from the repository, curriculum, workspace, and roadmap documents.
+
+The next concrete ecosystem step is to use one gait row in the planned
+concept-to-course-to-practice matrix as a pilot. It should identify the movement concept,
+mechanisms, evidence, scale, context, measurements, uncertainty, pedagogical
+simplifications, and destination of each artifact before any Models4PT contribution is
+proposed.
+
 ## 2026-09-14: Gait Module Decision Resolved
 
 ### Decision

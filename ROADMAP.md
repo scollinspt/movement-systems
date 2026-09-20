@@ -1,6 +1,6 @@
 # Movement Systems Roadmap
 
-_Last updated: 2026-09-14_
+_Last updated: 2026-09-20_
 
 This roadmap coordinates curriculum development, the public website, the shared
 Movement and Exercise Laboratory, and related research across the workspace.
@@ -20,9 +20,15 @@ understanding, evaluating, and changing human movement:
   lectures.
 - **The shared laboratory** is the principal applied bridge through which students use
   both kinds of theory in preparation for Patient/Client Management (PCM) practice.
+- **The Clinical Inquiry Ecosystem** receives a distinct movement-domain contribution:
+  reviewed knowledge from biomechanics, neuromechanics, neuromuscular control, motor
+  control, motor learning, task performance, and adaptation can inform Models4PT
+  population causal models and downstream patient-specific reasoning.
 
 The fuller rationale is in
-[docs/curriculum-architecture.md](docs/curriculum-architecture.md).
+[docs/curriculum-architecture.md](docs/curriculum-architecture.md), and the ecosystem role
+is defined in
+[docs/clinical-inquiry-integration.md](docs/clinical-inquiry-integration.md).
 
 ## Course and Enrollment Model
 
@@ -74,7 +80,7 @@ or centrally owned lecture decks.
 The visible identity is **Movement Systems**, with a subtitle that names Movement
 Systems, Exercise Prescription & Nutrition, and the shared Movement and Exercise
 Laboratory. The project name does not imply ownership of every artifact used in both
-courses.
+courses. The canonical public URL is `https://movementsystems.org`.
 
 Planned public areas are:
 
@@ -99,6 +105,8 @@ See [docs/site-plan.md](docs/site-plan.md) for the detailed information architec
 
 ### 1. Curriculum architecture
 
+- [ ] Represent movement-domain knowledge explicitly, including biomechanics,
+      neuromechanics, neuromuscular control, motor control, and motor learning.
 - [ ] Preserve the supplied DPT curriculum concepts document as historical curricular
       evidence when its original file and redistribution status are available.
 - [ ] Write a current synthesis of systems, adaptation, causation, theory, and practice.
@@ -148,10 +156,11 @@ state, and stable location.
 
 - [ ] Build a Next.js static-export site in this repository, after consulting the bundled
       Next.js documentation for the installed version.
-- [ ] Support the initial GitHub Pages URL at
-      `https://scollinspt.github.io/movement-systems/`.
+- [ ] Configure GitHub Pages to publish at `https://movementsystems.org`.
+- [ ] Configure the custom domain and DNS records during the first approved release.
 - [ ] Use a manual GitHub Actions deployment so a push does not automatically publish.
-- [ ] Configure the base path so a later custom domain does not require content rewrites.
+- [ ] Serve the static export from the domain root without a `/movement-systems` base
+  path.
 - [ ] Add checks for static builds, broken links, accessibility, and restricted files.
 - [ ] Keep the site usable without authentication and without links to Canvas shells.
 
@@ -173,6 +182,7 @@ the stable site link from either Canvas course.
 ### 6. Computational integration
 
 - [ ] Select a movement question before selecting a canonical model.
+- [ ] Pilot the Clinical Inquiry Ecosystem contribution contract with one gait concept.
 - [ ] Create a provenance record and experiment in `movement-models-`.
 - [ ] Map relevant movement concepts to physiological mechanisms in Physiolog.
 - [ ] Develop a simple educational representation before exposing engine complexity.
@@ -180,6 +190,8 @@ the stable site link from either Canvas course.
 - [ ] Use SCONE when prediction, control, or optimization is instructionally necessary.
 - [ ] Export reviewed, browser-ready artifacts to this repository without making the
       website depend on local engine source trees.
+- [ ] Separate the public teaching representation from any proposed Models4PT population
+  knowledge contribution.
 
 **Exit criterion:** each simulation clarifies a specific concept, is reproducible at its
 source, and states its assumptions and limits.
@@ -191,7 +203,7 @@ source, and states its assumptions and limits.
 - [ ] Publish content and model provenance appropriate to each artifact.
 - [ ] Develop scholarship around the educational synthesis, movement ontology, and
       adaptation model.
-- [ ] Reassess a custom domain after the public identity and maintenance pattern stabilize.
+- [x] Register `movementsystems.org` as the canonical public domain.
 
 **Exit criterion:** the site, curriculum, and research artifacts can be maintained across
 faculty and semester transitions without ambiguous ownership.
@@ -204,12 +216,16 @@ faculty and semester transitions without ambiguous ownership.
   simulations.
 - `movement-models-`: movement ontology, model provenance, engine mappings,
   computational experiments, and reviewed educational exports.
+- `Models4PT`: integration of evidence and domain mechanisms into curated population
+  causal knowledge; it is distinct from `movement-models-`.
+- `Clinical Inference Engine`: patient-specific reasoning using versioned population
+  knowledge and individual information.
 - `opensim-core`: forked upstream engine source; modify only for a justified engine
   contribution.
 - `scone-core`: forked upstream simulation and optimization source; modify only for a
   justified engine contribution.
-- `scollinspt`: professional portfolio and a public pointer to the project when the site
-  is ready.
+- `scollinspt`: professional profile, ecosystem discovery, and a public pointer to the
+  project when the site is ready.
 
 The detailed contract is in
 [docs/workspace-integration.md](docs/workspace-integration.md).

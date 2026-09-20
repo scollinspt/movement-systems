@@ -29,6 +29,7 @@ references the laboratory. The same laboratory schedule appears in both syllabi.
 Movement Systems studies human movement through the focusing lens of systems theory. It
 addresses:
 
+- biomechanics, neuromechanics, neuromuscular control, motor control, and motor learning;
 - hierarchical organization and interactions across scales;
 - constraints, initial conditions, and context;
 - regulation, control, and feedback;
@@ -97,6 +98,24 @@ Patient/Client Management III-V
 Shared conceptual activities provide the intellectual integration layer. The shared
 Movement and Exercise Laboratory is the principal applied bridge into patient/client
 management.
+
+## Relationship To The Clinical Inquiry Ecosystem
+
+The curricular pathway and the scholarly ecosystem are related but not identical. In the
+curriculum, students learn to connect evidence, physiological mechanisms, movement-system
+knowledge, and patient particulars. In the scholarly ecosystem, reviewed movement-domain
+claims and models from this work can join evidence and physiological mechanisms as inputs
+to Models4PT population causal knowledge; the Clinical Inference Engine then owns the
+separate task of using population knowledge in patient-specific reasoning.
+
+This relationship is bidirectional. Course cases, laboratories, and model use can generate
+research questions, while reviewed ecosystem outputs can return as inspectable teaching
+representations. Neither direction permits a pedagogical simplification, simulation
+result, or population association to become a clinical conclusion without the required
+review and contextual reasoning.
+
+The detailed scholarly role and contribution requirements are defined in
+[clinical-inquiry-integration.md](clinical-inquiry-integration.md).
 
 ## Curricular Dependencies
 

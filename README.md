@@ -16,6 +16,15 @@ causation across both courses; the shared lab is the principal applied bridge in
 patient/client management. Its schedule appears in both syllabi, but it is not a
 separately registered course and does not have a third syllabus.
 
+Movement Systems also supplies a movement-domain knowledge layer for the broader Clinical
+Inquiry Ecosystem. Alongside Physiolog's physiological mechanisms and evidence developed
+through scientific inquiry, reviewed accounts of biomechanics, neuromechanics,
+neuromuscular control, motor control, motor learning, task performance, and adaptation can
+inform population causal model building in Models4PT and, downstream, patient-specific
+reasoning in the Clinical Inference Engine. See
+[clinical inquiry integration](docs/clinical-inquiry-integration.md) for the role and its
+boundaries.
+
 This repository does not need to contain every artifact used in either course. Each
 course's Canvas shell remains the operational home for semester logistics, assignments,
 grades, restricted materials, and instructor-specific artifacts. Canvas links students
@@ -23,10 +32,12 @@ to the stable public website; the website does not link back to changing Canvas 
 
 The public site will contain Movement Systems presentations, shared cross-course
 interactive work, shared laboratory resources, curricular context, and selected models
-and simulations. EP&N PowerPoints developed and owned by the future adjunct remain in
-Canvas unless that instructor explicitly approves another arrangement.
+and simulations at `https://movementsystems.org`. EP&N PowerPoints developed and owned by
+the future adjunct remain in Canvas unless that instructor explicitly approves another
+arrangement.
 
 See the [roadmap](ROADMAP.md), [curriculum architecture](docs/curriculum-architecture.md),
+[clinical inquiry integration](docs/clinical-inquiry-integration.md),
 [site plan](docs/site-plan.md), and
 [publication policy](docs/publication-policy.md) for the governing decisions.
 
@@ -65,8 +76,10 @@ repository does not authorize website publication.
 
 Related repositories have explicit roles: Physiolog owns deeper physiological
 explanations; `movement-models-` owns ontology and computational research; OpenSim and
-SCONE remain external engines; and `scollinspt` may point to the public site after
-release. See [workspace integration](docs/workspace-integration.md).
+SCONE remain external engines; Models4PT owns population causal knowledge integration;
+the Clinical Inference Engine owns patient-specific reasoning; and the professional
+profile may point to the public site after release. See
+[workspace integration](docs/workspace-integration.md).
 
 ## Current Status
 

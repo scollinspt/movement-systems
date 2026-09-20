@@ -97,16 +97,40 @@ archive of the adjunct's lecture PowerPoints.
 
 ## Technology and Hosting
 
-- Initial host: GitHub Pages at the repository project URL.
+- Canonical public URL: `https://movementsystems.org`.
+- Host: GitHub Pages, configured with the registered custom domain.
 - Planned framework: Next.js with static export, using the installed version's bundled
   documentation when implementation begins.
 - Deployment: manual GitHub Actions workflow; pushing code does not publish it.
-- Routing: compatible with the `/movement-systems` project base path and a later custom
-  domain.
+- Routing: served from the domain root without a `/movement-systems` base path.
+- Domain configuration: configure DNS and GitHub Pages together when the first release
+  is approved, following the deployment method's current requirements.
 - Site output: generated and not treated as authoritative source.
 
-The Physiolog site provides a proven operational pattern for static export and manual
-publication, but Movement Systems should have its own visual language and content model.
+## Physiolog As A Technical Reference
+
+Physiolog provides a proven reference implementation for:
+
+- Next.js and TypeScript project configuration;
+- static export and GitHub Pages deployment;
+- manual publication workflows;
+- book-source processing and page generation;
+- navigation, accessibility, metadata, and link-checking patterns; and
+- separation of authoritative source content from generated site output.
+
+Implementation should inspect the current Physiolog source and the installed Next.js
+documentation before adopting those patterns. Versions and framework conventions may
+change before website work begins.
+
+Physiolog is a reference, not a runtime or filesystem dependency. A standalone clone of
+`movement-systems` must contain everything required to install, build, validate, and
+deploy its site. No build step may require a sibling `physiolog` checkout.
+
+The existing curriculum, course-development, source-library, laboratory, research, and
+governance files remain authoritative inputs to the project. Website scaffolding should
+be added alongside them rather than replacing or reorganizing them merely to resemble
+Physiolog. Movement Systems should also retain its own visual language, information
+architecture, and movement-domain content model.
 
 ## Release Units
 
