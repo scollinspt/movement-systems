@@ -1,2 +1,18 @@
 .DS_Store
 **/.DS_Store
+
+# Private teaching archives: retain only the public provenance records below.
+/content/curriculum/syllabi/references/primary-courses/exercise-prescription-nutrition/*
+!/content/curriculum/syllabi/references/primary-courses/exercise-prescription-nutrition/README.md
+/content/curriculum/syllabi/references/primary-courses/movement-systems-coker/*
+!/content/curriculum/syllabi/references/primary-courses/movement-systems-coker/README.md
+!/content/curriculum/syllabi/references/primary-courses/movement-systems-coker/spring-2026/
+/content/curriculum/syllabi/references/primary-courses/movement-systems-coker/spring-2026/*
+!/content/curriculum/syllabi/references/primary-courses/movement-systems-coker/spring-2026/README.md
+!/content/curriculum/syllabi/references/primary-courses/movement-systems-coker/spring-2026/canvas-export/
+/content/curriculum/syllabi/references/primary-courses/movement-systems-coker/spring-2026/canvas-export/*
+!/content/curriculum/syllabi/references/primary-courses/movement-systems-coker/spring-2026/canvas-export/INVENTORY.md
+
+# Copyrighted paper PDFs belong in the external private archive.
+/content/source-library/papers/pdfs/*
+!/content/source-library/papers/pdfs/README.md

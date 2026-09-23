@@ -16,8 +16,9 @@ resources, curricular explanations, and reviewed model exports.
 ### Private development
 
 Draft syllabi, planning notes, instructor notes, unpublished research, draft activities,
-and materials awaiting review or permission. These may remain in the private repository
-but must not enter the public build.
+and project-authored materials awaiting review or permission. These must not enter the
+public build. Third-party teaching materials and correspondence belong in the external
+private archive rather than Git.
 
 ### Restricted
 
@@ -25,6 +26,17 @@ Student records, grades, submissions, identifiable educational or participant da
 answer keys requiring controlled access, licensed readings, proprietary resources, and
 third-party artifacts without redistribution permission. Restricted material must not be
 published and may require storage outside Git entirely.
+
+## External Private Archive
+
+Restricted teaching sources are maintained in institution-managed private storage,
+separate from the Git repository. Repository documentation may record a collection's
+course, contributor, term, provenance, permission status, inventory, and checksums, but
+must not include personal filesystem paths or private content.
+
+Copy new collections into the archive and verify their checksums before removing a local
+source copy. Cloud synchronization must also be confirmed before that removal. Do not
+connect the public repository to the private archive with symlinks or runtime dependencies.
 
 ### Generated
 
@@ -70,7 +82,9 @@ allowlist. Keeping a file in a nominally public folder is not sufficient approva
 Historical and proprietary materials under `content/source-library/` are nonpublic by
 default. They may inform new work, but only newly authored or permission-cleared
 derivatives may move into the public content pipeline. Source-specific license,
-trademark, attribution, and quotation requirements still apply.
+trademark, attribution, and quotation requirements still apply. Copyrighted source PDFs
+belong in the external private archive; version control retains citation metadata and
+project-authored notes or syntheses.
 
 ## Data
 

@@ -17,6 +17,9 @@
 		},
 		{
 			"path": "../scone-core"
+		},
+		{
+			"path": "../../Library/CloudStorage/OneDrive-USNH/00_Teaching/PTH6132_Movement_Systems"
 		}
 	],
 	"settings": {}

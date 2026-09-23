@@ -5,7 +5,7 @@ research synthesis, and citation in the planned book.
 
 ## Workflow
 
-1. Add the paper's PDF to `pdfs/` for local reading.
+1. Add the paper's PDF to the external private paper archive for local reading.
 2. Add its complete BibTeX record to `references.bib`.
 3. Name the PDF after the BibTeX citation key when practical, for example
    `newellConstraintsDevelopment1986.pdf`.
@@ -19,10 +19,10 @@ the build should consume this file directly or generate its bibliography from it
 
 ## PDF Boundary
 
-Files in `pdfs/` may be committed to this private repository for use across working
-environments. They remain nonpublic source material and must be excluded from the website
-build unless redistribution permission is documented. The BibTeX records, reading notes,
-and project-authored syntheses may also be versioned.
+Files in `pdfs/` are not versioned and should not be used as the durable paper archive.
+Copyrighted source PDFs belong in institution-managed private storage unless redistribution
+permission explicitly allows publication. BibTeX records, project-authored reading notes,
+and project-authored syntheses may be versioned.
 
 Do not place student, patient, participant, or other restricted records here. A citation
 does not grant permission to redistribute its source PDF, figures, tables, or text.
