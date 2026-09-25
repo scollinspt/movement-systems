@@ -1,5 +1,30 @@
 # Project Log
 
+## 2026-09-25: First GitHub Pages Deployment
+
+### Release
+
+Activated GitHub Pages with the repository's manual Actions workflow and deployed commit
+`7bca679` (`Fix mobile theory page overflow`). Workflow run `36134712254` completed
+successfully and published the static export for the `movementsystems.org` custom domain.
+
+Cloudflare DNS now points the apex domain to GitHub Pages using all four official IPv4
+and IPv6 addresses. `www.movementsystems.org` is a DNS-only CNAME to
+`scollinspt.github.io`, allowing GitHub Pages to redirect it to the canonical apex.
+
+### Validation
+
+- confirmed the apex and `www` records at Cloudflare's authoritative nameservers;
+- confirmed every public route, `robots.txt`, and `sitemap.xml` returns HTTP 200;
+- confirmed page-specific titles, one `h1` per application route, and no broken images;
+- checked all application routes at 390 x 844 with no horizontal overflow;
+- confirmed `www.movementsystems.org` redirects to `movementsystems.org`; and
+- confirmed the served artifact was built from commit `7bca679`.
+
+GitHub's custom-domain TLS certificate was still provisioning immediately after the
+first deployment. HTTP serves the intended site, but HTTPS verification and enforcement
+remain the final release check before the site is treated as fully public.
+
 ## 2026-09-25: Initial movementsystems.org Website
 
 ### Implementation

@@ -10,8 +10,9 @@ Clinical Inquiry, instantiation, movement theory, and PSU DPT educational model.
 The scaffold is a public orientation and content-development surface, not a claim that
 planned laboratory capabilities, theories, methods, projects, or results are mature.
 Durable scholarly records still pass through the content model and publication gate.
-GitHub Pages activation, DNS configuration, and the first public deployment remain
-pending.
+GitHub Pages activation, Cloudflare DNS configuration, and the first public deployment
+were completed on September 25, 2026. HTTPS certificate provisioning and enforcement
+remain the final release check.
 
 ## Purpose and Audience
 

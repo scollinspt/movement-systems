@@ -173,8 +173,11 @@ npm run build
 ```
 
 The generated `out/` directory is not authoritative source and is excluded from Git.
-The GitHub Pages workflow is manual; a push alone does not publish the site. DNS, GitHub
-Pages activation, and the first public deployment remain separate approval steps.
+The GitHub Pages workflow is manual; a push alone does not publish the site. GitHub Pages
+activation, Cloudflare DNS configuration, and the first approved deployment were
+completed on September 25, 2026. GitHub's custom-domain TLS certificate was still
+provisioning immediately after deployment, so HTTPS verification remains the final
+release check.
 
 Course architecture and the Spring 2027 semester map remain useful project records, but
 future operational PTH6132 development belongs primarily in the private course workspace.

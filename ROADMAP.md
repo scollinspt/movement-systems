@@ -171,8 +171,9 @@ maturity state, limitations, review record, and stable identifier.
 
 - [x] Build a Next.js static-export site in this repository, after consulting the bundled
       Next.js documentation for the installed version.
-- [ ] Configure GitHub Pages to publish at `https://movementsystems.org`.
-- [ ] Configure the custom domain and DNS records during the first approved release.
+- [x] Configure GitHub Pages to publish at `movementsystems.org`; HTTPS certificate
+  provisioning remains the final release check.
+- [x] Configure the custom domain and DNS records during the first approved release.
 - [x] Use a manual GitHub Actions deployment so a push does not automatically publish.
 - [x] Serve the static export from the domain root without a `/movement-systems` base
   path.
@@ -191,7 +192,8 @@ independent of private storage and sibling repositories.
   services.
 - [ ] Publish one reviewed model or simulation with assumptions and provenance.
 - [ ] Publish one durable educational translation linked back to its scientific records.
-- [ ] Test accessibility, mobile presentation, links, metadata, and maturity labels.
+- [x] Test accessibility, mobile presentation, links, metadata, and maturity labels for
+  the initial orientation release.
 
 **Exit criterion:** visitors can understand the scientific program, distinguish current
 work from plans and results, and inspect at least one complete question-to-method-to-
