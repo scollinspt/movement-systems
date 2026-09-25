@@ -39,6 +39,11 @@ questions, methods, capability records, projects, and educational translations a
 actual maturity. GitHub Pages activation, DNS configuration, and the first approved
 deployment remain pending.
 
+The next cross-site task is to update `scollinspt` from the professional-profile
+workspace. The required messaging, ecosystem boundaries, deployment caution, and local
+repository state are preserved in
+[docs/professional-profile-integration.md](docs/professional-profile-integration.md).
+
 ## 2026-09-25: Reusable Syllabus Template Workspace
 
 ### Decision

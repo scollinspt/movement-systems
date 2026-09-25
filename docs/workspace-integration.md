@@ -64,6 +64,9 @@ empirical human-movement component of the broader Clinical Inquiry program and l
 the authoritative Movement Systems site without duplicating its research or course
 content.
 
+The implementation handoff for the next professional-profile update is recorded in
+[professional-profile-integration.md](professional-profile-integration.md).
+
 ### Models4PT and Clinical Inference Engine
 
 Models4PT is distinct from `movement-models-`. Models4PT owns integration of evidence and
