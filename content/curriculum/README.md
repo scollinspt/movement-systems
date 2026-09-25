@@ -15,10 +15,16 @@ adaptation, and causation, while the Movement and Exercise Laboratory is the pri
 applied bridge into patient/client management. The current interpretation is documented
 in [../../docs/curriculum-architecture.md](../../docs/curriculum-architecture.md).
 
-Existing syllabi used to understand the curriculum belong under `syllabi/references/`.
-New LaTeX syllabus sources belong under `syllabi/development/`. The planned
-concept-to-course-to-practice matrix should live in this directory when course outcomes
-and schedules are available.
+Public provenance records for existing syllabi belong under `syllabi/references/`.
+Operational syllabus sources and schedules belong in the private PTH6132 workspace. The
+earlier `syllabi/development/` tree is retained as a public scaffold, not as the
+authoritative course workspace. A permission-cleared concept-to-course-to-practice
+matrix may live here when it has durable public value.
+
+The separate `syllabus-template` workspace will own the reusable LaTeX class and generic
+syllabus baseline. After it is genericized, validated, and versioned, Spring 2027 course
+development should copy self-contained snapshots into the private PTH6132 workspace.
+Course syllabi must not depend on the template workspace at build time.
 
 The [Spring 2027 working semester map](spring-2027-semester-map.md) is the initial
 calendar-level synthesis of the legacy syllabi, the gait transition from Dynamic Systems

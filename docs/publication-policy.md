@@ -2,23 +2,31 @@
 
 ## Principle
 
-Repository access and website publication are separate decisions. A file may be useful
-for private curriculum development without being suitable for public distribution.
+This is a public repository. Every committed file must be suitable for public access,
+even when it is not selected for the public website. Repository inclusion and website
+publication remain separate review decisions.
 
 ## Content Classes
 
-### Public
+### Public Repository Source
 
 Project-authored or permission-cleared materials approved for open distribution,
-including Movement Systems presentations, shared interactives, selected laboratory
-resources, curricular explanations, and reviewed model exports.
+including theory, research questions, public methods, capability records, project
+records, approved results, software, provenance, educational resources, and reviewed
+model exports.
+
+### Published Website Content
+
+Public repository source that has also passed the publication gate and appears in the
+site's explicit publication manifest or allowlist. A committed file is not automatically
+a published page or an endorsed scientific claim.
 
 ### Private development
 
-Draft syllabi, planning notes, instructor notes, unpublished research, draft activities,
-and project-authored materials awaiting review or permission. These must not enter the
-public build. Third-party teaching materials and correspondence belong in the external
-private archive rather than Git.
+Operational syllabi, planning notes, instructor notes, unpublished research records,
+draft activities, raw data, and project materials awaiting privacy, governance, or
+permission review. These belong in approved private course or research storage and must
+not be committed merely because they may later inform public work.
 
 ### Restricted
 
@@ -29,10 +37,11 @@ published and may require storage outside Git entirely.
 
 ## External Private Archive
 
-Restricted teaching sources are maintained in institution-managed private storage,
-separate from the Git repository. Repository documentation may record a collection's
-course, contributor, term, provenance, permission status, inventory, and checksums, but
-must not include personal filesystem paths or private content.
+Restricted teaching and research sources are maintained in institution-managed private
+storage, separate from the Git repository. Repository documentation may record a
+collection's course or project, contributor, date, provenance, permission status,
+inventory, and checksums, but must not include personal filesystem paths or private
+content.
 
 Copy new collections into the archive and verify their checksums before removing a local
 source copy. Cloud synchronization must also be confirmed before that removal. Do not
@@ -54,6 +63,10 @@ excluded from version control unless a release process explicitly requires them.
   contributions from multiple instructors.
 - Public integration does not require common ownership of all course materials.
 
+Operational course development belongs primarily in the private PTH6132 workspace and
+Canvas. Public educational resources enter this repository only through deliberate
+promotion and review; no course directory is synchronized automatically with Git.
+
 ## Canvas Boundary
 
 Canvas owns semester operations and controlled course delivery. The public site does not
@@ -61,33 +74,50 @@ contain grades, submissions, announcements, changing schedules, private discussi
 links back to semester-specific Canvas shells. Canvas points students to the stable
 public site.
 
+## Research Governance Boundary
+
+Do not commit identifiable participant or patient information, recruitment or consent
+records, raw or controlled research data, confidential partner information, unapproved
+contracts, or materials restricted by an IRB, data-use agreement, sponsor, license, or
+university policy.
+
+Clinical care, education, and research are separate activities. A clinical observation
+may motivate a public research question, but clinical records do not become research data
+and patients or students do not become research participants without the required
+consent, oversight, and governance.
+
 ## Publication Gate
 
 Before an artifact is included in the public build, record or verify:
 
-1. author or source;
-2. ownership and redistribution permission;
-3. intended audience;
-4. citation and attribution requirements;
-5. accessibility review;
-6. privacy and answer-key review;
-7. maturity or review state; and
-8. stable public location.
+1. content type and maturity state;
+2. author, source, and responsible reviewer;
+3. ownership and redistribution permission;
+4. intended audience;
+5. citation, provenance, and attribution requirements;
+6. accessibility review;
+7. privacy, research-governance, and answer-key review;
+8. limitations, uncertainty, and prohibited interpretations; and
+9. stable public location.
 
 The site build should eventually use an explicit publication manifest or equivalent
 allowlist. Keeping a file in a nominally public folder is not sufficient approval.
+The record structures and maturity states are defined in
+[content-model.md](content-model.md) and
+[research-architecture.md](research-architecture.md).
 
 ## Source Libraries
 
-Historical and proprietary materials under `content/source-library/` are nonpublic by
-default. They may inform new work, but only newly authored or permission-cleared
-derivatives may move into the public content pipeline. Source-specific license,
-trademark, attribution, and quotation requirements still apply. Copyrighted source PDFs
-belong in the external private archive; version control retains citation metadata and
-project-authored notes or syntheses.
+Only public provenance records, citation metadata, project-authored notes, and
+permission-cleared source material belong under `content/source-library/`. Historical,
+proprietary, or copyrighted sources that are not approved for redistribution belong in
+private institutional storage. Source-specific license, trademark, attribution, and
+quotation requirements still apply, and every existing source-library artifact must be
+audited against this public-repository boundary.
 
 ## Data
 
 Do not commit identifiable student, patient, participant, or restricted institutional
-data. Public examples must use synthetic, de-identified, or explicitly authorized data
-with the transformation and permission documented.
+data. Public examples must use synthetic, de-identified, aggregate, or explicitly
+authorized data with the transformation, authorization, and remaining disclosure risk
+documented. De-identification alone does not establish that a dataset may be released.

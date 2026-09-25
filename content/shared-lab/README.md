@@ -1,19 +1,18 @@
 # Shared Movement and Exercise Laboratory
 
-This directory contains the Movement and Exercise Laboratory shared by Movement Systems
-and Exercise Prescription & Nutrition. It is embedded within the 4-credit Movement
-Systems course rather than registered as a separate course. EP&N is 3 credits and
-provides the primary content basis for the lab. The same DPT cohort takes both courses
-for 7 total credits.
+This directory contains public, durable educational resources derived from the Movement
+and Exercise Laboratory shared by Movement Systems and Exercise Prescription &
+Nutrition. Operational laboratory schedules, instructor materials, assessments, and
+student records belong in the private PTH6132 workspace or Canvas.
 
 There are only two syllabi. The lab and its schedule are included in the Movement
-Systems syllabus and referenced with the same schedule in the EP&N syllabus. Future
-materials here may include the shared schedule, activities, instructor resources, and
-student-facing handouts.
+Systems syllabus and referenced with the same schedule in the EP&N syllabus. Those
+operational documents remain private. Permission-cleared activities, procedures, and
+student-facing resources may be promoted here when they have durable public value.
 
 The laboratory is the principal applied bridge between Systems Theory, Knowledge
-Foundations, and patient/client management. Develop durable public preparation,
-procedures, measurement resources, cases, and reflection activities here. Keep
+Foundations, and patient/client management. Publish durable preparation, procedures,
+measurement resources, cases, and reflection activities here only after review. Keep
 semester logistics, controlled assessments, answer keys, and restricted resources in
 Canvas or another approved private location.
 

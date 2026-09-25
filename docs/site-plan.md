@@ -2,89 +2,114 @@
 
 ## Purpose and Audience
 
-The public Movement Systems site is a durable learning environment supporting Movement
-Systems, shared concepts with Exercise Prescription & Nutrition, and the shared Movement
-and Exercise Laboratory. Its primary audience is the single DPT cohort enrolled in both
-courses, with public usefulness to educators and clinicians as a secondary benefit.
+The public Movement Systems site is the scholarly and public home for movement-systems
+theory, HMS Lab research, measurement and modeling methods, reviewed results, and durable
+educational translations. It serves researchers, clinicians, students, educators, and
+potential collaborators without pretending that every audience needs the same entry
+point.
 
-The site is not a complete mirror of either course and is not the learning management
-system.
+The site is not a course mirror, learning management system, clinical diagnostic
+service, equipment catalog, or claim that every planned laboratory capability is
+operational.
 
-## Public Content Candidates
+## Public Content
 
-Subject to ownership, accessibility, and publication review, the primary public
-candidates are:
+Subject to ownership, accessibility, governance, and publication review, public content
+may include:
 
-- Movement Systems presentations;
-- shared interactive work connecting both lectures;
-- shared Movement and Exercise Laboratory resources;
-- curricular context and common terminology; and
-- reviewed educational models and simulations.
+- movement-systems theories, concepts, and definitions;
+- HMS Lab research questions, methods, capabilities, projects, and approved results;
+- public protocols, demonstrations, and reproducibility materials;
+- reviewed models, simulations, and computational interpretations;
+- publications, presentations, and public research outputs;
+- durable educational resources and curricular context; and
+- collaboration information supported by current capability.
 
 Adjunct-owned EP&N PowerPoints, semester operations, controlled assessments, and
 restricted resources are not public candidates by default.
 
-## Navigation Direction
+## Relationship To Private Work
 
-Students enter the site from a stable link in each Canvas course. The public site does
-not link back to Canvas because Canvas course-shell URLs may change by semester and are
-not useful to unauthenticated visitors.
-
-This gives one durable direction:
+Private course and research environments may produce questions or candidate public
+artifacts. Promotion into this repository and the website is deliberate and reviewed:
 
 ```text
-semester-specific Canvas course -> stable public site
+private course or research work
+              |
+              v
+public, permission-cleared repository record
+              |
+              v
+publication review and allowlist
+              |
+              v
+stable public website
 ```
+
+The public site has no runtime dependency on Canvas, OneDrive, controlled research
+storage, or sibling repositories.
 
 ## Planned Information Architecture
 
 ### Home
 
-A direct course hub with routes to Movement Systems, integrated concepts, laboratory
-work, models, and resources. It should not be a marketing landing page.
+A direct introduction to Movement Systems and the HMS Lab, the current scientific
+questions, and authentic public work. It should present the research identity in the
+first viewport without becoming a generic marketing page.
 
-### Movement Systems
+### Theory
 
-- Modules and learning questions
-- Public presentations
-- Activities and cases
-- Models and simulations
-- References and further study
+- Systems, constraints, emergence, and adaptation
+- Capacity, task, performance, and environment
+- Variability, stability, compensation, and dysfunction
+- Motor control, motor learning, and movement solutions
+- Competing explanations, evidence, observables, and model limits
 
-### Integrated Concepts
+### Research
 
-- Systems
-- Adaptation
-- Causation
-- Capacity, performance, and context
-- Exercise dose and response
-- Energetics, nutrition, and recovery
-- Shared interactive cases
+- Research agenda and questions
+- Active and completed projects
+- Study and methodological records
+- Results, publications, and presentations
+- Reproducibility and provenance
 
-This area represents EP&N where concepts are purposefully integrated. It is not a public
-archive of the adjunct's lecture PowerPoints.
+### HMS Lab
 
-### Movement and Exercise Laboratory
+- Mission, scientific philosophy, and people
+- Current capabilities, in-development capabilities, and explicit gaps
+- Measurement spaces and distributed field model
+- Student research inquiry
+- Governance and relationship to the Pro Bono Clinic
+- Collaboration pathways supported by verified capabilities
 
-- Preparation
-- Procedures and measurement resources
-- Integrated movement and exercise cases
-- Interpretation and reflection
-- Accessible alternatives where an activity depends on equipment or physical access
+### Measurement And Modeling
 
-### Curricular Context
+- Video and markerless movement measurement
+- Wearable inertial sensing
+- Neuromuscular and physiological measurement
+- Ultrasound and local tissue behavior where validated
+- External interaction, synchronization, and sensor fusion
+- Mechanistic, dynamical, and neuromusculoskeletal models
+- Measurement uncertainty, observability, and identifiability
 
-- Knowledge Foundations and Systems Theory
-- Theory-to-practice relationship
-- Prerequisite and co-requisite connections
-- Transfer to PCM III-V
+### Applications
 
-### Models and Simulations
+- Rehabilitation and functional movement
+- Ergonomics and occupational movement
+- Human performance and fatigue
+- Human-device interaction and assistive technology
+- Wearable and measurement validation
 
-- Simple, inspectable teaching representations
-- Reviewed educational exports from `movement-models-`
-- Links to deeper mechanisms in Physiolog
-- Assumptions, provenance, validation status, and limitations
+### Education
+
+- Public Movement Systems concepts and learning resources
+- Selected laboratory methods and cases
+- Theory-to-practice and curricular context
+- Reviewed educational models and simulations
+- Links to deeper physiological explanations in Physiolog
+
+The education area supports PTH6132 and other learners but does not reproduce Canvas or
+expose semester operations.
 
 ### Resources
 
@@ -94,6 +119,9 @@ archive of the adjunct's lecture PowerPoints.
 - Attribution and reuse terms
 - Accessibility statement
 - Version and update information
+
+The [public content model](content-model.md) governs records across these areas. Each
+capability, project, method, and result must display a maturity state and relevant limits.
 
 ## Technology and Hosting
 
@@ -126,21 +154,23 @@ Physiolog is a reference, not a runtime or filesystem dependency. A standalone c
 `movement-systems` must contain everything required to install, build, validate, and
 deploy its site. No build step may require a sibling `physiolog` checkout.
 
-The existing curriculum, course-development, source-library, laboratory, research, and
-governance files remain authoritative inputs to the project. Website scaffolding should
-be added alongside them rather than replacing or reorganizing them merely to resemble
-Physiolog. Movement Systems should also retain its own visual language, information
-architecture, and movement-domain content model.
+The research architecture, public content model, publication policy, approved repository
+content, and HMS Lab records are authoritative inputs. Website scaffolding should be
+added alongside them rather than reorganizing the project merely to resemble Physiolog.
+Movement Systems must retain its own visual language, information architecture, and
+movement-domain identity.
 
 ## Release Units
 
 Public content should be releasable independently as:
 
-- Movement Systems presentations and modules;
-- shared conceptual interactives;
-- laboratory modules;
-- curricular context and glossary updates; and
-- model or simulation exports.
+- theory and glossary updates;
+- research questions and project updates;
+- method and capability records;
+- approved results and publications;
+- model or simulation exports; and
+- educational resources.
 
-Semester logistics must not be embedded in durable URLs. Where dates are necessary,
-they should be versioned by academic term rather than silently overwritten.
+Stable records should retain identifiers and review dates. Results, protocols, and model
+exports should be versioned rather than silently overwritten. Semester logistics must
+not be embedded in durable URLs.

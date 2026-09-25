@@ -1,158 +1,173 @@
 # Movement Systems Roadmap
 
-_Last updated: 2026-09-20_
+_Last updated: 2026-09-25_
 
-This roadmap coordinates curriculum development, the public website, the shared
-Movement and Exercise Laboratory, and related research across the workspace.
+This roadmap coordinates public Movement Systems scholarship, development of the Human
+Movement Systems Laboratory (HMS Lab), the public website, educational translation, and
+integration with the wider Clinical Inquiry program.
 
 ## North Star
 
-Movement Systems and Exercise Prescription & Nutrition provide complementary ways of
-understanding, evaluating, and changing human movement:
+Movement Systems studies how robust, adaptive movement emerges from interacting
+physiological, neural, muscular, mechanical, behavioral, task, and environmental
+systems. The HMS Lab supplies an empirical engine for this scholarship through
+observation, accessible multimodal measurement, experimentation, and computational
+modeling.
 
-- **Movement Systems** is part of the Systems Theory sequence. It studies the movement
-  system through hierarchy, interaction, constraints, regulation, feedback, variability,
-  stability, emergence, and adaptation.
-- **Exercise Prescription & Nutrition (EP&N)** is part of Knowledge Foundations. It
-  develops the physiological knowledge needed to prescribe exercise and nutrition,
-  interpret dose and response, and anticipate adaptation.
-- **Shared conceptual work** connects systems, adaptation, and causation across both
-  lectures.
-- **The shared laboratory** is the principal applied bridge through which students use
-  both kinds of theory in preparation for Patient/Client Management (PCM) practice.
-- **The Clinical Inquiry Ecosystem** receives a distinct movement-domain contribution:
-  reviewed knowledge from biomechanics, neuromechanics, neuromuscular control, motor
-  control, motor learning, task performance, and adaptation can inform Models4PT
-  population causal models and downstream patient-specific reasoning.
+The program follows a recurring cycle:
 
-The fuller rationale is in
-[docs/curriculum-architecture.md](docs/curriculum-architecture.md), and the ecosystem role
-is defined in
+```text
+observation -> question -> measurement -> evidence -> mechanism -> model -> new observation
+```
+
+The repository develops public theory, research records, methods, capability statements,
+approved results, and educational translations. It contributes reviewed movement-domain
+knowledge to the Clinical Inquiry Ecosystem while preserving the distinct authority of
+stats4PT, Physiolog, `movement-models-`, Models4PT, and the Clinical Inference Engine.
+
+The governing rationale is in
+[docs/research-architecture.md](docs/research-architecture.md), the record structures are
+in [docs/content-model.md](docs/content-model.md), and the ecosystem role is in
 [docs/clinical-inquiry-integration.md](docs/clinical-inquiry-integration.md).
 
-## Course and Enrollment Model
+## Parallel Work Tracks
 
-- Movement Systems is a 4-credit registered course whose syllabus includes the shared
-  Movement and Exercise Laboratory.
-- EP&N is a 3-credit registered course and provides the primary content basis for the
-  shared laboratory.
-- The same DPT cohort enrolls in both courses for 7 total credits.
-- The laboratory is not separately registered and has no separate syllabus. Its shared
-  schedule appears in both course syllabi, and the EP&N syllabus references its
-  relationship to the laboratory.
+### Public Scholarship And HMS Lab
 
-## Delivery Model
+This repository owns public movement-systems theory, the HMS Lab research agenda, public
+questions and methods, conservative capability records, approved results, educational
+translations, and `movementsystems.org`.
 
-The repository and website do not replace Canvas.
+### Operational Course Development
 
-- Each Canvas course remains the operational system of record for announcements,
-  schedules, assignments, submissions, grades, discussions, restricted readings, and
-  instructor-specific materials.
-- Canvas provides the stable inbound link to the public website. The website does not
-  link back to semester-specific Canvas course shells.
-- The public site is the durable home for project-authored, permission-cleared resources:
-  Movement Systems presentations, shared interactive work, shared laboratory resources,
-  curricular context, and selected models and simulations.
-- EP&N lecture presentations developed by the future adjunct remain that instructor's
-  artifacts and may be delivered through Canvas. They are not presumed to belong in this
-  repository or on the public site.
+PTH6132 Movement Systems and coordinated EP&N development occur primarily in the private
+PTH6132 workspace and Canvas. The private systems own syllabi, schedules, assessments,
+restricted readings, instructor artifacts, and semester operations. Durable,
+permission-cleared work may be promoted into this repository after review; there is no
+automatic synchronization.
+
+The established course structure and teaching transition remain documented in
+[docs/curriculum-architecture.md](docs/curriculum-architecture.md). They are important
+applications of the scholarship but no longer organize the entire repository.
+
+The separate `syllabus-template` workspace will provide a generic, versioned LaTeX
+baseline. It currently contains the PTH6111 source and must be genericized before the
+Spring 2027 PTH6132 Movement Systems and Exercise Prescription & Nutrition syllabi are
+started. Each course will receive an independent copied snapshot in private storage.
+
+### Governed Research Storage
+
+Raw or controlled data, identifiable records, consent and recruitment records,
+confidential partner material, and unapproved research artifacts remain in approved
+private storage. Public records must stand on their own without exposing private paths or
+requiring private files at build time.
 
 Publication and ownership rules are defined in
 [docs/publication-policy.md](docs/publication-policy.md).
 
-## Teaching Transition
-
-### Spring 2027
-
-Sean Collins teaches both courses and retains the shared laboratory. Development can
-therefore coordinate outcomes, terminology, cases, interactive activities, and lab work
-across the two courses. EP&N may still use the future adjunct's PowerPoints in Canvas.
-
-### Spring 2028 and later
-
-Sean Collins teaches Movement Systems and retains the shared laboratory; the adjunct
-teaches the EP&N lecture. Integration persists through shared outcomes, terminology,
-interactive resources, cases, and laboratory experiences rather than through duplicated
-or centrally owned lecture decks.
-
 ## Public Website Scope
 
-The visible identity is **Movement Systems**, with a subtitle that names Movement
-Systems, Exercise Prescription & Nutrition, and the shared Movement and Exercise
-Laboratory. The project name does not imply ownership of every artifact used in both
-courses. The canonical public URL is `https://movementsystems.org`.
+The visible identity is **Movement Systems**, with the **Human Movement Systems
+Laboratory** immediately visible as its empirical research program. The canonical public
+URL is `https://movementsystems.org`.
 
 Planned public areas are:
 
-1. **Home**: direct entry to current durable resources, without marketing or a Canvas
-   link.
-2. **Movement Systems**: modules, presentations, activities, references, and selected
-   models.
-3. **Integrated Concepts**: systems, adaptation, causation, capacity, performance,
-   exercise dose and response, energetics, recovery, and cross-course cases.
-4. **Movement and Exercise Laboratory**: preparation, procedures, measurements,
-   integrated cases, interpretation, and reflection.
-5. **Curricular Context**: Knowledge Foundations, Systems Theory, theory-to-practice
-   relationships, and connections to PCM III-V.
-6. **Models and Simulations**: accessible educational exports from `movement-models-`
-   and links to deeper physiological explanations in Physiolog.
-7. **Resources**: glossary, references, public downloads, provenance, reuse terms, and
-   accessibility information.
+1. **Home**: Movement Systems, HMS Lab, current questions, and authentic public work.
+2. **Theory**: concepts, mechanisms, competing explanations, evidence, and limits.
+3. **Research**: questions, projects, methods, results, publications, and provenance.
+4. **HMS Lab**: mission, people, verified capabilities, gaps, governance, and student
+  inquiry.
+5. **Measurement and Modeling**: multimodal measurement, synchronization, uncertainty,
+  observability, and computational approaches.
+6. **Applications**: rehabilitation, ergonomics, human performance, human-device
+  interaction, and validation.
+7. **Education**: durable Movement Systems resources and reviewed translations.
+8. **Resources**: glossary, references, downloads, reuse terms, accessibility, and
+  version information.
 
 See [docs/site-plan.md](docs/site-plan.md) for the detailed information architecture.
 
 ## Phases
 
-### 1. Curriculum architecture
+### 1. Public research architecture
 
-- [ ] Represent movement-domain knowledge explicitly, including biomechanics,
-      neuromechanics, neuromuscular control, motor control, and motor learning.
-- [ ] Preserve the supplied DPT curriculum concepts document as historical curricular
-      evidence when its original file and redistribution status are available.
-- [ ] Write a current synthesis of systems, adaptation, causation, theory, and practice.
-- [ ] Define course-level roles for Movement Systems and EP&N and the embedded role of
-  their shared laboratory.
-- [ ] Map prerequisite contributions, PCM III co-requisite applications, and PCM IV-V
-      expectations.
-- [ ] Define shared terms, including movement, motion, function, capacity, performance,
-      dose, response, recovery, and adaptation.
-- [ ] Create a concept-to-course-to-practice matrix.
-- [ ] As the final Phase 1 step, develop the Spring 2027 Movement Systems and Exercise
-  Prescription & Nutrition syllabi as authoritative LaTeX sources, using the shared
-  PTH6111 syllabus example as the structural and visual starting point.
+- [x] Reframe the repository as the public home for Movement Systems scholarship and HMS
+  Lab research.
+- [x] Define the relationship among HMS Lab, education, Physiolog, `movement-models-`,
+  Models4PT, the Clinical Inference Engine, and the professional profile.
+- [x] Formalize the private-course/public-scholarship boundary.
+- [x] Define public record types for theories, questions, methods, capabilities,
+  projects, results, models, and educational resources.
+- [x] Define maturity states and claim-specific publication rules.
+- [x] Review the accumulated HMS Lab context and promote only durable decisions into
+  the governing documents.
 
-**Exit criterion:** every major concept has an instructional home and an explicit
-relationship to practice, and both Spring 2027 lecture syllabi express that architecture
-in complete LaTeX sources.
+**Exit criterion:** repository authority, private boundaries, record types, maturity
+states, and cross-project ownership are explicit and non-contradictory.
 
-### 2. Coordinated course design
+### 2. HMS Lab inventory and governance
 
-- [ ] Establish learning outcomes for each course and the shared laboratory component.
-- [ ] Build coordinated module sequences and a Spring 2027 calendar.
-- [ ] Identify handoffs between lectures without duplicating instructor-owned artifacts.
-- [ ] Design longitudinal cases that enter through interactive work and the laboratory.
-- [ ] Align foundational knowledge, systems reasoning, procedural practice, and
-      whole-task practice.
-- [ ] Refine both course syllabi against the coordinated calendar, assessments, and
-  laboratory sequence, keeping the shared lab schedule synchronized in both.
-- [ ] Document the Spring 2028 ownership and maintenance handoff.
+- [ ] Inventory exact sensors, modules, ultrasound units, mobile devices, computers,
+  spaces, software, licenses, mounts, calibration tools, and related resources.
+- [ ] Verify raw-data access, export formats, APIs, sampling behavior, and software
+  constraints rather than inferring them from product categories.
+- [ ] Define the relationship among research, education, Pro Bono Clinic observations,
+  and any future clinical measurement activity.
+- [ ] Document IRB, consent, privacy, data governance, student supervision, ultrasound
+  training, industry contracting, and intellectual-property requirements.
+- [ ] Establish private research storage and backup practices before collecting data.
+- [ ] Define what the first operational version of the laboratory will not attempt.
 
-**Exit criterion:** outcomes, modules, assessments, and laboratory activities align while
-each instructor retains clear ownership of their materials.
+**Exit criterion:** current resources and governance are verified sufficiently to design
+responsible pilot work without overstating capability.
 
-### 3. Public content model
+### 3. Theory and research foundation
 
-- [ ] Classify candidate materials as public, private, restricted, or generated.
-- [ ] Define reusable content structures for modules, presentations, activities,
-      references, glossary terms, and simulations.
-- [ ] Establish citation, accessibility, copyright, provenance, and review requirements.
-- [ ] Select the public portions of syllabi and laboratory materials.
-- [ ] Create an explicit publication manifest so only approved content enters the build.
+- [ ] Establish stable identifiers and templates for each public content type.
+- [ ] Define foundational terms including movement, function, capacity, performance,
+  constraint, variability, stability, compensation, adaptation, and control.
+- [ ] Develop the first theory records with scale, timescale, observables, competing
+  explanations, and measurement limits.
+- [ ] Create a representative experiment matrix spanning rehabilitation, ergonomics,
+  wearable validation, human-device interaction, physiological-movement integration,
+  and fundamental movement science.
+- [ ] Select controlled, portable, and computational pilot projects from that matrix.
+- [ ] Map repeated experiment requirements to capability gaps before purchasing.
 
-**Exit criterion:** every public artifact has a source, owner, permission status, review
-state, and stable location.
+**Exit criterion:** the project has a coherent theoretical vocabulary, a prioritized
+research agenda, and pilot questions that determine measurement needs.
 
-### 4. Website foundation
+### 4. Methods and capability development
+
+- [ ] Define acquisition, calibration, synchronization, data-quality, and uncertainty
+  procedures for selected pilot methods.
+- [ ] Establish readiness checks for OpenCap/video, Movesense, BIOPAC, ultrasound, and
+  any external-force measurement used by a pilot.
+- [ ] Build a common-timeline strategy for multimodal observations where required.
+- [ ] Define reproducible analysis and model-development practices.
+- [ ] Create capability records that separate proposed, in-development, and operational
+  functions.
+- [ ] Develop the initial purchasing plan only after repeated gaps are demonstrated.
+
+**Exit criterion:** selected methods have documented limits and readiness criteria, and
+public capability claims are supported by evidence.
+
+### 5. Public content and publication workflow
+
+- [ ] Implement templates for all public record types.
+- [ ] Classify existing repository materials under the public content model.
+- [ ] Establish citation, accessibility, copyright, provenance, privacy, and scientific
+  review requirements.
+- [ ] Create an explicit publication manifest or allowlist.
+- [ ] Define versioning for protocols, results, and model exports.
+- [ ] Create automated checks for restricted files, missing maturity states, and broken
+  public relationships where practical.
+
+**Exit criterion:** every website candidate has a type, owner, permission status,
+maturity state, limitations, review record, and stable identifier.
+
+### 6. Website foundation
 
 - [ ] Build a Next.js static-export site in this repository, after consulting the bundled
       Next.js documentation for the installed version.
@@ -165,53 +180,68 @@ state, and stable location.
 - [ ] Keep the site usable without authentication and without links to Canvas shells.
 
 **Exit criterion:** an approved static build deploys manually to GitHub Pages and remains
-stable across semesters.
+independent of private storage and sibling repositories.
 
-### 5. Teaching minimum viable site
+### 7. Initial public site
 
-- [ ] Publish the project orientation and conceptual framework.
-- [ ] Publish one complete Movement Systems module with its presentation.
-- [ ] Publish one shared interactive activity involving both courses.
-- [ ] Publish the corresponding integrated laboratory module.
-- [ ] Publish a curriculum map showing the relationship to PCM III-V.
-- [ ] Test the full Canvas-to-site student path and mobile accessibility.
+- [ ] Publish the Movement Systems and HMS Lab orientation.
+- [ ] Publish a small set of foundational theory records.
+- [ ] Publish one research question and linked project record at its actual maturity.
+- [ ] Publish verified method and capability records without implying unsupported
+  services.
+- [ ] Publish one reviewed model or simulation with assumptions and provenance.
+- [ ] Publish one durable educational translation linked back to its scientific records.
+- [ ] Test accessibility, mobile presentation, links, metadata, and maturity labels.
 
-**Exit criterion:** students can complete one coordinated learning cycle after following
-the stable site link from either Canvas course.
+**Exit criterion:** visitors can understand the scientific program, distinguish current
+work from plans and results, and inspect at least one complete question-to-method-to-
+interpretation pathway.
 
-### 6. Computational integration
+### 8. Computational and ecosystem integration
 
-- [ ] Select a movement question before selecting a canonical model.
+- [ ] Select a movement question before selecting a model or engine.
 - [ ] Pilot the Clinical Inquiry Ecosystem contribution contract with one gait concept.
 - [ ] Create a provenance record and experiment in `movement-models-`.
 - [ ] Map relevant movement concepts to physiological mechanisms in Physiolog.
-- [ ] Develop a simple educational representation before exposing engine complexity.
+- [ ] Separate the research model, public scientific interpretation, and educational
+  representation.
 - [ ] Use OpenSim for analysis when it answers a defined question.
 - [ ] Use SCONE when prediction, control, or optimization is instructionally necessary.
 - [ ] Export reviewed, browser-ready artifacts to this repository without making the
       website depend on local engine source trees.
-- [ ] Separate the public teaching representation from any proposed Models4PT population
+- [ ] Separate every public representation from any proposed Models4PT population
   knowledge contribution.
 
-**Exit criterion:** each simulation clarifies a specific concept, is reproducible at its
-source, and states its assumptions and limits.
+**Exit criterion:** each model addresses a defined question, is reproducible at its
+source, states assumptions and limits, and does not acquire clinical validity merely by
+executing successfully.
 
-### 7. Scholarship and sustainability
+### 9. Education, collaboration, and sustainability
 
+- [ ] Genericize, compile, document, and version the reusable `syllabus-template` package.
+- [ ] Copy a released template snapshot into separate private Spring 2027 PTH6132 and
+  Exercise Prescription & Nutrition development directories when syllabus work begins.
+- [ ] Continue operational PTH6132 development in the private course workspace.
+- [ ] Promote durable public educational resources through the publication gate.
 - [ ] Evaluate learning and usability without publishing identifiable data.
-- [ ] Version public curricular releases by semester or academic year.
-- [ ] Publish content and model provenance appropriate to each artifact.
-- [ ] Develop scholarship around the educational synthesis, movement ontology, and
-      adaptation model.
+- [ ] Establish the Movement Inquiry Meeting and pathways for student participation.
+- [ ] Develop public collaboration materials only from authentic operational work.
+- [ ] Pursue industry conversations without implying partnerships before they exist.
+- [ ] Update the professional profile to show HMS Lab and computational clinical inquiry
+  as complementary parts of one program.
+- [ ] Publish content, method, result, and model provenance appropriate to each record.
 - [x] Register `movementsystems.org` as the canonical public domain.
 
-**Exit criterion:** the site, curriculum, and research artifacts can be maintained across
-faculty and semester transitions without ambiguous ownership.
+**Exit criterion:** research, education, public communication, and collaboration can be
+maintained without ambiguous ownership, unsupported capability claims, or dependence on
+one course offering.
 
 ## Workspace Responsibilities
 
-- `movement-systems`: educational integration, curricula, public website, and approved
-  teaching artifacts.
+- `movement-systems`: public movement theory, HMS Lab research records, methods,
+  capabilities, approved results, educational translations, and the public website.
+- private PTH6132 workspace and Canvas: operational course development, semester
+  delivery, assessments, restricted resources, and instructor-specific artifacts.
 - `physiolog`: authoritative physiological explanations and physiological teaching
   simulations.
 - `movement-models-`: movement ontology, model provenance, engine mappings,
@@ -224,31 +254,26 @@ faculty and semester transitions without ambiguous ownership.
   contribution.
 - `scone-core`: forked upstream simulation and optimization source; modify only for a
   justified engine contribution.
-- `scollinspt`: professional profile, ecosystem discovery, and a public pointer to the
-  project when the site is ready.
+- `scollinspt`: professional identity, ecosystem discovery, and explanation of HMS Lab
+  and computational clinical inquiry as one program.
 
 The detailed contract is in
 [docs/workspace-integration.md](docs/workspace-integration.md).
 
 ## Current Status
 
-The repository has its initial curriculum and source-library scaffold. The roadmap and
-governance decisions are documented. Phase 1, Curriculum architecture, is the next work
-stage. An initial
-[Spring 2027 semester map](content/curriculum/spring-2027-semester-map.md) now provides a
-working calendar and identifies its remaining decisions. Eydie Kendall has approved the
-three-normal-gait-lecture/one-lab opening block, and the map now preserves the displaced
-material in a later systems-based atypical-gait module. The [project log](PROJECT_LOG.md)
-records the decision and its coverage condition.
+The repository is public. Its research architecture, public/private boundary, content
+types, maturity states, website information architecture, and cross-repository ownership
+are now documented. The earlier curriculum and syllabus scaffolds remain as project
+history and public context; operational course development has moved to the private
+PTH6132 workspace.
 
-The next smallest matrix step is to create the seven-column scaffold already specified
-in [docs/curriculum-architecture.md](docs/curriculum-architecture.md) and populate one
-gait row from prerequisite normal-gait knowledge through PCM III application and PCM
-IV-V transfer. Then refine the current synthesis and shared terminology, expand the
-concept-to-course-to-practice matrix, and define course-level roles. Finish Phase 1 by
-drafting the Spring 2027 Movement Systems and EP&N LaTeX syllabi from
-`content/curriculum/syllabi/development/shared/example/PTH6111_Syllabus/template.tex`.
+Phase 1 is complete. The next public-repository work is Phase 2: build a verified
+laboratory inventory and governance map. Theory and pilot-question development can
+proceed in parallel when it does not require unverified capability claims.
 
-Content classification follows in Phase 3, and site implementation should begin only
-after the curriculum architecture and public content model can govern what is built and
-published.
+Website implementation remains intentionally deferred until representative theory,
+question, method, capability, and project records can exercise the content model. The
+[Spring 2027 semester map](content/curriculum/spring-2027-semester-map.md) remains a
+useful historical planning record, while current operational revisions belong in the
+private course workspace.

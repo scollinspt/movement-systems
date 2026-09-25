@@ -8,12 +8,13 @@ motor control, motor learning, task performance, and adaptation. This repository
 that movement-system perspective for education and contributes reviewed movement-domain
 knowledge to the broader Clinical Inquiry Ecosystem.
 
-The repository therefore has two connected roles:
+The repository therefore has three connected roles:
 
-1. prepare learners to use movement-system knowledge in clinical inquiry and
-   patient/client management; and
-2. make well-scoped movement concepts, mechanisms, models, and educational syntheses
-   available for later integration into computable causal knowledge.
+1. develop public movement-systems theory, concepts, methods, and synthesis;
+2. represent the HMS Lab's public empirical questions, capabilities, projects, and
+  approved results; and
+3. translate reviewed knowledge into education and potential downstream contributions
+  to computable causal knowledge.
 
 These roles reflect physical therapy's professional focus on the movement system without
 treating movement expertise as a substitute for physiological, evidential, or
@@ -22,13 +23,15 @@ patient-specific reasoning.
 ## Place In The Ecosystem
 
 ```text
-stats4PT evidence -------------------------+
-                                           |
-Physiolog physiological mechanisms --------+-> Models4PT population causal knowledge
-                                           |                 |
+HMS Lab observations and experiments ------+
+                                            |
+stats4PT evidence --------------------------+
+                                            |
+Physiolog physiological mechanisms ---------+-> Models4PT population causal knowledge
+                                            |                 |
 Movement Systems movement-domain knowledge +                 v
-                                                    Clinical Inference Engine
-                                                    patient-specific reasoning
+                                                     Clinical Inference Engine
+                                                     patient-specific reasoning
 ```
 
 The flow is conceptual, not an automated data pipeline. The projects remain independently
@@ -36,6 +39,8 @@ owned and technically separable.
 
 - **stats4PT** develops critically examined evidence, estimates, uncertainty, and
   candidate causal knowledge through scientific inquiry.
+- **HMS Lab** develops movement observations, measurements, experiments, and empirical
+  questions under appropriate research governance.
 - **Physiolog** develops generative-mechanism knowledge about physiological support,
   response, regulation, and adaptation.
 - **Movement Systems** develops movement-domain knowledge about how movement is produced,
@@ -65,6 +70,10 @@ Candidate contributions from this repository may include:
 Course materials are not automatically knowledge-base inputs. A downstream contribution
 must separate sourced claims from pedagogical simplifications and retain enough context
 for scientific review.
+
+An HMS Lab observation or analysis is likewise not automatically a knowledge-base input.
+Its method, context, uncertainty, governance, and claim-specific review must remain
+explicit.
 
 ## Contribution Contract
 
@@ -98,8 +107,8 @@ return as research questions rather than silently changing canonical models.
 
 ## Boundaries
 
-- `movement-systems` owns curriculum and public educational synthesis, not the canonical
-  Models4PT knowledge base.
+- `movement-systems` owns public movement theory, HMS Lab research records, and
+  educational synthesis, not the canonical Models4PT knowledge base.
 - `movement-models-` owns engine-independent movement ontology, computational experiments,
   platform mappings, and reusable educational exports; it is distinct from Models4PT.
 - Physiolog remains authoritative for physiological explanations even when those
@@ -112,10 +121,12 @@ return as research questions rather than silently changing canonical models.
 
 ## Near-Term Integration Work
 
-1. Add movement-domain fields to the concept-to-course-to-practice matrix.
-2. Pilot the contribution contract with one gait concept spanning movement mechanics,
-   physiological support, measurement, and clinical interpretation.
-3. Identify which parts of the pilot belong in curriculum content, `movement-models-`,
-   Physiolog, or a proposed Models4PT record.
-4. Publish only the reviewed educational representation in the Movement Systems site.
-5. Add the public project to the professional profile after the first approved release.
+1. Inventory and verify current HMS Lab equipment, software, and measurement limits.
+2. Pilot the public content model with one movement concept and one research question.
+3. Use a gait question to connect movement mechanics, physiological support,
+  measurement, education, and clinical interpretation.
+4. Identify which artifacts belong in this repository, `movement-models-`, Physiolog,
+  private governed storage, or a proposed Models4PT record.
+5. Publish only reviewed, permission-cleared records with explicit maturity and limits.
+6. Add the HMS Lab and Movement Systems architecture to the professional profile when
+  the first public site release is ready.

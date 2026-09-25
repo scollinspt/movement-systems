@@ -1,7 +1,11 @@
 # Syllabi
 
-- `references/` contains existing syllabi used as evidence about curricular context.
-- `development/` contains the authoritative LaTeX sources for the redesigned courses.
+- `references/` contains public provenance records and permission-cleared evidence about
+	curricular context. Restricted source syllabi remain in private institutional storage.
+- `development/` is an earlier public scaffold retained for provenance and possible
+	permission-cleared templates. It is not the operational course-development workspace.
 
-Reference syllabi should remain unchanged. Material from them may inform new development,
-but it does not automatically define the redesigned course structure.
+Operational and authoritative syllabus development occurs in the private PTH6132 course
+workspace. Public curricular descriptions or reusable resources may be promoted here
+only after ownership, privacy, and publication review. Reference materials do not
+automatically define the redesigned course structure or authorize redistribution.

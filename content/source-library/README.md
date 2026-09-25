@@ -1,17 +1,18 @@
 # Source Library
 
-This directory preserves earlier teaching materials that may inform the redesigned
-courses. Source-library materials are background, not current course content. Review and
-adapt them deliberately before moving derived work into a course or shared-lab module.
+This directory contains public citation metadata, provenance records, and
+permission-cleared source notes that may inform Movement Systems scholarship or durable
+educational resources. Restricted source materials remain in private institutional
+storage.
 
 Each collection should document its original context, relevance, provenance, reuse
 restrictions, and what should be retained or reconsidered.
 
-Use [papers/](papers/) for journal articles and other papers being considered for course
-or book development. Its BibTeX bibliography and source PDFs may be versioned in this
-private repository, but the PDFs remain nonpublic by default.
+Use [papers/](papers/) for citation metadata related to journal articles and other papers
+being considered for theory, research, course, or book development. Copyrighted source
+PDFs belong in the external private paper archive.
 
-Everything in this directory is nonpublic by default. Repository access does not grant
-redistribution permission. Only newly authored or permission-cleared derivatives may
-enter the website publication pipeline, following
+Everything committed here is publicly accessible, but repository inclusion does not
+grant permission to republish a third party's work on the website. Only project-authored
+or permission-cleared derivatives may enter the website publication pipeline, following
 [../../docs/publication-policy.md](../../docs/publication-policy.md).

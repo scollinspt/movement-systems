@@ -1,5 +1,55 @@
 # Project Log
 
+## 2026-09-25: Reusable Syllabus Template Workspace
+
+### Decision
+
+The separate `syllabus-template` workspace will become the canonical reusable LaTeX
+source for future course syllabi. Its current `template.tex` and `inzane_syllabus.cls`
+are byte-identical to the retained PTH6111 snapshot in this repository, so the current
+state is a historical course-specific baseline rather than a generic release.
+
+Genericization will occur in the template workspace. Specific syllabi will consume
+versioned, self-contained copies rather than symlinks or live build dependencies. Each
+course copy will retain the class, license, required assets, and a `TEMPLATE_SOURCE.md`
+record containing the source release, date, and checksums.
+
+### Planned Use
+
+After the generic template is prepared and validated, independent snapshots will support
+the Spring 2027 PTH6132 Movement Systems and Exercise Prescription & Nutrition syllabi in
+the private PTH6132 course workspace. Those syllabi are not being developed yet.
+
+## 2026-09-25: Public Research Architecture And HMS Lab Role
+
+### Decision
+
+The public `movement-systems` repository is the scholarly home for Movement Systems
+theory, concepts, methods, HMS Lab research records, approved results, educational
+translations, and `movementsystems.org`. The Human Movement Systems Laboratory is the
+empirical research program within this work, not a separate intellectual identity or an
+equipment-centered service.
+
+Operational PTH6132 course development now belongs primarily in the institution-managed
+private course workspace and Canvas. Public work moves from private course or research
+environments into Git only through deliberate authorship, permission, privacy,
+governance, and publication review. There is no automatic synchronization.
+
+The public content model distinguishes theory, research questions, methods,
+capabilities, projects, results, models, and educational resources. Records use explicit
+maturity states so that proposals, in-development capabilities, operational methods,
+analyzed observations, and established results cannot be mistaken for one another.
+
+### Implementation And Next Step
+
+The repository overview, research architecture, content model, publication policy, site
+plan, workspace integration, curriculum boundaries, source-library guidance, research
+guidance, and roadmap now express this architecture. The accumulated HMS Lab context was
+reviewed completely and its durable decisions were promoted into governing documents.
+Next, inventory and verify actual laboratory equipment, software, licenses, spaces, data
+access, and governance before publishing capability claims or beginning website
+implementation.
+
 ## 2026-09-20: Public Domain Registered
 
 ### Decision
