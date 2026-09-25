@@ -1,6 +1,14 @@
 .DS_Store
 **/.DS_Store
 
+# Next.js and local tooling
+/node_modules/
+/.next/
+/out/
+/.vercel/
+*.tsbuildinfo
+npm-debug.log*
+
 # Private teaching archives: retain only the public provenance records below.
 /content/curriculum/syllabi/references/primary-courses/exercise-prescription-nutrition/*
 !/content/curriculum/syllabi/references/primary-courses/exercise-prescription-nutrition/README.md

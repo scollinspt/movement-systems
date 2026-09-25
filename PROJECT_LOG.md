@@ -1,5 +1,44 @@
 # Project Log
 
+## 2026-09-25: Initial movementsystems.org Website
+
+### Implementation
+
+Built the initial public website structure as a Next.js 16 static export. The site now
+has routes for Movement Systems theory, research, the Human Movement Systems Laboratory,
+Clinical Inquiry and instantiation, measurement and modeling, applications, education,
+and resources.
+
+The homepage and HMS Lab materials position physical therapists as human movement
+specialists and the laboratory as a clinically focused research entity. They connect
+clinical observation, the PSU DPT clinicians-first philosophy, hands-on learning, and
+the Pro Bono Clinic to governed movement research. Clinical Inquiry is organized around
+instantiation: bringing population evidence, mechanisms, and movement knowledge into an
+inspectable working model of one person without treating population knowledge as an
+automatic patient conclusion.
+
+### Technical Foundation
+
+- Next.js 16.3.6, React 19.2.8, and TypeScript;
+- static export to `out/` for GitHub Pages;
+- root-domain routing for `movementsystems.org`;
+- responsive desktop and mobile layouts;
+- static metadata, `robots.txt`, and sitemap routes;
+- lint and production-build validation; and
+- a manually triggered GitHub Pages workflow so pushes do not publish automatically.
+
+The dependency audit reported zero vulnerabilities after upgrading to the patched Next.js
+release. Browser checks covered all public routes, desktop and mobile overflow, mobile
+navigation, headings, metadata, and image loading.
+
+### Next Content Work
+
+The current pages provide an orientation and a structure for collaborative content
+development. The next scholarly work is to create reviewed theory records, research
+questions, methods, capability records, projects, and educational translations at their
+actual maturity. GitHub Pages activation, DNS configuration, and the first approved
+deployment remain pending.
+
 ## 2026-09-25: Reusable Syllabus Template Workspace
 
 ### Decision

@@ -139,6 +139,43 @@ The repository is public and its initial
 Claims about equipment, synchronization, services, partnerships, and research results
 remain provisional until verified.
 
+## Website Development
+
+The initial `movementsystems.org` structure is implemented as a Next.js static-export
+site. Its central narrative positions physical therapists as human movement specialists,
+the HMS Lab as a clinically oriented movement-research program, and **instantiation** as
+the disciplined application of population knowledge to one person.
+
+Current public routes are:
+
+- `/`: Movement Systems and HMS Lab orientation;
+- `/theory`: foundational movement-systems propositions and concept scaffold;
+- `/research`: research agenda and public record structure;
+- `/hms-lab`: clinical research identity, governance, readiness, and leadership;
+- `/clinical-inquiry`: the Clinical Inquiry Ecosystem and instantiation;
+- `/measurement-modeling`: measurement, uncertainty, observability, and modeling;
+- `/applications`: rehabilitation, performance, ergonomics, and human-device contexts;
+- `/education`: PSU DPT, hands-on learning, and Pro Bono Clinic connections; and
+- `/resources`: the emerging public knowledge-base directory.
+
+Run the site locally with:
+
+```bash
+npm install
+npm run dev
+```
+
+Validate the publishable static export with:
+
+```bash
+npm run lint
+npm run build
+```
+
+The generated `out/` directory is not authoritative source and is excluded from Git.
+The GitHub Pages workflow is manual; a push alone does not publish the site. DNS, GitHub
+Pages activation, and the first public deployment remain separate approval steps.
+
 Course architecture and the Spring 2027 semester map remain useful project records, but
 future operational PTH6132 development belongs primarily in the private course workspace.
 Website implementation has not begun. See the [roadmap](ROADMAP.md) for the revised

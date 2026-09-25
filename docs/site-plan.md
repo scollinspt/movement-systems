@@ -1,5 +1,18 @@
 # Public Website Plan
 
+## Implementation Status
+
+The first website scaffold was implemented on 2026-09-25 using Next.js 16.3.6, React
+19.2.8, TypeScript, static export, and a manually triggered GitHub Pages workflow. The
+initial route structure follows this plan and gives particular depth to the HMS Lab,
+Clinical Inquiry, instantiation, movement theory, and PSU DPT educational model.
+
+The scaffold is a public orientation and content-development surface, not a claim that
+planned laboratory capabilities, theories, methods, projects, or results are mature.
+Durable scholarly records still pass through the content model and publication gate.
+GitHub Pages activation, DNS configuration, and the first public deployment remain
+pending.
+
 ## Purpose and Audience
 
 The public Movement Systems site is the scholarly and public home for movement-systems

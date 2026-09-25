@@ -169,22 +169,22 @@ maturity state, limitations, review record, and stable identifier.
 
 ### 6. Website foundation
 
-- [ ] Build a Next.js static-export site in this repository, after consulting the bundled
+- [x] Build a Next.js static-export site in this repository, after consulting the bundled
       Next.js documentation for the installed version.
 - [ ] Configure GitHub Pages to publish at `https://movementsystems.org`.
 - [ ] Configure the custom domain and DNS records during the first approved release.
-- [ ] Use a manual GitHub Actions deployment so a push does not automatically publish.
-- [ ] Serve the static export from the domain root without a `/movement-systems` base
+- [x] Use a manual GitHub Actions deployment so a push does not automatically publish.
+- [x] Serve the static export from the domain root without a `/movement-systems` base
   path.
 - [ ] Add checks for static builds, broken links, accessibility, and restricted files.
-- [ ] Keep the site usable without authentication and without links to Canvas shells.
+- [x] Keep the site usable without authentication and without links to Canvas shells.
 
 **Exit criterion:** an approved static build deploys manually to GitHub Pages and remains
 independent of private storage and sibling repositories.
 
 ### 7. Initial public site
 
-- [ ] Publish the Movement Systems and HMS Lab orientation.
+- [x] Build the Movement Systems and HMS Lab orientation for the first approved release.
 - [ ] Publish a small set of foundational theory records.
 - [ ] Publish one research question and linked project record at its actual maturity.
 - [ ] Publish verified method and capability records without implying unsupported
