@@ -1,5 +1,52 @@
 # Project Log
 
+## 2026-09-28: Initial HMS Lab Project Sequence
+
+### Decision
+
+Established two proposed methodological projects as the initial HMS Lab sequence.
+
+1. **HMS-PROJ-001, Movesense-OpenSense laboratory foundation**, is the first setup
+  project. It begins with exact Movesense hardware and firmware inventory and a
+  non-human bench recording, then develops verified timing, synchronization,
+  calibration, orientation, coordinate, governance, and OpenSense interoperability
+  practices.
+2. **HMS-PROJ-002, Movesense-OpenSense and OpenCap comparison**, follows Project 1 and
+  adds synchronized video-based comparison and bounded validation experiments. OpenCap
+  is treated as a comparison method with independent uncertainty, not as ground truth.
+
+The sequence makes laboratory establishment itself an inspectable methodological project.
+It directly supports Phase 2 inventory and governance and Phase 4 method/capability
+development without implying that the lab already has an operational or clinically
+validated movement-analysis system.
+
+### Ownership and boundaries
+
+The `movement-systems` repository owns the public project questions, rationale, maturity,
+governance, and reviewed interpretation. The `movesense-opensense` repository owns the
+public implementation pipeline and synthetic or permission-cleared fixtures. Raw or
+controlled recordings, participant information, consent materials, and unapproved
+analyses remain in governed storage outside Git.
+
+Use of OpenCap does not imply collaboration with its developers or institutional
+partners. Any future collaboration must be established and approved for public
+disclosure before it is named.
+
+### Validation and next step
+
+Added project records under `research/projects/`, linked them from the research index,
+and integrated the sequence into `ROADMAP.md` and `HMS_LAB_CONTEXT.md`. The next action is
+the HMS-PROJ-001 hardware/firmware inventory and first non-human bench acquisition.
+
+### Website follow-up
+
+The new Markdown project records are not currently consumed by the Next.js website and
+have not been deployed to `movementsystems.org`. Resume by updating the public Research
+and HMS Lab pages to present both projects at **proposed** maturity, run `npm run lint`
+and `npm run build`, review the generated site, commit and push the approved source, and
+then manually run the **Deploy site to GitHub Pages** workflow. A push alone does not
+deploy the site because the workflow uses `workflow_dispatch`.
+
 ## 2026-09-25: First GitHub Pages Deployment
 
 ### Release

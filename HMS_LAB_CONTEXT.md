@@ -1160,7 +1160,50 @@ When modifying the professional website or related project materials:
 
 ------------------------------------------------------------------------
 
-## 27. Immediate next steps
+## 27. Initial laboratory project sequence
+
+The first two HMS Lab projects should establish a verified measurement and governance
+foundation before the laboratory attempts clinically complex studies.
+
+### Project 1: Movesense-OpenSense laboratory foundation
+
+Use the available Movesense sensors to build an open, reproducible path from raw IMU
+measurements and sensor-native timing through synchronization, calibration, documented
+orientation estimation, coordinate conversion, and OpenSense/OpenSim processing.
+
+This is a laboratory-setup project, not merely a software project. It should exercise:
+
+-   exact hardware and firmware inventory;
+-   governed research storage and provenance;
+-   acquisition and data-contract verification;
+-   timing, calibration, and validation practices;
+-   reproducible software environments;
+-   public synthetic or permission-cleared fixtures; and
+-   conservative separation of interoperability from scientific and clinical validity.
+
+Initial evidence should come from non-human bench recordings, shared timing events,
+static poses, prescribed rotations, and a bounded two- or three-sensor OpenSense
+demonstration.
+
+### Project 2: Movesense-OpenSense and OpenCap comparison
+
+After Project 1 makes timing and orientation limits explicit, expand the pipeline to
+compare synchronized Movesense-OpenSense and OpenCap outputs for prescribed motions and,
+when governance permits, a small set of bounded human movement tasks.
+
+OpenCap should be treated as a complementary video-based comparison method with its own
+assumptions and uncertainty, not as ground truth. The project should emphasize common
+timing, comparable quantities, coordinate and model mappings, agreement with uncertainty,
+and failure modes. Agreement alone does not establish accuracy or clinical utility.
+
+The authoritative public project records are:
+
+-   `research/projects/movesense-opensense-foundation.md`;
+-   `research/projects/movesense-opencap-validation.md`.
+
+------------------------------------------------------------------------
+
+## 28. Immediate next steps
 
 Likely near-term work includes:
 
@@ -1260,7 +1303,7 @@ Develop only once authentic laboratory work can be shown.
 
 ------------------------------------------------------------------------
 
-## 28. Working one-sentence summaries
+## 29. Working one-sentence summaries
 
 ### Scientific
 
@@ -1294,7 +1337,7 @@ Develop only once authentic laboratory work can be shown.
 
 ------------------------------------------------------------------------
 
-## 29. Core idea to preserve
+## 30. Core idea to preserve
 
 The laboratory is not fundamentally about owning motion-analysis
 equipment.

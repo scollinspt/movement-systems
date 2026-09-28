@@ -1,6 +1,6 @@
 # Movement Systems Roadmap
 
-_Last updated: 2026-09-25_
+_Last updated: 2026-09-28_
 
 This roadmap coordinates public Movement Systems scholarship, development of the Human
 Movement Systems Laboratory (HMS Lab), the public website, educational translation, and
@@ -88,6 +88,25 @@ Planned public areas are:
 
 See [docs/site-plan.md](docs/site-plan.md) for the detailed information architecture.
 
+## Initial HMS Lab Project Sequence
+
+The first two HMS Lab projects are methodological projects that establish laboratory
+infrastructure before clinically complex research begins:
+
+1. [Movesense-OpenSense laboratory foundation](research/projects/movesense-opensense-foundation.md)
+  inventories the available wearable hardware, verifies raw acquisition and sensor-native
+  timing, builds synchronization and orientation-processing contracts, and completes a
+  bounded OpenSense/OpenSim interoperability demonstration.
+2. [Movesense-OpenSense and OpenCap comparison](research/projects/movesense-opencap-validation.md)
+  extends that foundation with synchronized video-based comparison, prescribed-motion
+  tests, and bounded validation experiments. OpenCap is a comparison method with its own
+  uncertainty, not an assumed ground truth.
+
+Both records are **proposed**. Project 1 supplies evidence for inventory, governance,
+method, and capability decisions across Phases 2--4. Project 2 begins only after Project
+1 makes timing, orientation, coordinate, and export limits explicit enough to support a
+meaningful comparison.
+
 ## Phases
 
 ### 1. Public research architecture
@@ -108,6 +127,8 @@ states, and cross-project ownership are explicit and non-contradictory.
 
 ### 2. HMS Lab inventory and governance
 
+- [ ] Execute the hardware-inventory and non-human bench-acquisition milestone in
+  HMS-PROJ-001 as the first operational setup work.
 - [ ] Inventory exact sensors, modules, ultrasound units, mobile devices, computers,
   spaces, software, licenses, mounts, calibration tools, and related resources.
 - [ ] Verify raw-data access, export formats, APIs, sampling behavior, and software
@@ -271,8 +292,11 @@ history and public context; operational course development has moved to the priv
 PTH6132 workspace.
 
 Phase 1 is complete. The next public-repository work is Phase 2: build a verified
-laboratory inventory and governance map. Theory and pilot-question development can
-proceed in parallel when it does not require unverified capability claims.
+laboratory inventory and governance map. HMS-PROJ-001 is the first bounded setup project,
+beginning with Movesense hardware/firmware inventory and non-human bench acquisition.
+HMS-PROJ-002 then adds synchronized OpenCap comparison as the first multimodal validation
+expansion. Theory and other pilot-question development can proceed in parallel when it
+does not require unverified capability claims.
 
 Website implementation remains intentionally deferred until representative theory,
 question, method, capability, and project records can exercise the content model. The

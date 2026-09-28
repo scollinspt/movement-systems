@@ -21,3 +21,12 @@ the public site only through the process in
 
 Do not place identifiable student information or restricted educational records in the
 repository.
+
+## Proposed Projects
+
+1. [Movesense-OpenSense laboratory foundation](projects/movesense-opensense-foundation.md)
+	establishes the HMS Lab's initial wearable-to-OpenSense acquisition, timing,
+	orientation, governance, and reproducibility pathway.
+2. [Movesense-OpenSense and OpenCap comparison](projects/movesense-opencap-validation.md)
+	extends that foundation with synchronized video-based comparison and bounded
+	validation experiments.
