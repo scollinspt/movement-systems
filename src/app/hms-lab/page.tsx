@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { ClipboardCheck, FlaskConical, HeartHandshake, Move3d, Users } from "lucide-react";
 import { NextLink, PageHero, SectionIntro, Status } from "@/components/page-elements";
+import { ProjectSequence } from "@/components/project-sequence";
 
 export const metadata: Metadata = {
   title: "Human Movement Systems Laboratory",
@@ -104,6 +105,22 @@ export default function HmsLabPage() {
           <li><Users aria-hidden="true" /><span><strong>Govern</strong> research, education, clinical care, privacy, and participation.</span></li>
           <li><Move3d aria-hidden="true" /><span><strong>Demonstrate</strong> capability before describing it as operational.</span></li>
         </ol>
+      </section>
+
+      <section className="project-program project-program-lab">
+        <div className="section-shell">
+          <SectionIntro label="Current project sequence" title="Foundation first, comparison second.">
+            <p className="lead">
+              The lab begins with a governed Movesense-OpenSense foundation project, followed by a
+              bounded comparison with OpenCap when the first project supports that transition.
+            </p>
+            <p>
+              Both projects remain proposed. Bench acquisition, timing evidence, and validation are
+              still in development and do not establish an operational laboratory service.
+            </p>
+          </SectionIntro>
+          <ProjectSequence />
+        </div>
       </section>
 
       <section className="people-section">

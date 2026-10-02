@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Activity, ArrowRight, Gauge, ScanLine } from "lucide-react";
 import Link from "next/link";
 import { PageHero, SectionIntro, Status } from "@/components/page-elements";
+import { ProjectSequence } from "@/components/project-sequence";
 
 export const metadata: Metadata = {
   title: "Research",
@@ -49,6 +50,22 @@ export default function ResearchPage() {
             <li key={question}><span>Q{index + 1}</span><p>{question}</p><Status tone="proposed">Proposed</Status></li>
           ))}
         </ol>
+      </section>
+
+      <section className="project-program">
+        <div className="section-shell">
+          <SectionIntro label="Initial HMS Lab sequence" title="Build the method before making the claim.">
+            <p className="lead">
+              Two proposed projects establish wearable acquisition and OpenSense integration before
+              extending the work to a synchronized OpenCap comparison.
+            </p>
+            <p>
+              These are public planning records, not operational capability or validity claims.
+              Project 002 depends on the timing, orientation, and export evidence from Project 001.
+            </p>
+          </SectionIntro>
+          <ProjectSequence />
+        </div>
       </section>
 
       <section className="research-records">

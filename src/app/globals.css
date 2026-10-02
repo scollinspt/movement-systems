@@ -255,6 +255,20 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .question-list li { min-height: 110px; display: grid; grid-template-columns: 55px 1fr auto; gap: 1.5rem; align-items: center; border-bottom: 1px solid var(--line); }
 .question-list li > span:first-child { color: var(--coral); font-size: .68rem; font-weight: 600; }
 .question-list p { max-width: 850px; font-family: var(--font-serif), serif; font-size: 1.42rem; line-height: 1.25; }
+.project-program { background: var(--white); border-block: 1px solid var(--line); }
+.project-program-lab { background: var(--paper-deep); }
+.project-sequence { margin-top: 4.5rem; border-top: 1px solid var(--ink); }
+.project-record { min-height: 260px; padding: 2rem 0; display: grid; grid-template-columns: 150px minmax(0, 1fr) minmax(220px, .48fr); gap: clamp(2rem, 5vw, 5rem); border-bottom: 1px solid var(--line); }
+.project-record-meta { display: flex; flex-direction: column; align-items: flex-start; gap: .8rem; }
+.project-record-meta > span { color: var(--coral); font-size: .66rem; }
+.project-record-meta > strong { color: var(--teal); font-size: .7rem; letter-spacing: .08em; }
+.project-record-copy h3 { margin: 0; font-family: var(--font-serif), serif; font-size: 2rem; font-weight: 500; line-height: 1.1; }
+.project-record-copy > p, .project-record-next p { color: var(--muted); font-size: .9rem; }
+.project-record-links { margin-top: 1.6rem; display: flex; flex-wrap: wrap; gap: .8rem 1.5rem; }
+.project-record-links a { display: inline-flex; align-items: center; gap: .45rem; padding-bottom: .15rem; font-size: .78rem; font-weight: 600; border-bottom: 1px solid var(--coral); }
+.project-record-links svg { width: 15px; height: 15px; }
+.project-record-next { padding-top: .2rem; border-top: 3px solid var(--yellow); }
+.project-record-next > span { color: var(--teal); font-size: .65rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
 .research-records { background: var(--white); border-block: 1px solid var(--line); }
 .research-records .section-intro { display: block; }
 .record-types { margin-top: 4rem; display: grid; grid-template-columns: repeat(5, 1fr); border-top: 1px solid var(--ink); }
@@ -346,6 +360,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 
 @media (max-width: 980px) {
   .record-types, .method-domains, .application-list, .learning-pillars { grid-template-columns: 1fr 1fr; }
+  .project-record { grid-template-columns: 120px minmax(0, 1fr); }
+  .project-record-next { grid-column: 2; }
   .research-pathways { grid-template-columns: 1fr; }
   .observability-band, .clinic-boundary { grid-template-columns: 1fr; gap: 3rem; padding-left: 1.5rem; padding-right: 1.5rem; }
   .observability-band h2, .application-principle h2, .clinic-boundary h2 { font-size: 3.7rem; }
@@ -355,6 +371,9 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .question-list li { padding: 1.2rem 0; grid-template-columns: 35px 1fr; }
   .question-list li .status { grid-column: 2; }
   .question-list p { font-size: 1.15rem; }
+  .project-record { grid-template-columns: 1fr; gap: 1.4rem; }
+  .project-record-meta { flex-direction: row; align-items: center; flex-wrap: wrap; }
+  .project-record-next { grid-column: 1; }
   .record-types, .method-domains, .application-list, .learning-pillars, .resource-directory { grid-template-columns: 1fr; }
   .measurement-rings, .learning-loop { width: 310px; height: 310px; }
   .measurement-rings span:nth-child(1) { width: 300px; height: 300px; }
