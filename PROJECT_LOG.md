@@ -1,5 +1,33 @@
 # Project Log
 
+## 2026-10-02: HMS Lab Project Sequence Published
+
+### Implementation
+
+Added HMS-PROJ-001 and HMS-PROJ-002 to the public Research and HMS Lab website
+pages at **proposed** maturity. The published sequence presents the
+Movesense-OpenSense laboratory foundation first and makes the subsequent OpenCap
+comparison explicitly dependent on Project 001's timing, orientation, coordinate,
+and export evidence.
+
+The website language does not claim an operational laboratory service, validated
+measurement capability, or scientific or clinical validity. The full Markdown
+project records remain the authoritative planning records.
+
+### Validation and deployment
+
+- passed `npm run lint` and the Next.js static production build;
+- reviewed the project sequence at desktop and mobile widths without overlap or
+  horizontal overflow;
+- committed the website source as `b960af5` and pushed it to `origin/main`;
+- manually ran **Deploy site to GitHub Pages** workflow run `37002620244`; and
+- confirmed the deployment completed successfully and the live Research and HMS Lab
+  pages contain both project identifiers and their proposed-status safeguards.
+
+The next project action remains completion of the HMS-PROJ-001 hardware and firmware
+inventory followed by the first non-human bench acquisition. The acquisition approach
+requires further review before implementation.
+
 ## 2026-09-28: Initial HMS Lab Project Sequence
 
 ### Decision
@@ -40,12 +68,11 @@ the HMS-PROJ-001 hardware/firmware inventory and first non-human bench acquisiti
 
 ### Website follow-up
 
-The new Markdown project records are not currently consumed by the Next.js website and
-have not been deployed to `movementsystems.org`. Resume by updating the public Research
-and HMS Lab pages to present both projects at **proposed** maturity, run `npm run lint`
-and `npm run build`, review the generated site, commit and push the approved source, and
-then manually run the **Deploy site to GitHub Pages** workflow. A push alone does not
-deploy the site because the workflow uses `workflow_dispatch`.
+At the time of this entry, the new Markdown project records were not consumed by the
+Next.js website and had not been deployed to `movementsystems.org`. That follow-up was
+completed on 2026-10-02 and is recorded in **HMS Lab Project Sequence Published** above.
+The deployment workflow continues to use `workflow_dispatch`, so a push alone does not
+deploy the site.
 
 ## 2026-09-25: First GitHub Pages Deployment
 
@@ -108,8 +135,9 @@ navigation, headings, metadata, and image loading.
 The current pages provide an orientation and a structure for collaborative content
 development. The next scholarly work is to create reviewed theory records, research
 questions, methods, capability records, projects, and educational translations at their
-actual maturity. GitHub Pages activation, DNS configuration, and the first approved
-deployment remain pending.
+actual maturity. At the time of this entry, GitHub Pages activation, DNS configuration,
+and the first approved deployment remained pending; the deployment was completed later
+that day and is recorded in **First GitHub Pages Deployment** above.
 
 The next cross-site task is to update `scollinspt` from the professional-profile
 workspace. The required messaging, ecosystem boundaries, deployment caution, and local
