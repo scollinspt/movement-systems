@@ -99,6 +99,34 @@ Shared conceptual activities provide the intellectual integration layer. The sha
 Movement and Exercise Laboratory is the principal applied bridge into patient/client
 management.
 
+## Course–HMS Lab Development Pathway
+
+The Movement Systems course introduces every DPT student to the identity, concepts, and
+reasoning practices needed to participate in movement-system measurement science. This
+foundation includes question formation, construct definition, contextual measurement,
+uncertainty, interpretation, and evaluation of whether attempts to improve movement
+persist and generalize. It does not require every student to become a sensor operator,
+engineer, or laboratory researcher.
+
+Interested students may pursue deeper development through optional curricular and
+extracurricular HMS Lab activities. Possible pathways include inquiry meetings, case and
+data discussions, supervised measurement activities, method-development work,
+independent study, capstone work, research practica, and longer-term projects. Each
+activity requires readiness, supervision, privacy, and governance appropriate to its
+actual educational, clinical, or research role.
+
+A proposed future option would allow treating students to request that one of a
+patient's final two Pro Bono Clinic sessions occur in the HMS Lab. Initially, any such
+session would be an educational and exploratory adjunct to care, not an operational
+diagnostic service. Findings could contribute an additional observation or hypothesis
+but would not independently determine care. A specific method could inform care more
+directly only after sufficient evidence and operational readiness are established for
+the intended use.
+
+The detailed roles, student pathway, clinical translation ladder, and safeguards are in
+the [Course–Lab Integration Framework](course-lab-integration.md). The proposed workflow
+has not been approved or implemented.
+
 ## Relationship To The Clinical Inquiry Ecosystem
 
 The curricular pathway and the scholarly ecosystem are related but not identical. In the

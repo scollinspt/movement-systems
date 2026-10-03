@@ -84,6 +84,15 @@ cases and laboratory observations can generate research questions. A pedagogical
 simplification or classroom observation does not become an accepted scientific claim
 without independent review.
 
+The [Course–Lab Integration Framework](docs/course-lab-integration.md) makes this
+relationship developmental: every DPT student receives a foundation for participating
+in movement-system measurement science, while interested students may pursue deeper
+optional curricular or extracurricular HMS Lab work. The
+[clinician-led measurement research vision](docs/clinician-led-movement-measurement-vision.md)
+connects that education to field-capable longitudinal study of coordination,
+variability, adaptation, and persistence. Neither document establishes an operational
+clinical service or approved patient-facing laboratory workflow.
+
 ## Repository Scope
 
 This repository owns:
@@ -138,6 +147,13 @@ The repository is public and its initial
 [content model](docs/content-model.md) are established before website implementation.
 Claims about equipment, synchronization, services, partnerships, and research results
 remain provisional until verified.
+
+A draft [Pro Bono Clinic needs assessment](docs/pro-bono-measurement-needs-assessment.md)
+is available for internal planning with DPT students and supervising clinicians/faculty.
+Its responses are not public repository content or research data. Candidate website
+changes are recorded separately in the
+[deferred website-update backlog](docs/website-update-backlog.md); website source has not
+been changed for this planning work.
 
 ## Website Development
 

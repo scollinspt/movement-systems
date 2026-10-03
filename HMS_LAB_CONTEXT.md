@@ -1351,3 +1351,42 @@ and individual patients.**
 That is the conceptual bridge between the Human Movement Systems
 Laboratory, the DPT program, the Pro Bono Clinic, the existing
 computational research program, and future industry collaboration.
+
+------------------------------------------------------------------------
+
+## 31. Course–lab integration and clinician-led measurement direction
+
+The Movement Systems course should introduce every DPT student to the
+identity, concepts, and reasoning practices needed to participate in
+movement-system measurement science. A smaller group may pursue deeper
+development through optional curricular and extracurricular HMS Lab
+activities.
+
+The scientific direction deliberately continues Collins's prior work in
+physiological dynamics and autonomic coordination. The HMS Lab extends
+the underlying complex-systems framework to movement-system coordination,
+variability, adaptation, and persistence in context. Field-capable
+longitudinal measurement is intended to support clinician-originated
+questions that laboratory snapshots and static summaries cannot
+adequately address.
+
+One proposed future educational option would allow treating students to
+request that one of a patient's final two Pro Bono Clinic sessions occur
+in the HMS Lab. Initially, such a session would be an educational and
+exploratory adjunct to care. It could contribute an additional observation
+or hypothesis but would not independently determine care. Specific methods
+could inform the plan of care more directly only after sufficient evidence
+and operational readiness are established for the intended clinical use.
+
+These decisions are developed in:
+
+-   `docs/course-lab-integration.md`;
+-   `docs/clinician-led-movement-measurement-vision.md`;
+-   `docs/pro-bono-measurement-needs-assessment.md`; and
+-   `docs/website-update-backlog.md`.
+
+The questionnaire is for internal planning with DPT students and
+supervising clinicians/faculty. It does not collect patient information,
+does not authorize research, and must not be treated as an operational
+clinical workflow. Website changes remain deferred pending separate
+review and approval.

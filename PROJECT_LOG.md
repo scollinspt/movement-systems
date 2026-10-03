@@ -1,5 +1,44 @@
 # Project Log
 
+## 2026-10-03: Course–Lab Integration And Measurement Vision
+
+### Direction
+
+Defined a stronger reciprocal bridge among the DPT Movement Systems course, HMS Lab,
+Pro Bono Clinic, and clinician-led movement-system research. The course should introduce
+every DPT student to the identity and reasoning practices needed to participate in
+measurement science so clinicians can better understand and improve the movement system.
+Interested students may pursue deeper development through optional curricular and
+extracurricular HMS Lab activities.
+
+The research vision deliberately extends Collins's complex-systems work in physiological
+dynamics and autonomic coordination to movement-system coordination, variability,
+adaptation, and persistence in context. Field-capable longitudinal measurement is
+intended to enable clinician-originated questions that laboratory snapshots and static
+summaries cannot adequately address.
+
+### Pro Bono Clinic Planning
+
+Recorded a proposed future option in which treating students could request that one of a
+patient's final two Pro Bono Clinic sessions occur in the HMS Lab. Initially, any such
+session would be an educational and exploratory adjunct to care. Findings might add an
+observation or hypothesis but would not independently determine care. A specific method
+could inform care more directly only after sufficient evidence and operational readiness
+are established for its intended use.
+
+Created a draft shared needs assessment for DPT students and supervising
+clinicians/faculty. It is limited to internal planning, can be used anonymously online or
+as an interview guide, and prohibits patient-identifying information. Responses are not
+research data and are not public repository content.
+
+### Records And Boundaries
+
+Added the Course–Lab Integration Framework, clinician-led measurement research vision,
+draft needs assessment, and a Markdown backlog of possible website changes. No website
+source was changed, no patient-facing workflow was authorized, and no publication or
+clinical-service claim was made. The documents require review before administration,
+implementation, commitment, or publication.
+
 ## 2026-10-03: Staged Movesense Development Sequence
 
 ### Decision
@@ -49,6 +88,43 @@ GitHub Pages workflow run
 completed successfully. Desktop and mobile checks at 1440 px and 390 px found five
 project records, three progression stages, no element overlap, and no horizontal
 overflow on both public pages.
+
+## 2026-10-02: Objective-Driven Movement Systems Course Planning
+
+### Direction
+
+Developed a private first-draft course plan starting from the historical learning
+objectives rather than reproducing the prior textbook or assignment sequence.
+Movement Systems is intended as a philosophical and conceptual foundation for PT
+practice, integrating prerequisite knowledge and supporting concurrent and later
+patient/client management coursework.
+
+APTA movement-system guidance supplies professional framing. Complex adaptive systems,
+neuromechanics, and Collins's attain/sustain/maintain framework are proposed organizing
+threads. Corrective therapeutic exercise is framed as a hypothesis-driven response to
+meaningful movement limitations, not enforcement of one ideal movement appearance.
+Movement Systems and EP&N address all three dimensions with overlapping but distinct
+assessment emphases.
+
+### Private deliverables and status
+
+Saved resource navigation guides, a historical reading coverage crosswalk, the original
+objectives and CAPTE-reference baseline, a selective general-PT instructor reading plan,
+and a provisional course plan in the private teaching workspace. A private planning log
+records their locations and next steps. Restricted source text and operational course
+documents have not been added to this repository.
+
+No textbook replacement, required readings, revised objectives, grading weights, or
+final syllabus were approved. The existing opening gait and shared-laboratory planning
+commitments remain intact. Historical CAPTE identifiers require verification against
+the applicable current standards and program mapping.
+
+### Next step
+
+Review and refine the conceptual framework and objective-to-assessment blueprint, then
+select bounded readings and develop missing systems/neuromechanics, clinical,
+measurement, and lifespan resources. The roadmap and operational semester map remain
+unchanged pending those decisions.
 
 ## 2026-10-02: HMS Lab Project Sequence Published
 

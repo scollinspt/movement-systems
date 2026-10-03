@@ -29,6 +29,10 @@ The governing rationale is in
 [docs/research-architecture.md](docs/research-architecture.md), the record structures are
 in [docs/content-model.md](docs/content-model.md), and the ecosystem role is in
 [docs/clinical-inquiry-integration.md](docs/clinical-inquiry-integration.md).
+The developing clinician-led measurement vision is in
+[docs/clinician-led-movement-measurement-vision.md](docs/clinician-led-movement-measurement-vision.md),
+and the educational pathway is in
+[docs/course-lab-integration.md](docs/course-lab-integration.md).
 
 ## Parallel Work Tracks
 
@@ -142,6 +146,11 @@ states, and cross-project ownership are explicit and non-contradictory.
   constraints rather than inferring them from product categories.
 - [ ] Define the relationship among research, education, Pro Bono Clinic observations,
   and any future clinical measurement activity.
+- [ ] Review and administer the internal Pro Bono Clinic movement-measurement needs
+  assessment with DPT students and supervising clinicians/faculty under an approved
+  internal-planning process.
+- [ ] Use that feedback to decide whether and how to design an optional educational and
+  exploratory Pro Bono Clinic–HMS Lab pathway; do not imply that a service exists.
 - [ ] Document IRB, consent, privacy, data governance, student supervision, ultrasound
   training, industry contracting, and intellectual-property requirements.
 - [ ] Establish private research storage and backup practices before collecting data.
@@ -155,6 +164,10 @@ responsible pilot work without overstating capability.
 - [ ] Establish stable identifiers and templates for each public content type.
 - [ ] Define foundational terms including movement, function, capacity, performance,
   constraint, variability, stability, compensation, adaptation, and control.
+- [ ] Refine persistence, coordination, variability, adaptation, context, and timescale
+  as candidate movement-system constructs without prematurely fixing one metric.
+- [ ] Develop the clinician-led field and longitudinal measurement concept note toward a
+  reviewed research program and eventual white paper.
 - [ ] Develop the first theory records with scale, timescale, observables, competing
   explanations, and measurement limits.
 - [ ] Create a representative experiment matrix spanning rehabilitation, ergonomics,
@@ -255,6 +268,11 @@ executing successfully.
 - [ ] Promote durable public educational resources through the publication gate.
 - [ ] Evaluate learning and usability without publishing identifiable data.
 - [ ] Establish the Movement Inquiry Meeting and pathways for student participation.
+- [ ] Establish foundational measurement-science learning for every DPT student through
+  Movement Systems and optional curricular or extracurricular HMS Lab pathways for
+  deeper development.
+- [ ] Define method-specific clinical translation criteria from technical development
+  through exploratory, evidence-qualified, and routine use.
 - [ ] Develop public collaboration materials only from authentic operational work.
 - [ ] Pursue industry conversations without implying partnerships before they exist.
 - [ ] Update the professional profile to show HMS Lab and computational clinical inquiry
@@ -306,6 +324,15 @@ ten sensors before HMS-PROJ-003 and HMS-PROJ-004 address orientation and OpenSen
 HMS-PROJ-005 adds OpenCap as the first multimodal comparison. Theory and other
 pilot-question development can proceed in parallel when it does not require unverified
 capability claims.
+
+The Course–Lab Integration Framework, clinician-led measurement research vision, draft
+Pro Bono Clinic needs assessment, and deferred website-update backlog now preserve the
+current planning direction. The next integration action is review of those drafts,
+followed by appropriately governed internal feedback from DPT students and supervising
+clinicians/faculty. This planning does not authorize patient-facing measurement,
+research use of responses, or website publication, and it does not replace the current
+HMS-PROJ-001 non-human one-sensor bench recording next step. Website implementation and
+deployment require separate review and explicit approval.
 
 Website implementation remains intentionally deferred until representative theory,
 question, method, capability, and project records can exercise the content model. The

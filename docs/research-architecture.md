@@ -53,6 +53,13 @@ supports work in observability, dimensionality, state estimation, sensor fusion,
 measurement uncertainty, system identification, movement variability, nonlinear
 dynamics, and model identifiability.
 
+The program also asks how movement-system coordination, variability, adaptation, and
+persistence change across person, task, environment, and time. Field-capable repeated
+measurement is therefore a scientific direction, not merely a portable substitute for
+laboratory instrumentation. The [clinician-led measurement research vision](clinician-led-movement-measurement-vision.md)
+records the deliberate continuity from physiological dynamics and autonomic coordination
+to longitudinal movement-system inquiry.
+
 ## Research Domains
 
 The program may develop work across several connected domains:
@@ -98,6 +105,14 @@ Movement from a clinical question to research inquiry should be intellectually e
 Movement from a patient to a research participant must be deliberate and governed.
 Clinical care, education, research, and diagnostic services remain distinct activities
 with separate requirements for consent, privacy, oversight, documentation, and claims.
+
+The Movement Systems course provides every DPT student with a foundation for
+participating in measurement science. Optional curricular and extracurricular HMS Lab
+activities may support deeper development for a smaller group. A proposed future Pro
+Bono Clinic–HMS Lab session would begin, if approved, as an educational and exploratory
+adjunct to care. Method-specific evidence and readiness would be required before any
+measurement regularly informs a plan of care. See the
+[Course–Lab Integration Framework](course-lab-integration.md).
 
 Courses are a translation and question-generating environment. They are not the system
 of record for research findings, and classroom observations do not become research data
