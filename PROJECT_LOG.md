@@ -1,5 +1,55 @@
 # Project Log
 
+## 2026-10-03: Staged Movesense Development Sequence
+
+### Decision
+
+Replaced the overly compressed two-project sequence with five proposed projects:
+
+1. **HMS-PROJ-001:** Movesense acquisition and single-sensor feasibility.
+2. **HMS-PROJ-002:** Movesense multi-sensor timing and scaling.
+3. **HMS-PROJ-003:** Movesense calibration and orientation validation.
+4. **HMS-PROJ-004:** Movesense-OpenSense interoperability.
+5. **HMS-PROJ-005:** Movesense-OpenSense and OpenCap comparison.
+
+The OpenCap project was initially proposed as HMS-PROJ-002 and was renumbered
+HMS-PROJ-005 so timing/scaling, orientation validation, and OpenSense interoperability
+have explicit project gates rather than remaining hidden inside one broad foundation
+project.
+
+### Escalation rule
+
+The sequence now advances from one sensor to two sensors and then through staged 3-,
+5-, and 10-sensor configurations. Every new sensor count, task, placement, or processing
+claim is tested non-human before corresponding human feasibility is considered. Human
+activity requires a documented institutional governance determination and applicable
+consent, privacy, supervision, and data plans.
+
+Human feasibility evaluates workflow, attachment, tolerability, recording continuity,
+missingness, and bounded method behavior. It does not establish validity, reliability,
+clinical utility, or an operational laboratory service. Each increase in sensor count or
+task complexity requires explicit stop/go criteria and does not follow automatically
+from success at a lower stage.
+
+### Current next step
+
+No human activity has begun. Complete the HMS-PROJ-001 hardware and firmware inventory
+and first non-human one-sensor bench recording before considering its governance gate.
+
+### Publication and validation
+
+Published the five-project sequence on the Research and HMS Lab pages at commit
+`80fcf5539152c0746ac3593b5aaef58bc46a16d9`. Local lint and production build passed.
+The generated and deployed pages each present HMS-PROJ-001 through HMS-PROJ-005 once,
+the one → two → 3/5/10 progression, the institutional governance gate, and the limits
+of human feasibility.
+
+GitHub Pages workflow run
+[`37111062927`](https://github.com/scollinspt/movement-systems/actions/runs/37111062927)
+completed successfully. Desktop and mobile checks at 1440 px and 390 px found five
+project records, three progression stages, no element overlap, and no horizontal
+overflow on both public pages.
+
 ## 2026-10-02: HMS Lab Project Sequence Published
 
 ### Implementation
