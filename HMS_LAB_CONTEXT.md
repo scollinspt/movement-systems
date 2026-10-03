@@ -1162,44 +1162,35 @@ When modifying the professional website or related project materials:
 
 ## 27. Initial laboratory project sequence
 
-The first two HMS Lab projects should establish a verified measurement and governance
-foundation before the laboratory attempts clinically complex studies.
+Five proposed HMS Lab projects establish a verified measurement and governance
+foundation before the laboratory attempts clinically complex studies:
 
-### Project 1: Movesense-OpenSense laboratory foundation
+1.  **HMS-PROJ-001: Movesense acquisition and single-sensor feasibility** begins with
+    inventory and a non-human one-sensor recording, followed only when permitted by a
+    governed one-sensor human feasibility session.
+2.  **HMS-PROJ-002: Movesense multi-sensor timing and scaling** tests a non-human shared
+    event with two sensors, scales non-human acquisition through 3, 5, and 10 sensors,
+    and then may repeat that progression in simple governed human sessions.
+3.  **HMS-PROJ-003: Movesense calibration and orientation validation** establishes
+    calibration, fusion, coordinate, drift, magnetic, and invalid-state behavior first
+    in non-human tests and then, if permitted, in staged human feasibility.
+4.  **HMS-PROJ-004: Movesense-OpenSense interoperability** verifies synthetic and
+    non-human OpenSense input, calibration, and inverse kinematics before any bounded
+    human OpenSense session.
+5.  **HMS-PROJ-005: Movesense-OpenSense and OpenCap comparison** adds synchronized video
+    comparison only after the wearable/OpenSense limits are explicit.
 
-Use the available Movesense sensors to build an open, reproducible path from raw IMU
-measurements and sensor-native timing through synchronization, calibration, documented
-orientation estimation, coordinate conversion, and OpenSense/OpenSim processing.
+The governing escalation rule is non-human before human for every new sensor count,
+task, placement, or processing claim. Human activity requires a documented institutional
+governance determination and applicable consent, privacy, supervision, and data plans.
+Human feasibility does not establish validity, reliability, clinical utility, or an
+operational service. OpenCap remains a comparison method with independent uncertainty,
+not ground truth.
 
-This is a laboratory-setup project, not merely a software project. It should exercise:
-
--   exact hardware and firmware inventory;
--   governed research storage and provenance;
--   acquisition and data-contract verification;
--   timing, calibration, and validation practices;
--   reproducible software environments;
--   public synthetic or permission-cleared fixtures; and
--   conservative separation of interoperability from scientific and clinical validity.
-
-Initial evidence should come from non-human bench recordings, shared timing events,
-static poses, prescribed rotations, and a bounded two- or three-sensor OpenSense
-demonstration.
-
-### Project 2: Movesense-OpenSense and OpenCap comparison
-
-After Project 1 makes timing and orientation limits explicit, expand the pipeline to
-compare synchronized Movesense-OpenSense and OpenCap outputs for prescribed motions and,
-when governance permits, a small set of bounded human movement tasks.
-
-OpenCap should be treated as a complementary video-based comparison method with its own
-assumptions and uncertainty, not as ground truth. The project should emphasize common
-timing, comparable quantities, coordinate and model mappings, agreement with uncertainty,
-and failure modes. Agreement alone does not establish accuracy or clinical utility.
-
-The authoritative public project records are:
-
--   `research/projects/movesense-opensense-foundation.md`;
--   `research/projects/movesense-opencap-validation.md`.
+The authoritative public project records are indexed in
+`research/projects/README.md`. The OpenCap project was initially proposed as
+HMS-PROJ-002 and was renumbered HMS-PROJ-005 when the intermediate projects were made
+explicit.
 
 ------------------------------------------------------------------------
 

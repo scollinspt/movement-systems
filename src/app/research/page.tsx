@@ -56,12 +56,13 @@ export default function ResearchPage() {
         <div className="section-shell">
           <SectionIntro label="Initial HMS Lab sequence" title="Build the method before making the claim.">
             <p className="lead">
-              Two proposed projects establish wearable acquisition and OpenSense integration before
-              extending the work to a synchronized OpenCap comparison.
+              Five proposed projects stage acquisition, sensor-count scaling, orientation validation,
+              OpenSense interoperability, and only then synchronized OpenCap comparison.
             </p>
             <p>
-              These are public planning records, not operational capability or validity claims.
-              Project 002 depends on the timing, orientation, and export evidence from Project 001.
+              Every new sensor count, task, placement, or processing claim is tested non-human before
+              corresponding human feasibility is considered. These are planning records, not
+              operational capability or validity claims.
             </p>
           </SectionIntro>
           <ProjectSequence />

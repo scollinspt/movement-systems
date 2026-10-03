@@ -1,12 +1,12 @@
 # Movesense-OpenSense And OpenCap Comparison
 
-- **Identifier:** HMS-PROJ-002
+- **Identifier:** HMS-PROJ-005
 - **Content type:** Project
 - **Maturity:** Proposed
 - **Created:** 2026-09-28
 - **Responsible investigator:** Sean M. Collins, PT, ScD
 - **Setting:** Human Movement Systems Laboratory, Plymouth State University
-- **Depends on:** [HMS-PROJ-001](movesense-opensense-foundation.md)
+- **Depends on:** [HMS-PROJ-004](movesense-opensense-interoperability.md)
 - **Implementation repository:**
   [`movesense-opensense`](https://github.com/scollinspt/movesense-opensense)
 - **External resource:** [OpenCap](https://www.opencap.ai/)
@@ -20,7 +20,7 @@ Movesense-OpenSense and OpenCap estimates agree, where do they diverge, and whic
 placement, calibration, visibility, task, and modeling conditions explain the observed
 differences?
 
-This second project expands the wearable pipeline with OpenCap, the HMS Lab's intended
+This project expands the verified wearable/OpenSense pipeline with OpenCap, the HMS Lab's intended
 portable video-based movement system. It begins the lab's multimodal validation program
 and develops the common-timeline practices needed for later integration across video,
 wearables, physiology, ultrasound, and external-force measurements.
@@ -48,11 +48,15 @@ either system measures the underlying movement without error.
 4. Develop a protocol for sensor placement, camera placement, calibration, task
    execution, data quality, and exclusion criteria.
 5. Compare prescribed or mechanically constrained motions before human movement.
-6. If approved, compare selected segment orientations and joint kinematics during a
-   small set of bounded movement tasks.
-7. Analyze agreement, bias, uncertainty, sensitivity, missingness, and task-specific
+6. Obtain and record the governance determination required before any human comparison.
+7. If permitted, begin with the smallest human sensor configuration already accepted in
+   HMS-PROJ-004, then add placements or sensors only after the preceding non-human and
+   human stage meets predefined criteria.
+8. Compare selected segment orientations and joint kinematics during a small set of
+   bounded movement tasks.
+9. Analyze agreement, bias, uncertainty, sensitivity, missingness, and task-specific
    failure modes rather than relying on correlation alone.
-8. Publish only permission-cleared protocols, aggregate findings, and reproducibility
+10. Publish only permission-cleared protocols, aggregate findings, and reproducibility
    materials with explicit interpretation limits.
 
 ## Milestones and decision points
@@ -94,6 +98,8 @@ unapproved analyses belong in governed storage outside Git.
 
 ## Current conclusion and next step
 
-This project remains proposed and depends on Project HMS-PROJ-001. Its next planning step
+This project was initially proposed as HMS-PROJ-002 on 2026-09-28 and was renumbered
+HMS-PROJ-005 on 2026-10-03 when the laboratory made intermediate scaling, orientation,
+and OpenSense projects explicit. It remains proposed and depends on HMS-PROJ-004. Its next planning step
 is to define the smallest prescribed-motion comparison and determine what timing metadata
 is actually available from the selected OpenCap workflow.

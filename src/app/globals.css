@@ -257,6 +257,12 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .question-list p { max-width: 850px; font-family: var(--font-serif), serif; font-size: 1.42rem; line-height: 1.25; }
 .project-program { background: var(--white); border-block: 1px solid var(--line); }
 .project-program-lab { background: var(--paper-deep); }
+.project-progression { margin-top: 4.5rem; display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--ink); border-left: 1px solid var(--line); }
+.project-progression > div { min-height: 180px; padding: 1.5rem; display: flex; flex-direction: column; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.project-progression span { color: var(--coral); font-size: .66rem; }
+.project-progression strong { margin-top: 2rem; font-family: var(--font-serif), serif; font-size: 1.55rem; font-weight: 500; }
+.project-progression div p { margin: .45rem 0 0; color: var(--muted); font-size: .84rem; }
+.project-progression-rule { grid-column: 1 / -1; margin: 0; padding: 1.15rem 1.5rem; color: white; background: var(--forest); font-size: .82rem; }
 .project-sequence { margin-top: 4.5rem; border-top: 1px solid var(--ink); }
 .project-record { min-height: 260px; padding: 2rem 0; display: grid; grid-template-columns: 150px minmax(0, 1fr) minmax(220px, .48fr); gap: clamp(2rem, 5vw, 5rem); border-bottom: 1px solid var(--line); }
 .project-record-meta { display: flex; flex-direction: column; align-items: flex-start; gap: .8rem; }
@@ -374,6 +380,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .project-record { grid-template-columns: 1fr; gap: 1.4rem; }
   .project-record-meta { flex-direction: row; align-items: center; flex-wrap: wrap; }
   .project-record-next { grid-column: 1; }
+  .project-progression { grid-template-columns: 1fr; }
+  .project-progression-rule { grid-column: 1; }
   .record-types, .method-domains, .application-list, .learning-pillars, .resource-directory { grid-template-columns: 1fr; }
   .measurement-rings, .learning-loop { width: 310px; height: 310px; }
   .measurement-rings span:nth-child(1) { width: 300px; height: 300px; }

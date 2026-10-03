@@ -109,14 +109,15 @@ export default function HmsLabPage() {
 
       <section className="project-program project-program-lab">
         <div className="section-shell">
-          <SectionIntro label="Current project sequence" title="Foundation first, comparison second.">
+          <SectionIntro label="Current project sequence" title="Evidence before escalation.">
             <p className="lead">
-              The lab begins with a governed Movesense-OpenSense foundation project, followed by a
-              bounded comparison with OpenCap when the first project supports that transition.
+              The lab progresses from one sensor to two and then staged 3-, 5-, and 10-sensor
+              configurations before adding OpenSense and OpenCap comparison.
             </p>
             <p>
-              Both projects remain proposed. Bench acquisition, timing evidence, and validation are
-              still in development and do not establish an operational laboratory service.
+              All five projects remain proposed. Each new sensor count and method is tested
+              non-human before governed human feasibility, and feasibility does not establish an
+              operational laboratory service.
             </p>
           </SectionIntro>
           <ProjectSequence />

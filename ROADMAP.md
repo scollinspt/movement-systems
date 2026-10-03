@@ -1,6 +1,6 @@
 # Movement Systems Roadmap
 
-_Last updated: 2026-09-28_
+_Last updated: 2026-10-03_
 
 This roadmap coordinates public Movement Systems scholarship, development of the Human
 Movement Systems Laboratory (HMS Lab), the public website, educational translation, and
@@ -90,22 +90,29 @@ See [docs/site-plan.md](docs/site-plan.md) for the detailed information architec
 
 ## Initial HMS Lab Project Sequence
 
-The first two HMS Lab projects are methodological projects that establish laboratory
-infrastructure before clinically complex research begins:
+Five proposed methodological projects establish laboratory infrastructure before
+clinically complex research begins:
 
-1. [Movesense-OpenSense laboratory foundation](research/projects/movesense-opensense-foundation.md)
-  inventories the available wearable hardware, verifies raw acquisition and sensor-native
-  timing, builds synchronization and orientation-processing contracts, and completes a
-  bounded OpenSense/OpenSim interoperability demonstration.
-2. [Movesense-OpenSense and OpenCap comparison](research/projects/movesense-opencap-validation.md)
-  extends that foundation with synchronized video-based comparison, prescribed-motion
-  tests, and bounded validation experiments. OpenCap is a comparison method with its own
-  uncertainty, not an assumed ground truth.
+1. [Movesense acquisition and single-sensor feasibility](research/projects/movesense-opensense-foundation.md)
+  verifies one-sensor acquisition non-human before any governed human feasibility.
+2. [Movesense multi-sensor timing and scaling](research/projects/movesense-multisensor-scaling.md)
+  progresses from two sensors through 3, 5, and 10 sensors, first non-human and then,
+  when permitted, in simple staged human sessions.
+3. [Movesense calibration and orientation validation](research/projects/movesense-orientation-validation.md)
+  establishes calibration, sensor-fusion, coordinate, and orientation limits across the
+  supported sensor-count envelope.
+4. [Movesense-OpenSense interoperability](research/projects/movesense-opensense-interoperability.md)
+  develops reproducible OpenSense input, calibration, and inverse-kinematics acceptance.
+5. [Movesense-OpenSense and OpenCap comparison](research/projects/movesense-opencap-validation.md)
+  adds synchronized video comparison only after the wearable/OpenSense method has
+  explicit timing, orientation, placement, coordinate, and export limits.
 
-Both records are **proposed**. Project 1 supplies evidence for inventory, governance,
-method, and capability decisions across Phases 2--4. Project 2 begins only after Project
-1 makes timing, orientation, coordinate, and export limits explicit enough to support a
-meaningful comparison.
+Every new sensor count, task, or processing claim is tested non-human before a
+corresponding human feasibility stage. Human activity requires a documented institutional
+governance determination and applicable consent, privacy, supervision, and data plans.
+Feasibility does not establish validity, reliability, clinical utility, or an operational
+service. The OpenCap project was initially proposed as HMS-PROJ-002 and was renumbered
+HMS-PROJ-005 when the intermediate projects were made explicit.
 
 ## Phases
 
@@ -294,9 +301,11 @@ PTH6132 workspace.
 Phase 1 is complete. The next public-repository work is Phase 2: build a verified
 laboratory inventory and governance map. HMS-PROJ-001 is the first bounded setup project,
 beginning with Movesense hardware/firmware inventory and non-human bench acquisition.
-HMS-PROJ-002 then adds synchronized OpenCap comparison as the first multimodal validation
-expansion. Theory and other pilot-question development can proceed in parallel when it
-does not require unverified capability claims.
+HMS-PROJ-002 then measures multi-sensor timing and scales acquisition from two through
+ten sensors before HMS-PROJ-003 and HMS-PROJ-004 address orientation and OpenSense.
+HMS-PROJ-005 adds OpenCap as the first multimodal comparison. Theory and other
+pilot-question development can proceed in parallel when it does not require unverified
+capability claims.
 
 Website implementation remains intentionally deferred until representative theory,
 question, method, capability, and project records can exercise the content model. The

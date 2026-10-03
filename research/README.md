@@ -24,9 +24,15 @@ repository.
 
 ## Proposed Projects
 
-1. [Movesense-OpenSense laboratory foundation](projects/movesense-opensense-foundation.md)
-	establishes the HMS Lab's initial wearable-to-OpenSense acquisition, timing,
-	orientation, governance, and reproducibility pathway.
-2. [Movesense-OpenSense and OpenCap comparison](projects/movesense-opencap-validation.md)
-	extends that foundation with synchronized video-based comparison and bounded
-	validation experiments.
+1. [Movesense acquisition and single-sensor feasibility](projects/movesense-opensense-foundation.md)
+	establishes governed one-sensor acquisition from non-human bench recording through,
+	if permitted, a simple human feasibility session.
+2. [Movesense multi-sensor timing and scaling](projects/movesense-multisensor-scaling.md)
+	tests two sensors and then staged 3-, 5-, and 10-sensor configurations non-human
+	before corresponding governed human feasibility stages.
+3. [Movesense calibration and orientation validation](projects/movesense-orientation-validation.md)
+	establishes calibration, fusion, coordinate, and orientation limits.
+4. [Movesense-OpenSense interoperability](projects/movesense-opensense-interoperability.md)
+	develops bounded, reproducible OpenSense calibration and inverse-kinematics acceptance.
+5. [Movesense-OpenSense and OpenCap comparison](projects/movesense-opencap-validation.md)
+	extends the accepted wearable/OpenSense method with synchronized video comparison.
