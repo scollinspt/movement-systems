@@ -137,7 +137,57 @@ const slides: Slide[] = [
     ),
   },
   {
-    section: "04 · Proposed intervention",
+    section: "04 · Strategic analysis",
+    title: "A strategic snapshot at this stage",
+    tone: "paper",
+    content: (
+      <div className={styles.swotSlide}>
+        <div className={styles.slideHeading}>
+          <p className={styles.overline}>SWOT Analysis</p>
+          <h2>A strategic snapshot at this stage</h2>
+        </div>
+        <div className={styles.swotGrid}>
+          <article className={styles.swotStrengths}>
+            <div><span>S</span><h3>Strengths</h3><small>Internal · assets to use</small></div>
+            <ul>
+              <li>Existing BIOPAC, Movesense, OpenSim/OpenSense, DPT, and clinical resources</li>
+              <li>Courses, shared laboratories, research, and Pro Bono Clinic</li>
+              <li>A clinician-led, portable, question-first scientific identity</li>
+            </ul>
+          </article>
+          <article className={styles.swotWeaknesses}>
+            <div><span>W</span><h3>Weaknesses</h3><small>Internal · constraints to address</small></div>
+            <ul>
+              <li>No fully established operating structure, staffing model, or recurring budget</li>
+              <li>Technical validation, governance, data systems, and key capabilities remain in development</li>
+              <li>Limited space, faculty time, and continuity beyond a small number of people</li>
+            </ul>
+          </article>
+          <article className={styles.swotOpportunities}>
+            <div><span>O</span><h3>Opportunities</h3><small>External · possibilities to pursue</small></div>
+            <ul>
+              <li>Rapid improvement in wearable and portable movement-measurement technologies</li>
+              <li>Develop clinically valuable wearable and portable measurement methods</li>
+              <li>Cross-program workforce development, industry R&amp;D, and external funding</li>
+            </ul>
+          </article>
+          <article className={styles.swotThreats}>
+            <div><span>T</span><h3>Threats</h3><small>External · risks to anticipate</small></div>
+            <ul>
+              <li>Institutional budget constraints, workload, and changing priorities</li>
+              <li>Technology obsolescence, licensing changes, and vendor dependence</li>
+              <li>Pressure to overstate clinical readiness or prioritize sponsor needs</li>
+            </ul>
+          </article>
+        </div>
+        <p className={styles.swotLimit}>
+          SWOT organizes strategic factors at one point in time. It does not replace causal analysis of how those factors interact.
+        </p>
+      </div>
+    ),
+  },
+  {
+    section: "05 · Proposed intervention",
     title: "Create a laboratory organized around consequential questions.",
     tone: "forest",
     content: (
@@ -172,7 +222,7 @@ const slides: Slide[] = [
     ),
   },
   {
-    section: "05 · Organizational design",
+    section: "06 · Organizational design",
     title: "Hierarchical authority. Networked work.",
     tone: "paper",
     content: (
@@ -206,7 +256,7 @@ const slides: Slide[] = [
     ),
   },
   {
-    section: "06 · Operating model",
+    section: "07 · Operating model",
     title: "Give questions somewhere to go.",
     tone: "yellow",
     content: (
@@ -232,7 +282,7 @@ const slides: Slide[] = [
     ),
   },
   {
-    section: "07 · DPT education",
+    section: "08 · DPT education",
     title: "Learning to ask better questions",
     tone: "paper",
     content: (
@@ -252,7 +302,7 @@ const slides: Slide[] = [
     ),
   },
   {
-    section: "08 · Clinical inquiry",
+    section: "09 · Clinical inquiry",
     title: "From clinical observation to research question",
     tone: "forest",
     content: (
@@ -279,7 +329,7 @@ const slides: Slide[] = [
     ),
   },
   {
-    section: "09 · Measurement changes inquiry",
+    section: "10 · Measurement changes inquiry",
     title: "New measurement capabilities should change the questions we ask",
     tone: "yellow",
     content: (
@@ -324,7 +374,7 @@ const slides: Slide[] = [
     ),
   },
   {
-    section: "10 · Workforce and partnership",
+    section: "11 · Workforce and partnership",
     title: "Build workforce capacity while solving real R&D problems.",
     tone: "paper",
     content: (
@@ -361,7 +411,7 @@ const slides: Slide[] = [
     ),
   },
   {
-    section: "11 · Financial pathway",
+    section: "12 · Financial pathway",
     title: "Demonstrated capability creates a basis for R&D funding.",
     tone: "coral",
     content: (
@@ -390,7 +440,7 @@ const slides: Slide[] = [
     ),
   },
   {
-    section: "12 · Initial portfolio",
+    section: "13 · Initial portfolio",
     title: "Demonstrate range without losing coherence.",
     tone: "paper",
     content: (
@@ -419,7 +469,7 @@ const slides: Slide[] = [
     ),
   },
   {
-    section: "13 · Implementation",
+    section: "14 · Implementation",
     title: "Build capability in stages.",
     tone: "yellow",
     content: (
@@ -450,7 +500,7 @@ const slides: Slide[] = [
     ),
   },
   {
-    section: "14 · Causal network",
+    section: "15 · Causal network",
     title: "Every desirable change creates new demands.",
     tone: "forest",
     content: (
@@ -478,7 +528,7 @@ const slides: Slide[] = [
     ),
   },
   {
-    section: "15 · Current state",
+    section: "16 · Current state",
     title: "The project is underway. The system is not finished.",
     tone: "paper",
     content: (
@@ -521,7 +571,7 @@ const slides: Slide[] = [
     ),
   },
   {
-    section: "16 · Health Systems reflection",
+    section: "17 · Health Systems reflection",
     title: "This has been an example of a Health Systems project",
     tone: "forest",
     content: (

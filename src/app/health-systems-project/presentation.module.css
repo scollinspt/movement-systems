@@ -209,7 +209,7 @@
 .deckKicker {
   margin: 0 0 .8rem;
   color: var(--teal);
-  font-size: clamp(.56rem, .7vw, .72rem);
+  font-size: clamp(.8rem, .9vw, .95rem);
   font-weight: 600;
   letter-spacing: .11em;
   text-transform: uppercase;
@@ -283,7 +283,7 @@
 .presenter {
   margin: auto 0 0;
   color: #9bb7ae;
-  font-size: clamp(.62rem, .78vw, .78rem);
+  font-size: clamp(.82rem, .95vw, 1rem);
   letter-spacing: .05em;
   text-transform: uppercase;
 }
@@ -307,11 +307,11 @@
 }
 
 .tagField span {
-  padding: .52rem .75rem;
+  padding: .7rem 1rem;
   color: var(--forest);
   background: var(--white);
   border: 1px solid var(--line);
-  font-size: clamp(.62rem, .8vw, .82rem);
+  font-size: clamp(1.15rem, 1.4vw, 1.4rem);
   font-weight: 600;
 }
 
@@ -322,7 +322,7 @@
   border-top: 3px solid var(--yellow);
   color: var(--muted);
   font-family: var(--font-serif), serif;
-  font-size: clamp(1rem, 1.5vw, 1.55rem);
+  font-size: clamp(1.5rem, 2vw, 2rem);
 }
 
 .assetGrid {
@@ -399,6 +399,104 @@
   color: white;
 }
 
+.swotSlide {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.swotGrid {
+  margin-top: clamp(1rem, 2vw, 2rem);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid var(--ink);
+  border-left: 1px solid var(--line);
+}
+
+.swotGrid article {
+  min-height: clamp(155px, 16.5vw, 230px);
+  padding: clamp(.8rem, 1.4vw, 1.4rem);
+  display: grid;
+  grid-template-columns: minmax(145px, .72fr) 1.28fr;
+  gap: clamp(.7rem, 1.5vw, 1.5rem);
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.swotGrid article > div {
+  align-self: start;
+}
+
+.swotGrid article > div > span {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: var(--forest);
+  font-size: .68rem;
+  font-weight: 600;
+}
+
+.swotGrid h3 {
+  margin: .65rem 0 .1rem;
+  font-family: var(--font-serif), serif;
+  font-size: clamp(1.15rem, 1.65vw, 1.7rem);
+  font-weight: 500;
+  line-height: 1;
+}
+
+.swotGrid small {
+  color: var(--muted);
+  font-size: clamp(.72rem, .82vw, .84rem);
+  font-weight: 600;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.swotGrid ul {
+  margin: 0;
+  padding-left: 1rem;
+  color: var(--muted);
+  font-size: clamp(1.05rem, 1.25vw, 1.25rem);
+  line-height: 1.32;
+}
+
+.swotGrid li {
+  margin-bottom: .65rem;
+}
+
+.swotOpportunities {
+  background: rgba(230, 183, 79, .16);
+}
+
+.swotStrengths {
+  background: rgba(29, 112, 100, .07);
+}
+
+.swotWeaknesses,
+.swotThreats {
+  background: rgba(217, 95, 75, .06);
+}
+
+.swotGrid .swotOpportunities > div > span {
+  color: var(--ink);
+  background: var(--yellow);
+}
+
+.swotGrid .swotWeaknesses > div > span,
+.swotGrid .swotThreats > div > span {
+  background: var(--coral);
+}
+
+.swotLimit {
+  margin: auto 0 0;
+  color: var(--muted);
+  font-family: var(--font-serif), serif;
+  font-size: clamp(1rem, 1.15vw, 1.15rem);
+}
+
 .definitionGrid {
   margin-top: clamp(1.5rem, 3vw, 3.5rem);
   display: grid;
@@ -459,7 +557,7 @@
   width: 100%;
   padding: clamp(.55rem, 1vw, 1rem);
   border: 1px solid var(--ink);
-  font-size: clamp(.7rem, .95vw, .95rem);
+  font-size: clamp(1rem, 1.2vw, 1.2rem);
   font-weight: 600;
   text-align: center;
 }
@@ -717,7 +815,7 @@
   margin: .7rem 0 .2rem;
   display: block;
   color: var(--teal);
-  font-size: clamp(.52rem, .65vw, .66rem);
+  font-size: clamp(.75rem, .85vw, .88rem);
   font-weight: 600;
   letter-spacing: .09em;
   text-transform: uppercase;
@@ -751,7 +849,7 @@
   color: white;
   background: var(--forest);
   font-family: var(--font-serif), serif;
-  font-size: clamp(.75rem, 1vw, 1rem);
+  font-size: clamp(1rem, 1.2vw, 1.2rem);
   font-weight: 500;
 }
 
@@ -849,13 +947,14 @@
 
 .fundingPath {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   border-top: 1px solid rgba(54, 26, 21, .8);
+  border-left: 1px solid rgba(54, 26, 21, .25);
 }
 
 .fundingPath article {
   position: relative;
-  min-height: clamp(150px, 17vw, 230px);
+  min-height: clamp(120px, 11vw, 165px);
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -883,7 +982,7 @@
 
 .fundingPath p {
   margin: .5rem 0 0;
-  font-size: clamp(.58rem, .72vw, .74rem);
+  font-size: clamp(.9rem, 1.05vw, 1.05rem);
   line-height: 1.35;
 }
 
@@ -1057,7 +1156,7 @@
   padding: .25rem .45rem;
   display: inline-block;
   border: 1px solid currentColor;
-  font-size: clamp(.52rem, .62vw, .64rem);
+  font-size: clamp(.72rem, .82vw, .85rem);
   font-weight: 600;
   letter-spacing: .08em;
   text-transform: uppercase;
@@ -1149,6 +1248,35 @@
   font-family: var(--font-serif), serif;
   font-size: clamp(.78rem, 1.1vw, 1.12rem);
   line-height: 1.35;
+}
+
+.assetGrid article p,
+.problemList li,
+.definitionGrid p,
+.networkPanel span,
+.networkPanel > p:last-child,
+.entryPoints span,
+.loopBack,
+.pathway p,
+.clinicSlide blockquote,
+.translationLadder p,
+.measurementComparison p,
+.newQuestions span,
+.measurementPrinciple,
+.skillList span,
+.partnerOffer ul,
+.partnerOffer blockquote,
+.fundingPath p,
+.fundingCaution,
+.portfolioGrid p,
+.implementationSlide li p,
+.guardrail p,
+.causalSlide li,
+.statusColumns ul,
+.statusSlide blockquote,
+.requirementGrid p,
+.projectReflection blockquote {
+  font-size: clamp(1.05rem, 1.25vw, 1.25rem);
 }
 
 .controls {
@@ -1332,6 +1460,14 @@
   .causalSlide,
   .implementationSlide {
     display: block;
+  }
+
+  .swotGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .swotGrid article {
+    grid-template-columns: 125px 1fr;
   }
 
   .measurementComparison {
