@@ -157,6 +157,7 @@ export default function HmsLabPage() {
             develop observations into structured inquiry. Participation can range from literature and
             method work to governed data collection, analysis, modeling, and public scholarship.
           </p>
+          <NextLink href="/health-systems-project">View the Health Systems project presentation</NextLink>
         </SectionIntro>
         <blockquote>
           <p>Clinical observation should be able to become a research question without a patient automatically becoming a research participant.</p>

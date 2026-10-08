@@ -12,12 +12,13 @@ const routes = [
   "/applications",
   "/education",
   "/resources",
+  "/health-systems-project",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return routes.map((route) => ({
     url: `https://movementsystems.org${route}`,
-    lastModified: new Date("2026-09-25"),
+    lastModified: new Date(route === "/health-systems-project" ? "2026-10-08" : "2026-09-25"),
     changeFrequency: route === "" ? "monthly" : "yearly",
     priority: route === "" ? 1 : 0.8,
   }));
