@@ -36,3 +36,6 @@ repository.
 	develops bounded, reproducible OpenSense calibration and inverse-kinematics acceptance.
 5. [Movesense-OpenSense and OpenCap comparison](projects/movesense-opencap-validation.md)
 	extends the accepted wearable/OpenSense method with synchronized video comparison.
+6. [Ventilatory Pump Measurement and Mechanics](projects/ventilatory-pump-measurement-mechanics.md)
+	develops accessible measurement of maximal inspiratory pressure and a foundation for
+	studying ventilatory pump function, chest-wall motion, and thoracic mechanics.

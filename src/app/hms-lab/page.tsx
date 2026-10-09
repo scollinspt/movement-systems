@@ -1,30 +1,49 @@
 import type { Metadata } from "next";
-import Image from "next/image";
-import { ClipboardCheck, FlaskConical, HeartHandshake, Move3d, Users } from "lucide-react";
-import { NextLink, PageHero, SectionIntro, Status } from "@/components/page-elements";
-import { ProjectSequence } from "@/components/project-sequence";
+import { ArrowRight, BookOpen, FlaskConical, Info, UserRound, Users } from "lucide-react";
+import Link from "next/link";
+import { PageHero, Status } from "@/components/page-elements";
 
 export const metadata: Metadata = {
   title: "Human Movement Systems Laboratory",
   description:
-    "The HMS Lab is a clinically oriented physical therapy research program connecting movement observation, measurement, modeling, and patient-specific inquiry.",
+    "Explore the HMS Lab, its projects, community, scholarly resources, and clinically oriented program of movement inquiry.",
 };
 
-const labRoles = [
+const destinations = [
   {
-    icon: Move3d,
-    title: "Observe movement as a system",
-    text: "Study movement as the visible behavior of interacting physiological, neural, muscular, mechanical, behavioral, task, and environmental systems.",
+    href: "/hms-lab/about",
+    icon: Info,
+    label: "About",
+    title: "Purpose and direction",
+    description: "The lab’s scientific identity, clinical orientation, and current development.",
   },
   {
+    href: "/hms-lab/projects",
     icon: FlaskConical,
-    title: "Make clinical questions testable",
-    text: "Translate a puzzling pattern from practice into competing explanations, observable quantities, and research designs that can change what the profession knows.",
+    label: "Projects",
+    title: "Questions under study",
+    description: "Current project programs, methods, collaborators, and public records.",
   },
   {
-    icon: HeartHandshake,
-    title: "Return knowledge to care",
-    text: "Develop clinically meaningful explanations and methods while preserving the boundary between research findings and conclusions about an individual patient.",
+    href: "/hms-lab/people",
+    icon: UserRound,
+    label: "People",
+    title: "The lab community",
+    description: "Faculty, students, clinicians, and collaborators contributing to the HMS Lab.",
+  },
+  {
+    href: "/hms-lab/participate",
+    icon: Users,
+    label: "Participate",
+    title: "Join the inquiry",
+    description: "The weekly seminar and ways students, clinicians, faculty, and collaborators contribute.",
+  },
+  {
+    href: "/hms-lab/library",
+    icon: BookOpen,
+    label: "Library",
+    title: "Shared scholarly resources",
+    description: "The Zotero library, project records, repositories, and public presentations.",
   },
 ];
 
@@ -33,135 +52,61 @@ export default function HmsLabPage() {
     <>
       <PageHero
         eyebrow="Human Movement Systems Laboratory"
-        title={<>A laboratory built around <em>clinical questions.</em></>}
-        summary="The HMS Lab is the empirical movement research program of Movement Systems: clinically oriented, grounded in physical therapy, and designed to move questions from practice into rigorous inquiry and back again."
+        title={<>A community of <em>inquiry.</em></>}
+        summary="The HMS Lab studies human movement through clinically oriented questions, accessible measurement, physiological and mechanical analysis, and computational modeling."
         tone="forest"
-        aside={
-          <div className="lab-orientation" aria-label="HMS Lab orientation">
-            <span>Clinical observation</span><i />
-            <span>Movement question</span><i />
-            <span>Measurement</span><i />
-            <span>Mechanism</span><i />
-            <strong>Clinical inquiry</strong>
-          </div>
-        }
       />
 
-      <section className="page-section section-shell">
-        <SectionIntro label="Purpose" title="Research for a profession organized around movement.">
-          <p className="lead">
-            Physical therapists do not merely apply movement science. They encounter movement in
-            context, form explanations, test change, and revise what they believe about a person.
-          </p>
-          <p>
-            The HMS Lab makes that work scientifically inspectable. It connects clinical observation
-            to measurement and modeling without reducing a person to a signal, a diagnosis, or a
-            laboratory task.
-          </p>
-        </SectionIntro>
-        <div className="role-ledger">
-          {labRoles.map(({ icon: Icon, title, text }, index) => (
-            <article key={title}>
-              <div className="ledger-index"><Icon aria-hidden="true" /><span>0{index + 1}</span></div>
-              <h3>{title}</h3>
-              <p>{text}</p>
-            </article>
-          ))}
-        </div>
+      <section className="lab-hub-intro section-shell">
+        <p className="section-label">HMS Lab</p>
+        <h2>Questions about human movement bring the lab together.</h2>
+        <p>
+          Students, clinicians, faculty, and collaborators develop questions, methods, evidence,
+          and models together. Explore the laboratory through the topics below.
+        </p>
       </section>
 
-      <section className="clinical-lab-band">
-        <div className="clinical-lab-statement">
-          <p className="section-label section-label-light">A clinical research identity</p>
-          <h2>Not a gait lab with clinical applications. A clinical inquiry lab that studies movement.</h2>
-        </div>
-        <div className="clinical-lab-copy">
-          <p>
-            Rehabilitation, functional movement, motor control, physiological stress, ergonomics,
-            adaptation, human performance, and human-device interaction all belong when they sharpen
-            a question that matters to movement and care.
-          </p>
-          <p>
-            Instruments are selected because a question requires them. Capabilities are published
-            only after readiness, uncertainty, and interpretive limits have been established.
-          </p>
-        </div>
-      </section>
+      <nav className="lab-hub-nav section-shell" aria-label="Explore the HMS Lab">
+        {destinations.map(({ href, icon: Icon, label, title, description }, index) => (
+          <Link href={href} key={href}>
+            <div className="lab-hub-nav-meta">
+              <Icon aria-hidden="true" />
+              <span>0{index + 1} · {label}</span>
+            </div>
+            <h2>{title}</h2>
+            <p>{description}</p>
+            <ArrowRight aria-hidden="true" />
+          </Link>
+        ))}
+      </nav>
 
-      <section className="page-section section-shell lab-status-section">
-        <div>
-          <Status>Program development</Status>
-          <h2>Current work is foundational.</h2>
-          <p>
-            The laboratory program is defining its research agenda, inventorying resources, specifying
-            governance, and identifying representative pilot questions. This site does not yet claim
-            operational measurement services or validated laboratory capabilities.
-          </p>
-          <NextLink href="/research">See the emerging research agenda</NextLink>
-        </div>
-        <ol className="readiness-list">
-          <li><ClipboardCheck aria-hidden="true" /><span><strong>Verify</strong> equipment, software, space, access, and limits.</span></li>
-          <li><FlaskConical aria-hidden="true" /><span><strong>Design</strong> pilot work from clinical and scientific questions.</span></li>
-          <li><Users aria-hidden="true" /><span><strong>Govern</strong> research, education, clinical care, privacy, and participation.</span></li>
-          <li><Move3d aria-hidden="true" /><span><strong>Demonstrate</strong> capability before describing it as operational.</span></li>
-        </ol>
-      </section>
-
-      <section className="project-program project-program-lab">
+      <section className="lab-current-work">
         <div className="section-shell">
-          <SectionIntro label="Current project sequence" title="Evidence before escalation.">
-            <p className="lead">
-              The lab progresses from one sensor to two and then staged 3-, 5-, and 10-sensor
-              configurations before adding OpenSense and OpenCap comparison.
-            </p>
-            <p>
-              All five projects remain proposed. Each new sensor count and method is tested
-              non-human before governed human feasibility, and feasibility does not establish an
-              operational laboratory service.
-            </p>
-          </SectionIntro>
-          <ProjectSequence />
+          <div className="lab-current-work-heading">
+            <div>
+              <p className="section-label section-label-light">Current work</p>
+              <h2>Projects in development</h2>
+            </div>
+            <Link className="inline-link light-link" href="/hms-lab/projects">
+              View all projects <ArrowRight size={17} aria-hidden="true" />
+            </Link>
+          </div>
+          <div className="lab-current-work-grid">
+            <Link href="/hms-lab/projects/movesense-opensense">
+              <Status tone="proposed">Proposed</Status>
+              <h3>Movesense–OpenSense Integration</h3>
+              <p>Developing a scalable wearable measurement pathway for OpenSense.</p>
+            </Link>
+            <Link href="/hms-lab/projects/ventilatory-pump-measurement-mechanics">
+              <Status>Planning</Status>
+              <h3>Ventilatory Pump Measurement and Mechanics</h3>
+              <p>
+                Developing accessible measurement of ventilatory pump pressure and chest-wall
+                mechanics.
+              </p>
+            </Link>
+          </div>
         </div>
-      </section>
-
-      <section className="people-section">
-        <div className="people-image">
-          <Image
-            src="https://avatars.githubusercontent.com/u/75478344?v=4"
-            alt="Sean M. Collins"
-            width={520}
-            height={520}
-            priority
-          />
-        </div>
-        <div className="people-copy">
-          <p className="section-label">Program leadership</p>
-          <h2>Sean M. Collins, PT, ScD</h2>
-          <p className="lead">Physical therapist · Professor of Clinical Inquiry · Scientist · Educator</p>
-          <p>
-            The HMS Lab extends a program spanning physical therapy, clinical physiology,
-            physiological measurement, ergonomics and human factors, causal analysis, evidence
-            synthesis, and computational clinical inquiry. It is a convergence of that work, not a
-            departure from it.
-          </p>
-          <a className="inline-link" href="https://scollinspt.github.io/">
-            View the professional program <span aria-hidden="true">↗</span>
-          </a>
-        </div>
-      </section>
-
-      <section className="student-inquiry section-shell">
-        <SectionIntro label="Students and clinicians" title="Questions should have somewhere to go.">
-          <p>
-            The lab is intended to create a durable pathway for students, faculty, and clinicians to
-            develop observations into structured inquiry. Participation can range from literature and
-            method work to governed data collection, analysis, modeling, and public scholarship.
-          </p>
-          <NextLink href="/health-systems-project">View the Health Systems project presentation</NextLink>
-        </SectionIntro>
-        <blockquote>
-          <p>Clinical observation should be able to become a research question without a patient automatically becoming a research participant.</p>
-        </blockquote>
       </section>
     </>
   );

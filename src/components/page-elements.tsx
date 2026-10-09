@@ -12,7 +12,7 @@ type PageHeroProps = {
 
 export function PageHero({ eyebrow, title, summary, aside, tone = "paper" }: PageHeroProps) {
   return (
-    <header className={`page-hero page-hero-${tone}`}>
+    <header className={`page-hero page-hero-${tone}${aside ? "" : " page-hero-no-aside"}`}>
       <div className="page-hero-copy reveal">
         <p className="eyebrow">{eyebrow}</p>
         <h1>{title}</h1>

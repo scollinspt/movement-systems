@@ -12,6 +12,14 @@ validated.
 4. [Movesense-OpenSense interoperability](movesense-opensense-interoperability.md)
 5. [Movesense-OpenSense and OpenCap comparison](movesense-opencap-validation.md)
 
+## Ventilatory pump project
+
+6. [Ventilatory Pump Measurement and Mechanics](ventilatory-pump-measurement-mechanics.md)
+
+This project begins with development and evaluation of an accessible maximal inspiratory
+pressure measurement system. Developing directions include synchronized pressure and
+chest-wall motion measurement and computational thoracic modeling.
+
 ## Required escalation pattern
 
 The sequence advances from one sensor to two sensors and then through staged 3-, 5-,
