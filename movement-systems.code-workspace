@@ -23,6 +23,9 @@
 		},
 		{
 			"path": "../../Library/CloudStorage/OneDrive-USNH/00_Teaching/syllabus-template"
+		},
+		{
+			"path": "../hms-movesense-opensense/movesense-opensense"
 		}
 	],
 	"settings": {}

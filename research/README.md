@@ -22,6 +22,13 @@ the public site only through the process in
 Do not place identifiable student information or restricted educational records in the
 repository.
 
+## Literature and Evidence
+
+The [HMS Lab Literature and Evidence Plan](literature/README.md) describes how the
+laboratory's Zotero group library will support project evidence maps, methods matrices,
+seminar readings, claim and source checks, research planning, and selected website
+publications.
+
 ## Proposed Projects
 
 1. [Movesense acquisition and single-sensor feasibility](projects/movesense-opensense-foundation.md)
