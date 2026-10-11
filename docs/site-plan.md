@@ -2,17 +2,16 @@
 
 ## Implementation Status
 
-The first website scaffold was implemented on 2026-09-25 using Next.js 16.3.6, React
-19.2.8, TypeScript, static export, and a manually triggered GitHub Pages workflow. The
-initial route structure follows this plan and gives particular depth to the HMS Lab,
-Clinical Inquiry, instantiation, movement theory, and PSU DPT educational model.
+The website was implemented beginning on 2026-09-25 using Next.js 16.3.6, React 19.2.8,
+TypeScript, static export, and GitHub Pages. The current route structure follows this
+plan and gives particular depth to the HMS Lab, Clinical Inquiry, instantiation,
+movement theory, and PSU DPT educational model.
 
 The scaffold is a public orientation and content-development surface, not a claim that
 planned laboratory capabilities, theories, methods, projects, or results are mature.
 Durable scholarly records still pass through the content model and publication gate.
-GitHub Pages activation, Cloudflare DNS configuration, and the first public deployment
-were completed on September 25, 2026. HTTPS certificate provisioning and enforcement
-remain the final release check.
+GitHub Pages activation, Cloudflare DNS configuration, the first public deployment, and
+HTTPS were completed. The site is live at `https://movementsystems.org`.
 
 ## Purpose and Audience
 
@@ -93,6 +92,8 @@ first viewport without becoming a generic marketing page.
 - Current capabilities, in-development capabilities, and explicit gaps
 - Measurement spaces and distributed field model
 - Student research inquiry
+- Participation pathways and weekly seminar information
+- Curated literature, project evidence, and public Zotero collections
 - Governance and relationship to the Pro Bono Clinic
 - Collaboration pathways supported by verified capabilities
 
@@ -141,12 +142,14 @@ capability, project, method, and result must display a maturity state and releva
 
 - Canonical public URL: `https://movementsystems.org`.
 - Host: GitHub Pages, configured with the registered custom domain.
-- Planned framework: Next.js with static export, using the installed version's bundled
-  documentation when implementation begins.
-- Deployment: manual GitHub Actions workflow; pushing code does not publish it.
+- Framework: Next.js with static export, using the installed version's bundled
+  documentation for implementation decisions.
+- Deployment: GitHub Actions, available manually and scheduled daily at 10:15 UTC.
+- Zotero integration: public group metadata is validated and rendered during the static
+  build; failed validation prevents replacement of the existing deployment.
 - Routing: served from the domain root without a `/movement-systems` base path.
-- Domain configuration: configure DNS and GitHub Pages together when the first release
-  is approved, following the deployment method's current requirements.
+- Domain configuration: Cloudflare DNS and GitHub Pages serve the verified custom domain
+  over HTTPS.
 - Site output: generated and not treated as authoritative source.
 
 ## Physiolog As A Technical Reference
@@ -155,7 +158,7 @@ Physiolog provides a proven reference implementation for:
 
 - Next.js and TypeScript project configuration;
 - static export and GitHub Pages deployment;
-- manual publication workflows;
+- reviewed publication workflows;
 - book-source processing and page generation;
 - navigation, accessibility, metadata, and link-checking patterns; and
 - separation of authoritative source content from generated site output.

@@ -1,6 +1,6 @@
 # Movement Systems Roadmap
 
-_Last updated: 2026-10-03_
+_Last updated: 2026-10-11_
 
 This roadmap coordinates public Movement Systems scholarship, development of the Human
 Movement Systems Laboratory (HMS Lab), the public website, educational translation, and
@@ -92,10 +92,10 @@ Planned public areas are:
 
 See [docs/site-plan.md](docs/site-plan.md) for the detailed information architecture.
 
-## Initial HMS Lab Project Sequence
+## Initial HMS Lab Project Portfolio
 
-Five proposed methodological projects establish laboratory infrastructure before
-clinically complex research begins:
+Five proposed Movesense methodological projects establish wearable measurement
+infrastructure before clinically complex work begins:
 
 1. [Movesense acquisition and single-sensor feasibility](research/projects/movesense-opensense-foundation.md)
   verifies one-sensor acquisition non-human before any governed human feasibility.
@@ -117,6 +117,15 @@ governance determination and applicable consent, privacy, supervision, and data 
 Feasibility does not establish validity, reliability, clinical utility, or an operational
 service. The OpenCap project was initially proposed as HMS-PROJ-002 and was renumbered
 HMS-PROJ-005 when the intermediate projects were made explicit.
+
+A separate sixth project,
+[Ventilatory Pump Measurement and Mechanics](research/projects/ventilatory-pump-measurement-mechanics.md),
+begins with accessible maximal inspiratory pressure measurement and may later extend to
+chest-wall motion and thoracic modeling. It is not a stage in the Movesense sequence.
+
+The HMS Lab Zotero group provides the shared literature infrastructure across these
+projects. Its scientific, method, project, and seminar collections are documented in
+[research/literature/README.md](research/literature/README.md).
 
 ## Phases
 
@@ -161,6 +170,8 @@ responsible pilot work without overstating capability.
 
 ### 3. Theory and research foundation
 
+- [x] Establish the HMS Lab Zotero hierarchy, controlled evidence-role tags, project
+  collections, duplicate cleanup, and explicit ancestor membership.
 - [ ] Establish stable identifiers and templates for each public content type.
 - [ ] Define foundational terms including movement, function, capacity, performance,
   constraint, variability, stability, compensation, adaptation, and control.
@@ -212,21 +223,27 @@ maturity state, limitations, review record, and stable identifier.
 
 - [x] Build a Next.js static-export site in this repository, after consulting the bundled
       Next.js documentation for the installed version.
-- [x] Configure GitHub Pages to publish at `movementsystems.org`; HTTPS certificate
-  provisioning remains the final release check.
+- [x] Configure GitHub Pages and HTTPS at `movementsystems.org`.
 - [x] Configure the custom domain and DNS records during the first approved release.
-- [x] Use a manual GitHub Actions deployment so a push does not automatically publish.
+- [x] Provide manual GitHub Actions deployment and a daily static rebuild for current
+  public Zotero metadata.
 - [x] Serve the static export from the domain root without a `/movement-systems` base
   path.
 - [ ] Add checks for static builds, broken links, accessibility, and restricted files.
 - [x] Keep the site usable without authentication and without links to Canvas shells.
 
-**Exit criterion:** an approved static build deploys manually to GitHub Pages and remains
-independent of private storage and sibling repositories.
+**Exit criterion:** an approved static build deploys to GitHub Pages, refreshes only
+public Zotero metadata automatically, and remains independent of private storage and
+sibling repositories.
 
 ### 7. Initial public site
 
 - [x] Build the Movement Systems and HMS Lab orientation for the first approved release.
+- [x] Restructure the HMS Lab as a navigation hub with dedicated About, Projects, People,
+  Participate, and Library pages.
+- [x] Publish HMS-PROJ-001 through HMS-PROJ-006 at their stated maturity.
+- [x] Publish a Zotero-backed literature directory and project collection links with
+  daily static synchronization.
 - [ ] Publish a small set of foundational theory records.
 - [ ] Publish one research question and linked project record at its actual maturity.
 - [ ] Publish verified method and capability records without implying unsupported
@@ -267,7 +284,8 @@ executing successfully.
 - [ ] Continue operational PTH6132 development in the private course workspace.
 - [ ] Promote durable public educational resources through the publication gate.
 - [ ] Evaluate learning and usability without publishing identifiable data.
-- [ ] Establish the Movement Inquiry Meeting and pathways for student participation.
+- [ ] Establish the weekly HMS Lab Seminar and pathways for student participation;
+  Fridays from 1:00–2:00 p.m. in Samuel Read Hall, Room 216 remain tentative.
 - [ ] Establish foundational measurement-science learning for every DPT student through
   Movement Systems and optional curricular or extracurricular HMS Lab pathways for
   deeper development.

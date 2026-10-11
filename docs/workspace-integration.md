@@ -6,9 +6,15 @@
 
 Owns public movement-systems theory and synthesis, the HMS Lab's public research agenda,
 public questions, methods, capability records, approved results, educational
-translations, and the static website. It decides whether its public scholarly and
-educational records are ready to publish, but it does not own private course operations,
-the canonical Models4PT knowledge base, or patient-specific inference.
+translations, the HMS Lab Zotero group structure, and the static website. It decides
+whether its public scholarly and educational records are ready to publish, but it does
+not own private course operations, the canonical Models4PT knowledge base, or
+patient-specific inference.
+
+The public HMS Lab Zotero group is the bibliographic source of truth for literature
+metadata and collection membership. The website reads public metadata during static
+builds. Zotero PDFs remain in Zotero storage and are not copied into the website or this
+repository.
 
 Operational PTH6132 development belongs primarily in institution-managed private course
 storage and Canvas. Public concepts and resources move into this repository only through
@@ -83,6 +89,8 @@ is itself a patient conclusion.
 ```text
 HMS Lab observations and experiments -------+
                                              |
+HMS Lab Zotero literature -------------------+
+                                             |
 stats4PT evidence ---------------------------+
                                              |
 Physiolog mechanisms ------------------------+-> movement-systems scientific review
@@ -96,9 +104,11 @@ reviewed movement-domain contributions ------------------> Models4PT
                                                    Clinical Inference Engine
 ```
 
-The transfer is deliberate rather than live. Cross-repository content is pinned or
-exported at reviewed revisions so a change elsewhere cannot silently alter a published
-research or educational record.
+Cross-repository transfer is deliberate rather than live. Content from sibling
+repositories is pinned or exported at reviewed revisions so a change elsewhere cannot
+silently alter a published research or educational record. Public Zotero metadata is a
+bounded exception: the daily static build updates reviewed collection counts and links,
+but does not automatically publish interpretations, claims, notes, or PDFs.
 
 ## Initial Integration Sequence
 
@@ -114,15 +124,17 @@ research or educational record.
    audience in `movement-systems`.
 8. Create the appropriate theory, method, capability, project, result, model, or
    educational record using [content-model.md](content-model.md).
-9. Include the approved record in a manual public-site release.
+9. Connect claims and methods to curated Zotero sources where relevant.
+10. Include the approved record in website source on `main`, where it is eligible for
+    the next manual or scheduled public-site release.
 
 When work also contributes to the Clinical Inquiry Ecosystem:
 
-10. Separate source claims and model assumptions from pedagogical simplifications.
-11. Package the reviewed movement-domain contribution using the contract in
+11. Separate source claims and model assumptions from pedagogical simplifications.
+12. Package the reviewed movement-domain contribution using the contract in
    [clinical-inquiry-integration.md](clinical-inquiry-integration.md).
-12. Propose it to Models4PT for independent curation; do not treat transfer as acceptance.
-13. Preserve the boundary between population knowledge and patient-specific inference.
+13. Propose it to Models4PT for independent curation; do not treat transfer as acceptance.
+14. Preserve the boundary between population knowledge and patient-specific inference.
 
 ## What Is Not Integrated
 
@@ -130,6 +142,7 @@ When work also contributes to the Clinical Inquiry Ecosystem:
 - Runtime dependence on sibling workspace folders
 - Automatic publication when another repository changes
 - Automatic synchronization from private course or research storage
+- Public website access to Zotero PDFs or extracted full text
 - Live syllabus dependencies on the `syllabus-template` workspace
 - Duplication of Physiolog chapters or adjunct-owned presentations
 - Engine-specific terminology as the organizing structure of the curriculum

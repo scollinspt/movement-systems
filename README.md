@@ -132,6 +132,7 @@ content/
   source-library/         # Citation metadata and public provenance records
 docs/                     # Research, content, site, publication, and workspace decisions
 research/                 # Public research questions, programs, methods, and outputs
+scripts/                  # Read-only local research and literature utilities
 ROADMAP.md                # Phased project plan and current status
 PROJECT_LOG.md            # Dated decisions, pending questions, and return-to-work prompt
 ```
@@ -167,7 +168,12 @@ Current public routes are:
 - `/`: Movement Systems and HMS Lab orientation;
 - `/theory`: foundational movement-systems propositions and concept scaffold;
 - `/research`: research agenda and public record structure;
-- `/hms-lab`: clinical research identity, governance, readiness, and leadership;
+- `/hms-lab`: HMS Lab orientation and navigation;
+- `/hms-lab/about`: laboratory purpose and approach;
+- `/hms-lab/projects`: project navigation and individual project pages;
+- `/hms-lab/people`: laboratory people and roles;
+- `/hms-lab/participate`: participation and weekly seminar information;
+- `/hms-lab/library`: the Zotero-backed literature and evidence directory;
 - `/clinical-inquiry`: the Clinical Inquiry Ecosystem and instantiation;
 - `/measurement-modeling`: measurement, uncertainty, observability, and modeling;
 - `/applications`: rehabilitation, performance, ergonomics, and human-device contexts;
@@ -189,13 +195,18 @@ npm run build
 ```
 
 The generated `out/` directory is not authoritative source and is excluded from Git.
-The GitHub Pages workflow is manual; a push alone does not publish the site. GitHub Pages
-activation, Cloudflare DNS configuration, and the first approved deployment were
-completed on September 25, 2026. GitHub's custom-domain TLS certificate was still
-provisioning immediately after deployment, so HTTPS verification remains the final
-release check.
+The GitHub Pages workflow can be started manually and runs daily at 10:15 UTC so public
+Zotero collection counts and links remain current. A push does not deploy immediately,
+but reviewed website changes on `main` are eligible for the next scheduled deployment.
+GitHub Pages, Cloudflare DNS, the custom domain, and HTTPS are operational.
+
+The HMS Lab Zotero group is the bibliographic source of truth for the literature views.
+The static build reads its public metadata, validates required collections, and fails
+before deployment if the response is unavailable or invalid. Local VS Code sessions can
+use the read-only commands documented in
+[research/literature/README.md](research/literature/README.md) to search metadata and
+inspect locally synchronized PDFs without committing them.
 
 Course architecture and the Spring 2027 semester map remain useful project records, but
 future operational PTH6132 development belongs primarily in the private course workspace.
-Website implementation has not begun. See the [roadmap](ROADMAP.md) for the revised
-sequence.
+See the [roadmap](ROADMAP.md) for the current implementation sequence.

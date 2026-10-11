@@ -6,9 +6,10 @@
 **Recorded:** 2026-10-03
 
 No website source change or deployment is authorized by this document. The current
-website correctly presents the five proposed Movesense projects and does not claim that
-the HMS Lab offers a clinical measurement service. Preserve those safeguards until a
-separate content review approves specific updates.
+website presents the five proposed Movesense projects, the separately developing
+Ventilatory Pump Measurement and Mechanics project, and the public HMS Lab literature
+directory. It does not claim that the HMS Lab offers a clinical measurement service.
+Preserve those safeguards until a separate content review approves specific updates.
 
 ## Purpose
 
@@ -128,4 +129,5 @@ When approved, review at least:
 
 Implementation should follow the installed Next.js documentation, pass lint and static
 build checks, receive desktop and mobile review, and require a separately approved manual
-GitHub Pages deployment.
+or scheduled GitHub Pages deployment. Approved website source must reach `main` only
+when it is ready for the next daily build.

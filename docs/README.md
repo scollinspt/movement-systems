@@ -27,5 +27,8 @@ and research work.
   public/private and research-governance boundaries.
 - [workspace-integration.md](workspace-integration.md): responsibilities and transfer
   points among repositories in the workspace.
+- [../research/literature/README.md](../research/literature/README.md): HMS Lab Zotero
+  curation, evidence workflows, local PDF access, website integration, and automatic
+  synchronization.
 
 The phased implementation sequence is maintained in [../ROADMAP.md](../ROADMAP.md).

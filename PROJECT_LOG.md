@@ -1,5 +1,35 @@
 # Project Log
 
+## 2026-10-11: HMS Lab Literature Infrastructure And Website Integration
+
+### Zotero organization
+
+Reorganized the public HMS Lab Zotero group into scientific, measurement, modeling,
+clinical, project, and seminar hierarchies. Papers may belong to multiple collections,
+and every lower-level membership is repeated explicitly through its ancestor
+collections. Added controlled evidence-role and project tags, removed three exact
+duplicate records, and created a focused collection for movement-system identity,
+expertise, and diagnosis in physical therapy.
+
+### Local research workflow
+
+Added a read-only local Zotero helper that searches group metadata, resolves locally
+synchronized PDF attachments, and extracts temporary searchable text outside the
+repository. No API key, PDF, or extracted full text is committed.
+
+### Website and deployment
+
+Added validated build-time reads from Zotero's public API. The HMS Lab Library page now
+shows current scientific collection counts, the unique-work total, the featured physical
+therapy collection, and evidence-workflow explanations. The Movesense–OpenSense and
+Ventilatory Pump project pages link to their current Zotero project collections.
+
+GitHub Pages now rebuilds daily at 10:15 UTC and remains manually triggerable. Invalid
+or unavailable Zotero data fails the build before deployment, leaving the current site
+intact. Commit `838f37c80df03904b5c55b8eb3a1f595ff006fbe` and workflow run
+[`38129387869`](https://github.com/scollinspt/movement-systems/actions/runs/38129387869)
+were deployed successfully and verified on the live site.
+
 ## 2026-10-03: Course–Lab Integration And Measurement Vision
 
 ### Direction

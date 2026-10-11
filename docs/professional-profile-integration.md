@@ -58,9 +58,10 @@ project sites rather than duplicate their content.
 
 ## Publication And Deployment Boundary
 
-The Movement Systems source is committed and pushed, but the site has not yet received
-its first approved GitHub Pages deployment or DNS activation. Do not describe
-`movementsystems.org` as live until that deployment is verified.
+Movement Systems is live at `https://movementsystems.org` with verified GitHub Pages,
+DNS, and HTTPS. The professional profile may describe and link to the public Movement
+Systems and HMS Lab program while leaving detailed project and literature content in
+the authoritative site.
 
 Before deploying `scollinspt`:
 

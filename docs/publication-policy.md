@@ -106,6 +106,11 @@ The record structures and maturity states are defined in
 [content-model.md](content-model.md) and
 [research-architecture.md](research-architecture.md).
 
+Because GitHub Pages rebuilds daily, any website source merged or pushed to `main` must
+already have passed this gate. The scheduled build may refresh public Zotero metadata,
+collection counts, and links; it does not authorize new interpretations, claims, notes,
+or full-text publication.
+
 ## Source Libraries
 
 Only public provenance records, citation metadata, project-authored notes, and
