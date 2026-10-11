@@ -5,7 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "lint": "eslint"
+    "lint": "eslint",
+    "literature:find": "node scripts/zotero-library.mjs find",
+    "literature:pdf": "node scripts/zotero-library.mjs pdf",
+    "literature:text": "node scripts/zotero-library.mjs text",
+    "literature:clean": "node scripts/zotero-library.mjs clean"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",

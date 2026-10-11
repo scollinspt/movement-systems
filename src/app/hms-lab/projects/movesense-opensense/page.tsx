@@ -1,7 +1,13 @@
 import type { Metadata } from "next";
 import { HmsLabNav } from "@/components/hms-lab-nav";
 import { PageHero, SectionIntro } from "@/components/page-elements";
+import { ProjectLiterature } from "@/components/project-literature";
 import { ProjectSequence } from "@/components/project-sequence";
+import {
+  getZoteroCollection,
+  getZoteroLibrarySnapshot,
+  zoteroCollectionKeys,
+} from "@/lib/zotero";
 
 export const metadata: Metadata = {
   title: "Movesense–OpenSense Integration",
@@ -9,7 +15,13 @@ export const metadata: Metadata = {
     "The HMS Lab project developing Movesense acquisition, calibration, scaling, OpenSense interoperability, and OpenCap comparison.",
 };
 
-export default function MovesenseOpenSenseProjectPage() {
+export default async function MovesenseOpenSenseProjectPage() {
+  const library = await getZoteroLibrarySnapshot();
+  const projectCollection = getZoteroCollection(
+    library,
+    zoteroCollectionKeys.movesenseOpenSense,
+  );
+
   return (
     <>
       <PageHero
@@ -31,6 +43,11 @@ export default function MovesenseOpenSenseProjectPage() {
           <ProjectSequence />
         </div>
       </section>
+      <ProjectLiterature
+        collection={projectCollection}
+        description="This collection supports the project’s work in wearable sensing, calibration, synchronization, validation, musculoskeletal modeling, and OpenSense interoperability."
+        synchronizedAt={library.synchronizedAt}
+      />
     </>
   );
 }

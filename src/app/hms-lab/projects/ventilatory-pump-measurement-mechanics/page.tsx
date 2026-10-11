@@ -2,6 +2,12 @@ import type { Metadata } from "next";
 import { ArrowRight } from "lucide-react";
 import { HmsLabNav } from "@/components/hms-lab-nav";
 import { PageHero, Status } from "@/components/page-elements";
+import { ProjectLiterature } from "@/components/project-literature";
+import {
+  getZoteroCollection,
+  getZoteroLibrarySnapshot,
+  zoteroCollectionKeys,
+} from "@/lib/zotero";
 
 export const metadata: Metadata = {
   title: "Ventilatory Pump Measurement and Mechanics",
@@ -9,7 +15,13 @@ export const metadata: Metadata = {
     "The HMS Lab project studying ventilatory pump pressure generation, inspiratory muscle performance, chest-wall motion, and thoracic mechanics.",
 };
 
-export default function VentilatoryPumpProjectPage() {
+export default async function VentilatoryPumpProjectPage() {
+  const library = await getZoteroLibrarySnapshot();
+  const projectCollection = getZoteroCollection(
+    library,
+    zoteroCollectionKeys.ventilatoryPump,
+  );
+
   return (
     <>
       <PageHero
@@ -48,6 +60,11 @@ export default function VentilatoryPumpProjectPage() {
           </div>
         </div>
       </section>
+      <ProjectLiterature
+        collection={projectCollection}
+        description="This developing collection will support maximal inspiratory pressure measurement, ventilatory pump performance, chest-wall motion, and thoracic mechanics."
+        synchronizedAt={library.synchronizedAt}
+      />
     </>
   );
 }

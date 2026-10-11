@@ -358,6 +358,31 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .resource-directory h3 { margin: 2.5rem 0 .6rem; font-family: var(--font-serif), serif; font-size: 1.65rem; font-weight: 500; }
 .resource-directory p { color: var(--muted); }
 .resource-directory a { display: inline-block; margin-top: 1rem; padding-bottom: .1rem; border-bottom: 1px solid var(--coral); font-size: .8rem; font-weight: 600; }
+.zotero-library-section { background: var(--forest); }
+.zotero-library-section .section-intro { color: white; }
+.zotero-library-section .section-intro-copy { color: #c9d9d3; }
+.zotero-collection-grid { margin-top: 4rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: rgba(255,255,255,.22); }
+.zotero-collection-grid > a { min-height: 300px; padding: 2rem; display: grid; align-content: space-between; color: white; background: var(--forest); }
+.zotero-collection-grid > a > div { display: flex; justify-content: space-between; gap: 1rem; color: var(--yellow); font-size: .66rem; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; }
+.zotero-collection-grid h3 { margin: 3.5rem 0 .75rem; font-family: var(--font-serif), serif; font-size: 2rem; font-weight: 500; }
+.zotero-collection-grid p { margin: 0; color: #c9d9d3; }
+.zotero-collection-grid > a > span { margin-top: 2rem; display: flex; align-items: center; gap: .5rem; color: var(--yellow); font-size: .78rem; font-weight: 600; }
+.zotero-collection-grid > a > span svg { width: 16px; }
+.zotero-collection-grid > a:hover h3, .zotero-collection-grid > a:focus-visible h3 { color: var(--yellow); }
+.zotero-sync-date { margin: 1.25rem 0 0; color: #a9c0b8; font-size: .72rem; }
+.featured-literature { display: grid; grid-template-columns: .9fr 1.1fr; gap: 6rem; }
+.featured-literature h2 { max-width: 520px; margin: 1.5rem 0 0; font-family: var(--font-serif), serif; font-size: 3.8rem; font-weight: 450; line-height: 1.03; }
+.featured-literature > div:last-child { padding-top: 1.5rem; border-top: 1px solid var(--ink); }
+.featured-literature strong { color: var(--teal); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; }
+.featured-literature p { max-width: 620px; margin: 1.25rem 0; color: var(--muted); }
+.featured-literature a, .project-literature a { width: fit-content; display: flex; align-items: center; gap: .5rem; color: var(--coral); font-weight: 600; }
+.featured-literature a svg, .project-literature a svg { width: 16px; }
+.literature-practice { background: var(--white); }
+.literature-practice-grid { margin-top: 4rem; display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--ink); border-left: 1px solid var(--line); }
+.literature-practice-grid article { min-height: 250px; padding: 2rem; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.literature-practice-grid svg { color: var(--teal); }
+.literature-practice-grid h3 { margin: 3rem 0 .75rem; font-family: var(--font-serif), serif; font-size: 1.55rem; font-weight: 500; }
+.literature-practice-grid p { color: var(--muted); }
 .external-resources { padding-top: 0; }
 .external-resources > a { min-height: 82px; display: grid; grid-template-columns: .7fr 1.3fr auto; gap: 1rem; align-items: center; border-top: 1px solid var(--line); }
 .external-resources > a:last-child { border-bottom: 1px solid var(--line); }
@@ -382,7 +407,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .project-record-next { grid-column: 1; }
   .project-progression { grid-template-columns: 1fr; }
   .project-progression-rule { grid-column: 1; }
-  .record-types, .method-domains, .application-list, .learning-pillars, .resource-directory { grid-template-columns: 1fr; }
+  .record-types, .method-domains, .application-list, .learning-pillars, .resource-directory, .zotero-collection-grid, .literature-practice-grid { grid-template-columns: 1fr; }
   .measurement-rings, .learning-loop { width: 310px; height: 310px; }
   .measurement-rings span:nth-child(1) { width: 300px; height: 300px; }
   .measurement-rings span:nth-child(2) { width: 230px; height: 230px; }
@@ -501,6 +526,16 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .project-collaborator a { width: fit-content; display: flex; align-items: center; gap: .5rem; color: var(--coral); font-weight: 600; }
 .project-collaborator a svg { width: 16px; }
 .project-collaborator p { max-width: 620px; color: var(--muted); }
+.project-literature { color: white; background: var(--forest); }
+.project-literature .section-shell { display: grid; grid-template-columns: .9fr 1.1fr; gap: 6rem; }
+.project-literature-heading { display: grid; grid-template-columns: auto 1fr; gap: 1.25rem; align-items: start; }
+.project-literature-heading > svg { color: var(--yellow); }
+.project-literature h2 { margin: 1rem 0 0; font-family: var(--font-serif), serif; font-size: 2.5rem; font-weight: 450; line-height: 1.05; }
+.project-literature-copy { padding-top: 1.5rem; display: grid; gap: 1rem; border-top: 1px solid rgba(255,255,255,.4); }
+.project-literature-copy strong { color: var(--yellow); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; }
+.project-literature-copy p { max-width: 620px; margin: 0; color: #c9d9d3; }
+.project-literature-copy a { color: var(--yellow); }
+.project-literature-copy small { margin-top: 1rem; color: #a9c0b8; }
 .participation-grid { margin-top: 4rem; display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--ink); border-left: 1px solid var(--line); }
 .seminar-time { margin-top: 1.5rem; padding-top: 1rem; display: flex; flex-wrap: wrap; gap: .4rem 1rem; border-top: 1px solid var(--line); }
 .seminar-time strong { color: var(--teal); font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; }
@@ -590,7 +625,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .role-ledger article, .role-ledger article + article { padding: 1.5rem 0; border-right: 0; border-bottom: 1px solid var(--line); }
   .clinical-lab-statement, .clinical-lab-copy { padding: 5rem 1.5rem; }
   .clinical-lab-copy { padding-top: 1rem; }
-  .ventilatory-project { grid-template-columns: 1fr; gap: 2.5rem; }
+  .ventilatory-project, .featured-literature, .project-literature .section-shell { grid-template-columns: 1fr; gap: 2.5rem; }
   .ecosystem-track { grid-template-columns: 1fr 1fr; }
   .safeguard-grid, .concept-index { grid-template-columns: 1fr 1fr; }
 }
@@ -605,7 +640,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .lab-hub-nav, .lab-current-work-grid, .lab-project-index, .participation-grid { grid-template-columns: 1fr; }
   .lab-hub-nav > a:last-child:nth-child(odd) { grid-column: auto; }
   .lab-current-work-heading { align-items: start; flex-direction: column; }
-  .lab-current-work-heading h2, .ventilatory-project h2, .participation-community h2 { font-size: 3rem; }
+  .lab-current-work-heading h2, .ventilatory-project h2, .featured-literature h2, .participation-community h2 { font-size: 3rem; }
   .person-card { grid-template-columns: 1fr; }
   .person-card img { width: 180px; height: 180px; }
   .person-card h2 { font-size: 2.15rem; }
