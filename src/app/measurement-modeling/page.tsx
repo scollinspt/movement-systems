@@ -4,7 +4,7 @@ import { PageHero, SectionIntro, Status } from "@/components/page-elements";
 
 export const metadata: Metadata = {
   title: "Measurement and Modeling",
-  description: "Measurement, uncertainty, observability, and mechanistic modeling in human movement research.",
+  description: "Accessible measurement development, uncertainty, observability, and mechanistic modeling in human movement R&D.",
 };
 
 export default function MeasurementModelingPage() {
@@ -18,9 +18,9 @@ export default function MeasurementModelingPage() {
         aside={<div className="measurement-rings"><span>signal</span><span>quantity</span><span>state</span><strong>mechanism?</strong></div>}
       />
       <section className="page-section section-shell">
-        <SectionIntro label="Methodological position" title="Accessible measurement can support ambitious science.">
+        <SectionIntro label="Development position" title="Accessible measurement can support ambitious science.">
           <p className="lead">Scientific sophistication does not require making the most expensive instrument the center of the laboratory.</p>
-          <p>Portable video, wearable sensing, physiological signals, imaging, and computational models can be combined when the question justifies them and their common timeline, uncertainty, and validity are explicit.</p>
+          <p>Portable video, wearable sensing, physiological signals, imaging, and computational models can be built or combined when the question justifies them and their common timeline, uncertainty, technical performance, and validity are explicit.</p>
         </SectionIntro>
         <div className="method-domains">
           <article><ScanSearch aria-hidden="true" /><Status>In development</Status><h3>Movement observation</h3><p>Video, markerless approaches, and task-specific kinematic descriptions.</p></article>

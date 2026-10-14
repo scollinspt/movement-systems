@@ -181,7 +181,7 @@
 }
 
 .coral {
-  color: #361a15;
+  color: #173d32;
   background: var(--coral);
 }
 
@@ -198,7 +198,7 @@
 }
 
 .coral .slideFooter {
-  color: #6a2c23;
+  color: #234d42;
 }
 
 .coral .slideFooter strong {
@@ -221,7 +221,7 @@
 }
 
 .coral .overline {
-  color: #57251d;
+  color: #234d42;
 }
 
 .slideHeading h2,
@@ -380,7 +380,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  border-top: 1px solid rgba(54, 26, 21, .8);
+  border-top: 1px solid rgba(19, 88, 65, .8);
 }
 
 .problemList li {
@@ -389,7 +389,7 @@
   grid-template-columns: 28px 1fr;
   gap: .9rem;
   align-items: start;
-  border-bottom: 1px solid rgba(54, 26, 21, .28);
+  border-bottom: 1px solid rgba(19, 88, 65, .28);
   font-size: clamp(.72rem, 1vw, 1rem);
   line-height: 1.45;
 }
@@ -468,16 +468,16 @@
 }
 
 .swotOpportunities {
-  background: rgba(230, 183, 79, .16);
+  background: rgba(160, 184, 176, .2);
 }
 
 .swotStrengths {
-  background: rgba(29, 112, 100, .07);
+  background: rgba(19, 88, 65, .07);
 }
 
 .swotWeaknesses,
 .swotThreats {
-  background: rgba(217, 95, 75, .06);
+  background: rgba(72, 125, 112, .08);
 }
 
 .swotGrid .swotOpportunities > div > span {
@@ -948,8 +948,8 @@
 .fundingPath {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  border-top: 1px solid rgba(54, 26, 21, .8);
-  border-left: 1px solid rgba(54, 26, 21, .25);
+  border-top: 1px solid rgba(19, 88, 65, .8);
+  border-left: 1px solid rgba(19, 88, 65, .25);
 }
 
 .fundingPath article {
@@ -958,8 +958,8 @@
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  border-right: 1px solid rgba(54, 26, 21, .25);
-  border-bottom: 1px solid rgba(54, 26, 21, .8);
+  border-right: 1px solid rgba(19, 88, 65, .25);
+  border-bottom: 1px solid rgba(19, 88, 65, .8);
 }
 
 .fundingPath article:last-child {
@@ -1163,18 +1163,18 @@
 }
 
 .established {
-  color: #1a5d53;
-  background: #dff3eb;
+  color: #135841;
+  background: #dceae4;
 }
 
 .development {
-  color: #78601f;
-  background: #fff2c8;
+  color: #454f4b;
+  background: #edf0ee;
 }
 
 .proposed {
-  color: #8d3b2f;
-  background: #ffe5de;
+  color: #315a50;
+  background: #e3ebe7;
 }
 
 .statusColumns ul {

@@ -21,6 +21,9 @@ and research work.
   contributions to Models4PT, the Clinical Inference Engine, and the wider Clinical
   Inquiry Ecosystem.
 - [site-plan.md](site-plan.md): public website audience, navigation, and publishing model.
+- [hms-lab-rd-website-plan.md](hms-lab-rd-website-plan.md): implementation plan for
+  the HMS Lab research-and-development identity, PSU-aligned visual system, and logo
+  integration.
 - [website-update-backlog.md](website-update-backlog.md): deferred content changes that
   require separate review and approval before website implementation or deployment.
 - [publication-policy.md](publication-policy.md): ownership, privacy, permissions, and

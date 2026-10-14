@@ -7,7 +7,7 @@ import { PageHero, SectionIntro } from "@/components/page-elements";
 export const metadata: Metadata = {
   title: "HMS Lab People",
   description:
-    "Meet the faculty, students, clinicians, and collaborators who contribute to the Human Movement Systems Laboratory.",
+    "Meet the faculty, students, clinicians, engineers, and collaborators who contribute to HMS Lab research and development.",
 };
 
 export default function HmsLabPeoplePage() {
@@ -15,17 +15,18 @@ export default function HmsLabPeoplePage() {
     <>
       <PageHero
         eyebrow="HMS Lab · People"
-        title={<>The lab <em>community.</em></>}
-        summary="The HMS Lab brings together faculty, students, clinicians, and collaborators around shared questions about human movement."
+        title={<>A community that <em>questions and builds.</em></>}
+        summary="The HMS Lab brings together clinical, scientific, technical, educational, and lived perspectives to develop better ways to understand movement."
         tone="forest"
       />
       <HmsLabNav />
 
       <section className="page-section section-shell">
-        <SectionIntro label="People" title="A growing community of inquiry.">
+        <SectionIntro label="People" title="Different expertise, shared development.">
           <p>
-            This page will grow as participants join the laboratory and contribute to its projects,
-            seminar, methods, and scholarship.
+            This page will grow as participants contribute to clinical questions, design,
+            fabrication, software, measurement, analysis, modeling, documentation, education, and
+            scholarship.
           </p>
         </SectionIntro>
 
@@ -42,8 +43,9 @@ export default function HmsLabPeoplePage() {
               <h2>Sean M. Collins, PT, ScD</h2>
               <p>
                 Physical therapist, Professor of Clinical Inquiry, scientist, and educator working
-                across clinical physiology, physiological measurement, ergonomics and human factors,
-                causal analysis, evidence synthesis, and computational clinical inquiry.
+                across clinical physiology, movement systems, physiological measurement, ergonomics
+                and human factors, causal analysis, complex and dynamical systems, evidence
+                synthesis, and computational clinical inquiry.
               </p>
               <a className="inline-link" href="https://scollinspt.github.io/">
                 View professional profile <ArrowUpRight size={16} aria-hidden="true" />

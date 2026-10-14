@@ -33,7 +33,7 @@ export function SiteHeader() {
           </span>
           <span>
             <strong>Movement Systems</strong>
-            <small>Clinical inquiry in motion</small>
+            <small>Clinical inquiry · Research &amp; development</small>
           </span>
         </Link>
         <button

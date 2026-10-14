@@ -4,7 +4,7 @@ import { PageHero, SectionIntro } from "@/components/page-elements";
 
 export const metadata: Metadata = {
   title: "Applications",
-  description: "Clinical, rehabilitation, ergonomic, performance, and human-device applications of Movement Systems research.",
+  description: "Clinical, rehabilitation, ergonomic, performance, and human-device applications of Movement Systems research and development.",
 };
 
 const applications = [

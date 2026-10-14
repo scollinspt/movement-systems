@@ -12,7 +12,7 @@ import {
 export const metadata: Metadata = {
   title: "Movesense–OpenSense Integration",
   description:
-    "The HMS Lab project developing Movesense acquisition, calibration, scaling, OpenSense interoperability, and OpenCap comparison.",
+    "The HMS Lab R&D program developing and evaluating an open pathway for Movesense acquisition, calibration, scaling, OpenSense interoperability, and OpenCap comparison.",
 };
 
 export default async function MovesenseOpenSenseProjectPage() {
@@ -27,17 +27,21 @@ export default async function MovesenseOpenSenseProjectPage() {
       <PageHero
         eyebrow="HMS Lab · Projects"
         title={<>Movesense–OpenSense <em>Integration.</em></>}
-        summary="A staged project developing a scalable wearable measurement pathway from Movesense acquisition through OpenSense interoperability and OpenCap comparison."
+        summary="A staged R&D program building an open, scalable wearable measurement pathway from Movesense acquisition through OpenSense interoperability and OpenCap comparison."
         tone="forest"
       />
       <HmsLabNav />
 
       <section className="project-program project-program-lab">
         <div className="section-shell">
-          <SectionIntro label="Project sequence" title="Build the wearable method in stages.">
+          <SectionIntro label="Development sequence" title="Build and test the wearable method in stages.">
             <p className="lead">
               The project progresses from one sensor to two and then staged 3-, 5-, and 10-sensor
               configurations before OpenSense and OpenCap comparison.
+            </p>
+            <p>
+              Each stage separates technical development from evidence of validity or clinical
+              utility. A working pipeline is a prototype to evaluate, not a clinical claim.
             </p>
           </SectionIntro>
           <ProjectSequence />

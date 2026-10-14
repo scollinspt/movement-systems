@@ -12,7 +12,7 @@ import {
 export const metadata: Metadata = {
   title: "Ventilatory Pump Measurement and Mechanics",
   description:
-    "The HMS Lab project studying ventilatory pump pressure generation, inspiratory muscle performance, chest-wall motion, and thoracic mechanics.",
+    "The HMS Lab R&D program developing accessible ventilatory pressure measurement and studying inspiratory muscle performance, chest-wall motion, and thoracic mechanics.",
 };
 
 export default async function VentilatoryPumpProjectPage() {
@@ -27,7 +27,7 @@ export default async function VentilatoryPumpProjectPage() {
       <PageHero
         eyebrow="HMS Lab · Projects"
         title={<>Ventilatory Pump Measurement and <em>Mechanics.</em></>}
-        summary="A project studying pressure generation for ventilation and its relationship to inspiratory muscle function, chest-wall motion, and thoracic mechanics."
+        summary="An R&D program developing accessible measurement of pressure generation for ventilation and studying its relationship to inspiratory muscle function, chest-wall motion, and thoracic mechanics."
         tone="forest"
       />
       <HmsLabNav />
@@ -35,16 +35,16 @@ export default async function VentilatoryPumpProjectPage() {
       <section className="ventilatory-project section-shell">
         <div>
           <Status>Planning</Status>
-          <p className="section-label">Current direction</p>
-          <h2>Measure pressure generation and chest-wall mechanics.</h2>
+          <p className="section-label">Initial development</p>
+          <h2>Build an accessible measurement method, then evaluate it.</h2>
         </div>
         <div className="ventilatory-project-copy">
           <p className="lead">
-            The initial study will develop and evaluate an accessible maximal inspiratory pressure
-            measurement system.
+            The initial work will develop an accessible maximal inspiratory pressure measurement
+            system and evaluate its technical performance before advancing broader claims.
           </p>
           <p>
-            Developing directions include validity and reliability studies, synchronized BIOPAC
+            Later evidence gates may include validity and reliability studies, synchronized BIOPAC
             and IMU measurement of chest-wall motion, and computational thoracic modeling.
           </p>
           <div className="project-collaborator">

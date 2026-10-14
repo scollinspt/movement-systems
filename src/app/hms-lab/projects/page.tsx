@@ -7,7 +7,7 @@ import { PageHero, SectionIntro, Status } from "@/components/page-elements";
 export const metadata: Metadata = {
   title: "HMS Lab Projects",
   description:
-    "Current Human Movement Systems Laboratory projects in wearable measurement, ventilatory pump function, mechanics, and modeling.",
+    "Current HMS Lab research-and-development programs in accessible measurement, wearable technology, ventilatory pump function, mechanics, and modeling.",
 };
 
 export default function HmsLabProjectsPage() {
@@ -15,17 +15,18 @@ export default function HmsLabProjectsPage() {
     <>
       <PageHero
         eyebrow="HMS Lab · Projects"
-        title={<>Questions under <em>study.</em></>}
-        summary="HMS Lab projects connect a defined question with measurement development, collaborators, public records, and a clear account of current progress."
+        title={<>Questions in <em>development.</em></>}
+        summary="HMS Lab projects connect a consequential question to design, prototyping, measurement, empirical evaluation, refinement, collaborators, and public records."
         tone="forest"
       />
       <HmsLabNav />
 
       <section className="page-section section-shell">
-        <SectionIntro label="Project portfolio" title="Distinct projects within one laboratory program.">
+        <SectionIntro label="R&amp;D portfolio" title="Develop the method before making the claim.">
           <p>
-            Each project develops its own questions, methods, collaborations, and outputs while
-            contributing to the laboratory’s shared measurement and modeling capabilities.
+            Each program has its own questions, development stages, evidence gates, collaborations,
+            and outputs while contributing to shared measurement, modeling, and open-development
+            capabilities.
           </p>
         </SectionIntro>
         <div className="lab-project-index">
@@ -33,14 +34,14 @@ export default function HmsLabProjectsPage() {
             <Move3d aria-hidden="true" />
             <Status tone="proposed">Proposed</Status>
             <h3>Movesense–OpenSense Integration</h3>
-            <p>Wearable acquisition, calibration, scaling, interoperability, and comparison.</p>
+            <p>Open wearable acquisition, calibration, scaling, interoperability, and staged comparison.</p>
             <span>Explore project <ArrowRight aria-hidden="true" /></span>
           </Link>
           <Link href="/hms-lab/projects/ventilatory-pump-measurement-mechanics">
             <Gauge aria-hidden="true" />
             <Status>Planning</Status>
             <h3>Ventilatory Pump Measurement and Mechanics</h3>
-            <p>Ventilatory pressure generation, inspiratory muscle performance, and chest-wall mechanics.</p>
+            <p>Accessible pressure measurement, inspiratory muscle performance, and chest-wall mechanics.</p>
             <span>Explore project <ArrowRight aria-hidden="true" /></span>
           </Link>
         </div>

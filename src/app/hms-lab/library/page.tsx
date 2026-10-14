@@ -23,7 +23,7 @@ import {
 export const metadata: Metadata = {
   title: "HMS Lab Library",
   description:
-    "The HMS Lab Zotero library, project records, repositories, presentations, and shared scholarly resources.",
+    "The HMS Lab literature, project records, repositories, presentations, and shared infrastructure for open research and development.",
 };
 
 const primaryCollections = [
@@ -64,17 +64,17 @@ export default async function HmsLabLibraryPage() {
     <>
       <PageHero
         eyebrow="HMS Lab · Library"
-        title={<>Shared scholarly <em>resources.</em></>}
-        summary="The laboratory’s literature, project records, repositories, and presentations support shared learning and durable scientific work."
+        title={<>Shared infrastructure for <em>durable development.</em></>}
+        summary="Literature, project records, repositories, and presentations make the laboratory’s questions, methods, decisions, and developing work available for shared learning."
         tone="forest"
       />
       <HmsLabNav />
 
       <section className="page-section section-shell">
-        <SectionIntro label="HMS Lab library" title="A shared foundation for inquiry.">
+        <SectionIntro label="HMS Lab library" title="Evidence and records that move development forward.">
           <p>
             The public Zotero group library collects literature informing the laboratory’s
-            questions, methods, modeling, and weekly seminar discussions.
+            questions, designs, methods, modeling, evaluation, and weekly seminar discussions.
           </p>
         </SectionIntro>
         <div className="resource-directory">
@@ -91,7 +91,7 @@ export default async function HmsLabLibraryPage() {
             <FileText aria-hidden="true" />
             <span>Records</span>
             <h3>Shared public records</h3>
-            <p>Research questions, projects, methods, status, decisions, and developing outputs.</p>
+            <p>Questions, designs, projects, methods, status, decisions, evidence gates, and developing outputs.</p>
             <a href="https://github.com/scollinspt/movement-systems/tree/main/research">
               Browse research records <ArrowUpRight size={15} aria-hidden="true" />
             </a>
@@ -100,7 +100,7 @@ export default async function HmsLabLibraryPage() {
             <GitBranch aria-hidden="true" />
             <span>Implementation</span>
             <h3>Movesense–OpenSense</h3>
-            <p>Code and public technical work for wearable acquisition and OpenSense integration.</p>
+            <p>Open code and technical records for wearable acquisition and OpenSense integration.</p>
             <a href="https://github.com/scollinspt/movesense-opensense">
               View repository <ArrowUpRight size={15} aria-hidden="true" />
             </a>
@@ -170,10 +170,10 @@ export default async function HmsLabLibraryPage() {
 
       <section className="literature-practice">
         <div className="section-shell">
-          <SectionIntro label="From literature to inquiry" title="Use the library to move the work.">
+          <SectionIntro label="From literature to development" title="Use evidence to move the work.">
             <p>
               Collections organize sources. Evidence maps, method comparisons, and seminar
-              discussions connect those sources to decisions and new questions.
+              discussions connect those sources to designs, decisions, evaluation, and new questions.
             </p>
           </SectionIntro>
           <div className="literature-practice-grid">

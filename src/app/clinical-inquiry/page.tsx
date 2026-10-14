@@ -23,7 +23,7 @@ export default function ClinicalInquiryPage() {
         eyebrow="Clinical inquiry"
         title={<>From what is known to <em>who is here.</em></>}
         summary="Instantiation is the work of bringing population evidence, mechanisms, and movement knowledge into a patient-specific model that can be questioned, revised, and acted upon without hiding uncertainty."
-        tone="coral"
+        tone="accent"
         aside={
           <div className="person-context-figure">
             <span>Population knowledge</span>
@@ -92,7 +92,7 @@ export default function ClinicalInquiryPage() {
       <section className="closing-question">
         <p>Movement gives clinical inquiry something indispensable:</p>
         <h2>a changing, observable expression of the person as a system.</h2>
-        <NextLink href="/hms-lab">See how the HMS Lab investigates it</NextLink>
+        <NextLink href="/hms-lab">See how the HMS Lab investigates and develops it</NextLink>
       </section>
     </>
   );

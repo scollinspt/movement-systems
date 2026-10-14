@@ -4,7 +4,7 @@ import { NextLink, PageHero, SectionIntro } from "@/components/page-elements";
 
 export const metadata: Metadata = {
   title: "Education",
-  description: "The PSU DPT clinicians-first approach to movement systems, hands-on learning, clinical inquiry, and the Pro Bono Clinic.",
+  description: "The PSU DPT clinicians-first approach to movement systems, hands-on learning, clinical inquiry, research and development, and the Pro Bono Clinic.",
 };
 
 export default function EducationPage() {
@@ -13,8 +13,8 @@ export default function EducationPage() {
       <PageHero
         eyebrow="Education"
         title={<>Teach clinicians first. <em>Teach inquiry throughout.</em></>}
-        summary="In the Plymouth State DPT program, movement science, hands-on laboratory work, clinical experience, and research inquiry can reinforce one another while remaining distinct and responsibly governed."
-        tone="coral"
+        summary="In the Plymouth State DPT program, movement science, hands-on development, clinical experience, and research inquiry can reinforce one another while remaining distinct and responsibly governed."
+        tone="accent"
         aside={<div className="learning-loop"><span>learn</span><span>practice</span><span>observe</span><span>question</span><strong>reflect</strong></div>}
       />
       <section className="page-section section-shell">

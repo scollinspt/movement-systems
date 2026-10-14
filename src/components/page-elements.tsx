@@ -7,7 +7,7 @@ type PageHeroProps = {
   title: ReactNode;
   summary: string;
   aside?: ReactNode;
-  tone?: "paper" | "forest" | "coral";
+  tone?: "paper" | "forest" | "accent";
 };
 
 export function PageHero({ eyebrow, title, summary, aside, tone = "paper" }: PageHeroProps) {

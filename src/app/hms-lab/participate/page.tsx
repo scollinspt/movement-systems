@@ -6,7 +6,7 @@ import { PageHero, SectionIntro } from "@/components/page-elements";
 export const metadata: Metadata = {
   title: "Participate in the HMS Lab",
   description:
-    "Learn about the HMS Lab weekly seminar and ways students, clinicians, faculty, and collaborators can participate.",
+    "Learn about the HMS Lab weekly seminar and ways students, clinicians, faculty, engineers, and collaborators contribute to research and development.",
 };
 
 const contributions = [
@@ -17,13 +17,13 @@ const contributions = [
   },
   {
     icon: Microscope,
-    title: "Methods and measurement",
-    text: "Contribute to instrumentation, calibration, protocols, reliability, and method development.",
+    title: "Design and prototyping",
+    text: "Contribute to accessible instrumentation, open software, fabrication, repair, calibration, and iterative development.",
   },
   {
     icon: Workflow,
-    title: "Analysis and modeling",
-    text: "Build reproducible analyses, computational workflows, visualizations, and mechanistic models.",
+    title: "Measurement and modeling",
+    text: "Build reproducible protocols, analyses, computational workflows, visualizations, and testable models.",
   },
   {
     icon: MessageCircle,
@@ -37,17 +37,17 @@ export default function HmsLabParticipatePage() {
     <>
       <PageHero
         eyebrow="HMS Lab · Participate"
-        title={<>Join the <em>inquiry.</em></>}
-        summary="Students, clinicians, faculty, and collaborators participate through shared discussion and defined contributions to developing work."
+        title={<>Question, build, test, and <em>learn together.</em></>}
+        summary="Students, clinicians, faculty, engineers, and collaborators participate through shared discussion and defined contributions across the R&D cycle."
         tone="forest"
       />
       <HmsLabNav />
 
       <section className="page-section section-shell">
-        <SectionIntro label="Weekly seminar" title="The laboratory meets through conversation.">
+        <SectionIntro label="Weekly seminar" title="Development begins with shared inquiry.">
           <p className="lead">
             HMS Lab participants meet weekly to discuss literature, developing questions, methods,
-            projects, and findings.
+            designs, projects, evidence, failures, and next iterations.
           </p>
           <p>Sustained participation in the lab includes a commitment to the weekly seminar.</p>
           <p className="seminar-time">
@@ -68,11 +68,12 @@ export default function HmsLabParticipatePage() {
 
       <section className="participation-community">
         <div className="section-shell">
-          <p className="section-label section-label-light">Community</p>
-          <h2>The lab is a community of inquiry.</h2>
+          <p className="section-label section-label-light">Open R&amp;D community</p>
+          <h2>Different ways of knowing strengthen the work.</h2>
           <p>
             Participants bring different clinical, scientific, technical, and lived perspectives
-            to shared questions about human movement.
+            to shared questions about human movement, then make the development process visible
+            enough for others to inspect, learn from, and improve.
           </p>
         </div>
       </section>

@@ -7,7 +7,7 @@ import { ProjectSequence } from "@/components/project-sequence";
 export const metadata: Metadata = {
   title: "Research",
   description:
-    "The Movement Systems and HMS Lab research agenda: clinical movement questions, measurement, mechanisms, modeling, and responsible public records.",
+    "The Movement Systems and HMS Lab R&D agenda: clinical movement questions, accessible measurement, mechanisms, modeling, development, and responsible public records.",
 };
 
 const questions = [
@@ -24,7 +24,7 @@ export default function ResearchPage() {
       <PageHero
         eyebrow="Research"
         title={<>Questions before <em>instruments.</em></>}
-        summary="The research program begins with phenomena that matter to movement and care, then selects measurements, models, and study designs that can discriminate among plausible explanations."
+        summary="The R&D program begins with phenomena that matter to movement and care, then develops measurements, models, prototypes, and studies that can discriminate among plausible explanations."
         aside={
           <div className="research-signal" aria-label="Observation transformed through measurement and analysis into an interpretable signal">
             <Activity aria-hidden="true" /><span>phenomenon</span><i />
@@ -35,7 +35,7 @@ export default function ResearchPage() {
       />
 
       <section className="page-section section-shell">
-        <SectionIntro label="Research agenda" title="Clinical relevance and scientific depth belong together.">
+        <SectionIntro label="R&amp;D agenda" title="Clinical relevance, technical development, and scientific depth belong together.">
           <p className="lead">
             A useful movement question should matter in practice and survive contact with measurement,
             uncertainty, alternative mechanisms, and the limits of generalization.
@@ -54,7 +54,7 @@ export default function ResearchPage() {
 
       <section className="project-program">
         <div className="section-shell">
-          <SectionIntro label="Initial HMS Lab sequence" title="Build the method before making the claim.">
+          <SectionIntro label="Initial HMS Lab development" title="Build the method before making the claim.">
             <p className="lead">
               Five proposed projects stage acquisition, sensor-count scaling, orientation validation,
               OpenSense interoperability, and only then synchronized OpenCap comparison.

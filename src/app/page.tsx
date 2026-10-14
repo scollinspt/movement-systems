@@ -5,9 +5,9 @@ import { MovementField } from "@/components/movement-field";
 const inquirySteps = [
   ["01", "Observe", "Begin with movement, function, and the questions that emerge in care."],
   ["02", "Question", "Make competing explanations explicit and identify what would distinguish them."],
-  ["03", "Measure", "Select observations that can constrain the system without confusing a proxy for the person."],
-  ["04", "Explain", "Connect evidence to physiological, neural, mechanical, behavioral, and environmental mechanisms."],
-  ["05", "Instantiate", "Bring population knowledge into an inspectable working model of this person, here and now."],
+  ["03", "Develop", "Build an accessible measurement, model, method, or prototype that can make the question testable."],
+  ["04", "Evaluate", "Use evidence to test performance, assumptions, uncertainty, and practical usefulness."],
+  ["05", "Refine", "Improve the tool and the explanation, then return what is learned to education and practice."],
 ];
 
 export default function Home() {
@@ -15,12 +15,12 @@ export default function Home() {
     <>
       <section className="home-hero">
         <div className="hero-copy reveal">
-          <p className="eyebrow">Physical therapy · Human movement · Clinical inquiry</p>
+          <p className="eyebrow">Physical therapy · Human movement · Research &amp; development</p>
           <h1>Clinical inquiry begins with <em>movement.</em></h1>
           <p className="hero-lead">
-            Physical therapists are human movement system specialists. Movement Systems studies how
-            movement emerges, how it can be measured, and how population knowledge about movement
-            becomes useful for one person through clinical instantiation.
+            Physical therapists are human movement system specialists. Movement Systems studies
+            movement as emergent, adaptive behavior and develops practical ways to observe, measure,
+            explain, and improve movement in context.
           </p>
           <div className="hero-actions">
             <Link className="button button-primary" href="/hms-lab">
@@ -38,7 +38,7 @@ export default function Home() {
       </section>
 
       <section className="intro-band">
-        <p className="section-label">A clinically oriented research program</p>
+        <p className="section-label">A clinically grounded R&amp;D program</p>
         <div className="intro-grid">
           <h2>The profession’s object of study is not a joint, a force, or a diagnosis. It is a person moving.</h2>
           <div className="intro-copy">
@@ -48,9 +48,9 @@ export default function Home() {
             </p>
             <p>
               Movement Systems provides the conceptual structure. The Human Movement Systems
-              Laboratory provides the empirical work: turning clinical observations into researchable
-              questions, careful measurements, mechanistic explanations, and better questions for
-              physical therapy.
+              Laboratory provides the research-and-development pathway: turning clinical
+              observations into testable questions, accessible tools and methods, evidence,
+              explanations, and practical resources for physical therapy.
             </p>
           </div>
         </div>
@@ -68,11 +68,11 @@ export default function Home() {
         </article>
         <article>
           <FlaskConical aria-hidden="true" />
-          <p className="role-number">02 / Inquiry</p>
-          <h3>Clinical questions become research</h3>
+          <p className="role-number">02 / Development</p>
+          <h3>Clinical questions become useful tools</h3>
           <p>
-            The HMS Lab creates a governed path from an observation in practice to a question that
-            can be measured, tested, modeled, and returned to the profession.
+            The HMS Lab creates a governed path from an observation in practice to a measurement,
+            prototype, model, or method that can be tested, refined, and openly shared.
           </p>
         </article>
         <article>
@@ -122,10 +122,10 @@ export default function Home() {
       <section className="inquiry-section section-shell">
         <div className="section-heading">
           <p className="section-label">The inquiry cycle</p>
-          <h2>From a puzzling movement to a more useful understanding.</h2>
+          <h2>From a clinical question to a more useful understanding.</h2>
           <p>
-            The cycle is empirical and recursive. A result can revise the measurement, the model,
-            or the original question.
+            The cycle is empirical and iterative. A result can revise the tool, the measurement,
+            the model, or the original question.
           </p>
         </div>
         <ol className="inquiry-steps">
@@ -176,7 +176,7 @@ export default function Home() {
         <div className="explore-links">
           <Link href="/theory"><span>01</span><strong>Theory</strong><small>How movement emerges</small><ArrowRight aria-hidden="true" /></Link>
           <Link href="/research"><span>02</span><strong>Research</strong><small>Questions, methods, projects</small><ArrowRight aria-hidden="true" /></Link>
-          <Link href="/hms-lab"><span>03</span><strong>HMS Lab</strong><small>Clinical movement inquiry</small><ArrowRight aria-hidden="true" /></Link>
+          <Link href="/hms-lab"><span>03</span><strong>HMS Lab</strong><small>Open research &amp; development</small><ArrowRight aria-hidden="true" /></Link>
           <Link href="/clinical-inquiry"><span>04</span><strong>Instantiation</strong><small>From populations to a person</small><ArrowRight aria-hidden="true" /></Link>
         </div>
       </section>

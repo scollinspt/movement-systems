@@ -8,7 +8,7 @@ export function SiteFooter() {
         <div>
           <p className="footer-kicker">Movement Systems</p>
           <p className="footer-statement">
-            Human movement, clinical inquiry, and the disciplined work of understanding one person.
+            Clinically grounded research and development for movement-system practice.
           </p>
         </div>
         <div className="footer-links">

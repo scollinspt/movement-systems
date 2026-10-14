@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { ArrowRight, BookOpen, FlaskConical, Info, UserRound, Users } from "lucide-react";
 import Link from "next/link";
-import { PageHero, Status } from "@/components/page-elements";
+import { Status } from "@/components/page-elements";
 
 export const metadata: Metadata = {
   title: "Human Movement Systems Laboratory",
   description:
-    "Explore the HMS Lab, its projects, community, scholarly resources, and clinically oriented program of movement inquiry.",
+    "Explore the HMS Lab's clinically grounded research and development in movement science, accessible technology, measurement, modeling, and physical therapy.",
 };
 
 const destinations = [
@@ -15,55 +16,75 @@ const destinations = [
     icon: Info,
     label: "About",
     title: "Purpose and direction",
-    description: "The lab’s scientific identity, clinical orientation, and current development.",
+    description: "The lab’s R&D purpose, scientific foundations, clinical orientation, and open development culture.",
   },
   {
     href: "/hms-lab/projects",
     icon: FlaskConical,
     label: "Projects",
     title: "Questions under study",
-    description: "Current project programs, methods, collaborators, and public records.",
+    description: "Current development programs, methods, evidence gates, collaborators, and public records.",
   },
   {
     href: "/hms-lab/people",
     icon: UserRound,
     label: "People",
     title: "The lab community",
-    description: "Faculty, students, clinicians, and collaborators contributing to the HMS Lab.",
+    description: "Faculty, students, clinicians, and collaborators who question, build, measure, and learn together.",
   },
   {
     href: "/hms-lab/participate",
     icon: Users,
     label: "Participate",
     title: "Join the inquiry",
-    description: "The weekly seminar and ways students, clinicians, faculty, and collaborators contribute.",
+    description: "The weekly seminar and ways participants contribute to research, design, development, and scholarship.",
   },
   {
     href: "/hms-lab/library",
     icon: BookOpen,
     label: "Library",
     title: "Shared scholarly resources",
-    description: "The Zotero library, project records, repositories, and public presentations.",
+    description: "Literature, project records, repositories, and public resources supporting durable R&D.",
   },
 ];
 
 export default function HmsLabPage() {
   return (
     <>
-      <PageHero
-        eyebrow="Human Movement Systems Laboratory"
-        title={<>A community of <em>inquiry.</em></>}
-        summary="The HMS Lab studies human movement through clinically oriented questions, accessible measurement, physiological and mechanical analysis, and computational modeling."
-        tone="forest"
-      />
+      <header className="lab-brand-hero">
+        <div className="lab-brand-logo">
+          <Image
+            className="lab-hero-logo"
+            src="/images/branding/hms-lab/hms-logo-horizontal.png"
+            alt="Human Movement Systems Laboratory"
+            width={2172}
+            height={724}
+            sizes="(max-width: 980px) 88vw, 42vw"
+            priority
+          />
+        </div>
+        <div className="lab-brand-copy">
+          <h1>Research and development for <em>movement-system practice.</em></h1>
+          <p>
+            The HMS Lab begins with questions from physical therapy and develops accessible, open
+            tools and methods for understanding movement as emergent, adaptive behavior.
+          </p>
+        </div>
+      </header>
 
       <section className="lab-hub-intro section-shell">
-        <p className="section-label">HMS Lab</p>
-        <h2>Questions about human movement bring the lab together.</h2>
+        <p className="section-label">Clinically grounded R&amp;D</p>
+        <h2>Clinical questions become things physical therapists can test and use.</h2>
         <p>
-          Students, clinicians, faculty, and collaborators develop questions, methods, evidence,
-          and models together. Explore the laboratory through the topics below.
+          Students, clinicians, faculty, and collaborators combine movement science, systems
+          thinking, causal reasoning, and biomedical engineering to develop measurements,
+          prototypes, models, workflows, and educational resources.
         </p>
+        <ol className="rd-cycle" aria-label="HMS Lab research and development cycle">
+          {["Question", "Develop", "Measure", "Evaluate", "Refine", "Share"].map((step, index) => (
+            <li key={step}><span>0{index + 1}</span>{step}</li>
+          ))}
+        </ol>
       </section>
 
       <nav className="lab-hub-nav section-shell" aria-label="Explore the HMS Lab">
@@ -95,7 +116,7 @@ export default function HmsLabPage() {
             <Link href="/hms-lab/projects/movesense-opensense">
               <Status tone="proposed">Proposed</Status>
               <h3>Movesense–OpenSense Integration</h3>
-              <p>Developing a scalable wearable measurement pathway for OpenSense.</p>
+              <p>Developing and evaluating an open, scalable wearable measurement pathway.</p>
             </Link>
             <Link href="/hms-lab/projects/ventilatory-pump-measurement-mechanics">
               <Status>Planning</Status>
