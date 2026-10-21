@@ -8,7 +8,8 @@
 /.vercel/
 *.tsbuildinfo
 npm-debug.log*
-
+# Keep local pro bono patient information out of version control.
+/private/pro-bono-patients/
 # Private teaching archives: retain only the public provenance records below.
 /content/curriculum/syllabi/references/primary-courses/exercise-prescription-nutrition/*
 !/content/curriculum/syllabi/references/primary-courses/exercise-prescription-nutrition/README.md
