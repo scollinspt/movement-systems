@@ -113,6 +113,14 @@ export default function HmsLabPage() {
             </Link>
           </div>
           <div className="lab-current-work-grid">
+            <Link href="/hms-lab/projects/tilt-ecg-measurement-review">
+              <Status>Development</Status>
+              <h3>Tilt ECG Measurement and Physiology Review</h3>
+              <p>
+                Refining de-identified ECG and chest-angle acquisition, governed review, and
+                reporting across the complete tilt-table workflow.
+              </p>
+            </Link>
             <Link href="/hms-lab/projects/movesense-opensense">
               <Status tone="proposed">Proposed</Status>
               <h3>Movesense–OpenSense Integration</h3>

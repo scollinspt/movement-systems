@@ -527,6 +527,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .lab-current-work-grid h3 { margin: 3rem 0 .75rem; color: white; font-family: var(--font-serif), serif; font-size: 1.8rem; font-weight: 500; }
 .lab-current-work-grid p { max-width: 480px; margin: 0; color: #c9d9d3; }
 .lab-current-work-grid a:hover h3, .lab-current-work-grid a:focus-visible h3 { color: var(--yellow); }
+.lab-current-work-grid > a:last-child:nth-child(odd) { grid-column: 1 / -1; }
 .lab-project-index { margin-top: 4rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--line); }
 .lab-project-index > a { min-height: 320px; padding: 2rem; display: grid; grid-template-columns: 1fr auto; align-content: space-between; background: var(--white); }
 .lab-project-index > a > svg { color: var(--teal); }
@@ -534,6 +535,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .lab-project-index p { grid-column: 1 / -1; color: var(--muted); }
 .lab-project-index > a > span:last-child { grid-column: 1 / -1; display: flex; align-items: center; gap: .5rem; color: var(--coral); font-size: .78rem; font-weight: 600; }
 .lab-project-index > a > span:last-child svg { width: 16px; }
+.lab-project-index > a:last-child:nth-child(odd) { grid-column: 1 / -1; min-height: 260px; }
 .ventilatory-project { display: grid; grid-template-columns: .9fr 1.1fr; gap: 6rem; }
 .ventilatory-project h2 { margin: 1.5rem 0 0; font-family: var(--font-serif), serif; font-size: 3.8rem; font-weight: 450; line-height: 1.03; }
 .ventilatory-project-copy > p { color: var(--muted); }
@@ -543,6 +545,32 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .project-collaborator a { width: fit-content; display: flex; align-items: center; gap: .5rem; color: var(--coral); font-weight: 600; }
 .project-collaborator a svg { width: 16px; }
 .project-collaborator p { max-width: 620px; color: var(--muted); }
+.tilt-project-overview { display: grid; grid-template-columns: .9fr 1.1fr; gap: 6rem; }
+.tilt-project-overview h2 { margin: 1.5rem 0 0; font-family: var(--font-serif), serif; font-size: 3.8rem; font-weight: 450; line-height: 1.03; }
+.tilt-project-overview-copy { padding-top: 1.5rem; }
+.tilt-project-overview-copy p { color: var(--muted); }
+.tilt-project-overview-copy .lead { color: var(--ink); font-family: var(--font-serif), serif; font-size: 1.35rem; }
+.tilt-project-overview-copy a { width: fit-content; margin-top: 2rem; display: flex; align-items: center; gap: .5rem; color: var(--coral); font-weight: 600; }
+.tilt-project-overview-copy a svg { width: 16px; }
+.tilt-project-workflow { margin: 4rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(5, 1fr); list-style: none; border-top: 1px solid var(--ink); border-left: 1px solid var(--line); }
+.tilt-project-workflow li { min-height: 245px; padding: 1.5rem; display: flex; flex-direction: column; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.tilt-project-workflow span, .tilt-project-next span { color: var(--coral); font-size: .65rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+.tilt-project-workflow strong { margin-top: 3rem; font-family: var(--font-serif), serif; font-size: 1.5rem; font-weight: 500; }
+.tilt-project-workflow p { color: var(--muted); font-size: .84rem; }
+.tilt-project-evidence-grid { margin-top: 4rem; display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--ink); border-left: 1px solid var(--line); }
+.tilt-project-evidence-grid article { min-height: 280px; padding: 1.5rem; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.tilt-project-evidence-grid svg { color: var(--teal); }
+.tilt-project-evidence-grid h3 { margin: 3rem 0 .7rem; font-family: var(--font-serif), serif; font-size: 1.55rem; font-weight: 500; }
+.tilt-project-evidence-grid p { color: var(--muted); font-size: .84rem; }
+.tilt-project-boundary { color: white; background: var(--forest); }
+.tilt-project-boundary .section-shell { display: grid; grid-template-columns: auto .9fr 1.1fr; gap: 2rem 5rem; align-items: start; }
+.tilt-project-boundary svg { color: var(--yellow); }
+.tilt-project-boundary h2 { margin: 1rem 0 0; font-family: var(--font-serif), serif; font-size: 2.8rem; font-weight: 450; line-height: 1.05; }
+.tilt-project-boundary p { color: #c9d9d3; }
+.tilt-project-next { margin-top: 4rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--line); }
+.tilt-project-next article { min-height: 300px; padding: 2rem; background: var(--paper); }
+.tilt-project-next h3 { margin: 3rem 0 .75rem; font-family: var(--font-serif), serif; font-size: 1.8rem; font-weight: 500; }
+.tilt-project-next p { color: var(--muted); }
 .project-literature { color: white; background: var(--forest); }
 .project-literature .section-shell { display: grid; grid-template-columns: .9fr 1.1fr; gap: 6rem; }
 .project-literature-heading { display: grid; grid-template-columns: auto 1fr; gap: 1.25rem; align-items: start; }
@@ -647,7 +675,9 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .role-ledger article, .role-ledger article + article { padding: 1.5rem 0; border-right: 0; border-bottom: 1px solid var(--line); }
   .clinical-lab-statement, .clinical-lab-copy { padding: 5rem 1.5rem; }
   .clinical-lab-copy { padding-top: 1rem; }
-  .ventilatory-project, .featured-literature, .project-literature .section-shell { grid-template-columns: 1fr; gap: 2.5rem; }
+  .ventilatory-project, .tilt-project-overview, .tilt-project-boundary .section-shell, .featured-literature, .project-literature .section-shell { grid-template-columns: 1fr; gap: 2.5rem; }
+  .tilt-project-workflow { grid-template-columns: repeat(2, 1fr); }
+  .tilt-project-evidence-grid { grid-template-columns: 1fr 1fr; }
   .ecosystem-track { grid-template-columns: 1fr 1fr; }
   .safeguard-grid, .concept-index { grid-template-columns: 1fr 1fr; }
 }
@@ -667,7 +697,9 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .rd-cycle li { min-height: 88px; border-right: 0; border-bottom: 1px solid var(--line); }
   .lab-hub-nav > a:last-child:nth-child(odd) { grid-column: auto; }
   .lab-current-work-heading { align-items: start; flex-direction: column; }
-  .lab-current-work-heading h2, .ventilatory-project h2, .featured-literature h2, .participation-community h2 { font-size: 3rem; }
+  .lab-current-work-heading h2, .ventilatory-project h2, .tilt-project-overview h2, .featured-literature h2, .participation-community h2 { font-size: 3rem; }
+  .lab-current-work-grid > a:last-child:nth-child(odd), .lab-project-index > a:last-child:nth-child(odd) { grid-column: auto; }
+  .tilt-project-workflow, .tilt-project-evidence-grid, .tilt-project-next { grid-template-columns: 1fr; }
   .person-card { grid-template-columns: 1fr; }
   .person-card img { width: 180px; height: 180px; }
   .person-card h2 { font-size: 2.15rem; }

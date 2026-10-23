@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ArrowRight, Gauge, Move3d } from "lucide-react";
+import { ArrowRight, Gauge, HeartPulse, Move3d } from "lucide-react";
 import Link from "next/link";
 import { HmsLabNav } from "@/components/hms-lab-nav";
 import { PageHero, SectionIntro, Status } from "@/components/page-elements";
@@ -30,6 +30,13 @@ export default function HmsLabProjectsPage() {
           </p>
         </SectionIntro>
         <div className="lab-project-index">
+          <Link href="/hms-lab/projects/tilt-ecg-measurement-review">
+            <HeartPulse aria-hidden="true" />
+            <Status>Development</Status>
+            <h3>Tilt ECG Measurement and Physiology Review</h3>
+            <p>De-identified ECG and chest-angle acquisition, governed physiology review, and reporting.</p>
+            <span>Explore project <ArrowRight aria-hidden="true" /></span>
+          </Link>
           <Link href="/hms-lab/projects/movesense-opensense">
             <Move3d aria-hidden="true" />
             <Status tone="proposed">Proposed</Status>

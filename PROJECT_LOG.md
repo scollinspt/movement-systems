@@ -1,5 +1,27 @@
 # Project Log
 
+## 2026-10-23: Tilt ECG Development Project Website
+
+### Public project record
+
+Added HMS-PROJ-007, Tilt ECG Measurement and Physiology Review, as a development-stage
+project. The public record describes the acquisition-to-report architecture, current
+engineering evidence, governed-data boundary, representative workflow refinement, and
+the limits of current claims.
+
+### Website
+
+Added a dedicated HMS Lab project page and linked it from the HMS Lab landing page and
+project directory. The page presents the five-stage workflow, current acquisition and
+review capabilities, the continuing authority of approved clinical systems, and two
+post-refinement questions: availability to other qualified users and a prospective
+comparison of active orthostatic stress with passive head-up tilt.
+
+No clinical trace, report, recording identifier, patient detail, or governed screenshot
+was published. Public content uses text and interface graphics only and identifies the
+system as development software rather than a diagnostic, normative, or operational
+clinical capability.
+
 ## 2026-10-11: HMS Lab Literature Infrastructure And Website Integration
 
 ### Zotero organization

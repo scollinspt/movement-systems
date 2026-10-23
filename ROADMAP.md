@@ -1,6 +1,6 @@
 # Movement Systems Roadmap
 
-_Last updated: 2026-10-11_
+_Last updated: 2026-10-23_
 
 This roadmap coordinates public Movement Systems scholarship, development of the Human
 Movement Systems Laboratory (HMS Lab), the public website, educational translation, and
@@ -123,6 +123,12 @@ A separate sixth project,
 begins with accessible maximal inspiratory pressure measurement and may later extend to
 chest-wall motion and thoracic modeling. It is not a stage in the Movesense sequence.
 
+A seventh project,
+[Tilt ECG Measurement and Physiology Review](research/projects/tilt-ecg-measurement-review.md),
+develops a de-identified path from synchronized ECG and chest-angle acquisition through
+governed physiology review and reporting. It is in workflow development; it does not
+establish diagnostic validity, normative values, or an operational service.
+
 The HMS Lab Zotero group provides the shared literature infrastructure across these
 projects. Its scientific, method, project, and seminar collections are documented in
 [research/literature/README.md](research/literature/README.md).
@@ -241,7 +247,7 @@ sibling repositories.
 - [x] Build the Movement Systems and HMS Lab orientation for the first approved release.
 - [x] Restructure the HMS Lab as a navigation hub with dedicated About, Projects, People,
   Participate, and Library pages.
-- [x] Publish HMS-PROJ-001 through HMS-PROJ-006 at their stated maturity.
+- [x] Publish HMS-PROJ-001 through HMS-PROJ-007 at their stated maturity.
 - [x] Publish a Zotero-backed literature directory and project collection links with
   daily static synchronization.
 - [ ] Publish a small set of foundational theory records.

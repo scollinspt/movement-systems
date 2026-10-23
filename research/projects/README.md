@@ -20,6 +20,14 @@ This project begins with development and evaluation of an accessible maximal ins
 pressure measurement system. Developing directions include synchronized pressure and
 chest-wall motion measurement and computational thoracic modeling.
 
+## Tilt ECG project
+
+7. [Tilt ECG Measurement and Physiology Review](tilt-ecg-measurement-review.md)
+
+This project develops a de-identified acquisition-to-report pathway for synchronized
+Movesense ECG and chest angle during tilt-table testing. It is an active development
+record, not a diagnostic, normative, or operational service claim.
+
 ## Required escalation pattern
 
 The sequence advances from one sensor to two sensors and then through staged 3-, 5-,
