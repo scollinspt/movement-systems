@@ -189,12 +189,15 @@ export default function TiltEcgProjectPage() {
           </article>
           <article>
             <span>Proposed research direction</span>
-            <h3>How do active and passive orthostatic stress responses differ?</h3>
+            <h3>Does individualized gravity load explain orthostatic responses better than angle?</h3>
             <p>
               A future prospective protocol may compare active orthostatic stress with passive
-              head-up tilt in people without signs, symptoms, or a diagnosis of dysautonomia.
-              Protocols, outcomes, sample size, consent, governance, and analysis must be defined
-              before enrollment.
+              head-up tilt in people without signs, symptoms, or a diagnosis of dysautonomia,
+              while comparing corrected angle with measured gravity orientation and
+              anthropometric vertical-column estimates. Standing height is a possible initial
+              proxy, but direct heart-to-foot or heart-to-head distance may be more relevant.
+              The sensor does not directly measure vascular pressure, and protocols, outcomes,
+              consent, governance, and analysis must be defined before enrollment.
             </p>
           </article>
         </div>

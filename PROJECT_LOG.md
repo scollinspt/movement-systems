@@ -22,6 +22,20 @@ was published. Public content uses text and interface graphics only and identifi
 system as development software rather than a diagnostic, normative, or operational
 clinical capability.
 
+### Gravity-load research hypothesis
+
+Added the hypothesis that tilt angle is a conventional geometric proxy rather than the
+circulatory load itself. Future work may compare corrected angle with measured gravity
+orientation, standing height, direct heart-to-foot or heart-to-head distances, and
+prespecified hydrostatic-load estimates when explaining HR, BP, end-tidal CO2, symptoms,
+and HRV.
+
+Standing height is treated as an accessible but coarse proxy rather than an assumed
+causal measure. The public record also distinguishes accelerometer-derived gravity
+orientation from vascular pressure and identifies muscle-pump activity, joint
+configuration, and postural stabilization as additional mechanisms during active
+orthostatic stress.
+
 ## 2026-10-11: HMS Lab Literature Infrastructure And Website Integration
 
 ### Zotero organization

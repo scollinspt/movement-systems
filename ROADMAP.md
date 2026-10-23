@@ -128,6 +128,10 @@ A seventh project,
 develops a de-identified path from synchronized ECG and chest-angle acquisition through
 governed physiology review and reporting. It is in workflow development; it does not
 establish diagnostic validity, normative values, or an operational service.
+Its developing research questions include whether measured gravity orientation combined
+with stature or direct anatomical vertical-column distances explains orthostatic
+physiology better than conventional tilt angle alone, and how that relationship differs
+between active and passive orthostatic stress.
 
 The HMS Lab Zotero group provides the shared literature infrastructure across these
 projects. Its scientific, method, project, and seminar collections are documented in

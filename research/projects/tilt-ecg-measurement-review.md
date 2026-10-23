@@ -86,6 +86,22 @@ The study requires prespecified protocols, outcomes, covariates, signal-quality 
 sample-size rationale, analysis, ethics/governance review, consent, recruitment,
 retention, and adverse-event procedures before enrollment.
 
+Tilt angle is a conventional geometric proxy rather than the circulatory load itself.
+The stationary chest accelerometer estimates gravity magnitude and direction in its
+sensor frame, while the hydrostatic pressure difference depends on gravity and the
+vertical distance between relevant vascular locations. A simplified aligned model
+therefore depends on an anatomical length and the sine of tilt angle.
+
+The study should test whether HR, BP, end-tidal CO2, symptom, and HRV responses are
+better explained by corrected angle, the measured gravity component along a relevant
+axis, standing height, direct heart-to-foot or heart-to-head distances, or a
+prespecified hydrostatic-load estimate. Standing height is an accessible but coarse
+proxy; segment and vascular-column distances may be more physiologically relevant.
+
+The sensor does not directly measure vascular pressure. Active standing also includes
+muscle-pump activity, joint configuration, and postural stabilization that must be
+distinguished from passive gravitational loading.
+
 Clinical-development recordings will not be included in that research dataset unless
 their use is specifically authorized.
 
