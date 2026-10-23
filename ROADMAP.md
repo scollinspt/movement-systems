@@ -126,8 +126,9 @@ chest-wall motion and thoracic modeling. It is not a stage in the Movesense sequ
 A seventh project,
 [Tilt ECG Measurement and Physiology Review](research/projects/tilt-ecg-measurement-review.md),
 develops a de-identified path from synchronized ECG and chest-angle acquisition through
-governed physiology review and reporting. It is in workflow development; it does not
-establish diagnostic validity, normative values, or an operational service.
+governed physiology review and reporting. It is an in-progress development project
+refining its workflow; it does not establish diagnostic validity, normative values, or
+an operational service.
 Its developing research questions include whether measured gravity orientation combined
 with stature or direct anatomical vertical-column distances explains orthostatic
 physiology better than conventional tilt angle alone, and how that relationship differs

@@ -1,11 +1,11 @@
 # Project Log
 
-## 2026-10-23: Tilt ECG Development Project Website
+## 2026-10-23: In-Progress Tilt ECG Development Project Website
 
 ### Public project record
 
-Added HMS-PROJ-007, Tilt ECG Measurement and Physiology Review, as a development-stage
-project. The public record describes the acquisition-to-report architecture, current
+Added HMS-PROJ-007, Tilt ECG Measurement and Physiology Review, as an in-progress
+development project. The public record describes the acquisition-to-report architecture, current
 engineering evidence, governed-data boundary, representative workflow refinement, and
 the limits of current claims.
 

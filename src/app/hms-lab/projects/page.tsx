@@ -32,7 +32,7 @@ export default function HmsLabProjectsPage() {
         <div className="lab-project-index">
           <Link href="/hms-lab/projects/tilt-ecg-measurement-review">
             <HeartPulse aria-hidden="true" />
-            <Status>Development</Status>
+            <Status>In progress</Status>
             <h3>Tilt ECG Measurement and Physiology Review</h3>
             <p>De-identified ECG and chest-angle acquisition, governed physiology review, and reporting.</p>
             <span>Explore project <ArrowRight aria-hidden="true" /></span>

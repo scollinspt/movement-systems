@@ -2,7 +2,7 @@
 
 - **Identifier:** HMS-PROJ-007
 - **Content type:** Project
-- **Maturity:** Development
+- **Maturity:** In progress — development project
 - **Created:** 2026-10-23
 - **Responsible investigator:** Sean M. Collins, PT, ScD
 - **Setting:** Human Movement Systems Laboratory, Plymouth State University

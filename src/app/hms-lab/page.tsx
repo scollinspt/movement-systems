@@ -114,7 +114,7 @@ export default function HmsLabPage() {
           </div>
           <div className="lab-current-work-grid">
             <Link href="/hms-lab/projects/tilt-ecg-measurement-review">
-              <Status>Development</Status>
+              <Status>In progress</Status>
               <h3>Tilt ECG Measurement and Physiology Review</h3>
               <p>
                 Refining de-identified ECG and chest-angle acquisition, governed review, and

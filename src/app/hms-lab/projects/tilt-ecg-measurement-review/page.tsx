@@ -13,7 +13,7 @@ import { PageHero, SectionIntro, Status } from "@/components/page-elements";
 export const metadata: Metadata = {
   title: "Tilt ECG Measurement and Physiology Review",
   description:
-    "The HMS Lab development project connecting de-identified Movesense ECG and chest-angle acquisition with governed physiology review and reporting.",
+    "The in-progress HMS Lab development project connecting de-identified Movesense ECG and chest-angle acquisition with governed physiology review and reporting.",
 };
 
 const workflow = [
@@ -50,14 +50,14 @@ export default function TiltEcgProjectPage() {
       <PageHero
         eyebrow="HMS Lab · Projects"
         title={<>Tilt ECG Measurement and <em>Physiology Review.</em></>}
-        summary="A development project connecting synchronized Movesense ECG and chest-angle acquisition with governed, de-identified review of the physiologic response to orthostatic stress."
+        summary="An in-progress development project connecting synchronized Movesense ECG and chest-angle acquisition with governed, de-identified review of the physiologic response to orthostatic stress."
         tone="forest"
       />
       <HmsLabNav />
 
       <section className="tilt-project-overview section-shell">
         <div>
-          <Status>Development</Status>
+          <Status>In progress</Status>
           <p className="section-label">HMS-PROJ-007</p>
           <h2>Develop the complete measurement workflow before extending its use.</h2>
         </div>
