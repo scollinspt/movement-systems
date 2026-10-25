@@ -70,13 +70,25 @@ A direct introduction to Movement Systems and the HMS Lab, the current scientifi
 questions, and authentic public work. It should present the research identity in the
 first viewport without becoming a generic marketing page.
 
-### Theory
+### Scientific Foundations
 
 - Systems, constraints, emergence, and adaptation
+- Attain, Sustain, and Maintain across organizational levels and timescales
 - Capacity, task, performance, and environment
 - Variability, stability, compensation, and dysfunction
 - Motor control, motor learning, and movement solutions
 - Competing explanations, evidence, observables, and model limits
+
+The existing `/theory` route remains part of this section while reviewed foundation
+records are added incrementally under `/foundations`.
+
+### Research Approach
+
+- Consequential questions and criteria for knowing
+- Constructs, observables, and measurement development
+- Learning about the phenomenon and the measurement
+- Revision of questions, methods, experiments, and models
+- Published examples of iterative clinical and scientific reasoning
 
 ### Research
 

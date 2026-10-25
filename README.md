@@ -166,7 +166,11 @@ the disciplined application of population knowledge to one person.
 Current public routes are:
 
 - `/`: Movement Systems and HMS Lab orientation;
+- `/foundations`: scientific foundations hub and reviewed concept records;
+- `/foundations/attain-sustain-maintain`: hierarchical, scale-indexed framework for
+  functional capability across tasks and timescales;
 - `/theory`: foundational movement-systems propositions and concept scaffold;
+- `/research-approach`: recursive questions, measurement, learning, and revision cycle;
 - `/research`: research agenda and public record structure;
 - `/hms-lab`: HMS Lab orientation and navigation;
 - `/hms-lab/about`: laboratory purpose and approach;

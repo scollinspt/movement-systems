@@ -83,6 +83,8 @@ export default function ResearchPage() {
       </section>
 
       <section className="research-pathways section-shell">
+        <Link href="/research-approach"><span>Approach</span><strong>Questions, measurement &amp; learning</strong><ArrowRight aria-hidden="true" /></Link>
+        <Link href="/foundations/attain-sustain-maintain"><span>Framework</span><strong>Attain, Sustain, Maintain</strong><ArrowRight aria-hidden="true" /></Link>
         <Link href="/measurement-modeling"><span>Methods</span><strong>Measurement &amp; modeling</strong><ArrowRight aria-hidden="true" /></Link>
         <Link href="/applications"><span>Contexts</span><strong>Clinical and human applications</strong><ArrowRight aria-hidden="true" /></Link>
         <Link href="/resources"><span>Infrastructure</span><strong>Records, glossary &amp; governance</strong><ArrowRight aria-hidden="true" /></Link>

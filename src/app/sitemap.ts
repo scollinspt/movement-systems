@@ -4,6 +4,9 @@ export const dynamic = "force-static";
 
 const routes = [
   "",
+  "/foundations",
+  "/foundations/attain-sustain-maintain",
+  "/research-approach",
   "/theory",
   "/research",
   "/hms-lab",
@@ -27,7 +30,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return routes.map((route) => ({
     url: `https://movementsystems.org${route}`,
     lastModified: new Date(
-      route === "/hms-lab"
+      route === "/foundations"
+      || route === "/foundations/attain-sustain-maintain"
+      || route === "/research-approach"
+        ? "2026-10-25"
+        : route === "/hms-lab"
       || route === "/hms-lab/projects"
       || route === "/hms-lab/projects/tilt-ecg-measurement-review"
         ? "2026-10-23"
