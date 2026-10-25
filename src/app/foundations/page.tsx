@@ -11,7 +11,24 @@ export const metadata: Metadata = {
 
 const foundations = [
   {
-    status: "Available",
+    status: "Source-grounded",
+    tone: "established",
+    title: "Dynamic Systems, Constraints, and Dynamic Resources",
+    description:
+      "How movement organization and available mechanical and physiological resources interact with organismic, task, and environmental constraints.",
+    href: "/foundations/dynamic-systems-constraints",
+  },
+  {
+    status: "Source-grounded",
+    tone: "established",
+    title: "Movement Solutions, Optimization, and PT Diagnosis",
+    description:
+      "Purposeful movement, bounded variability, context-dependent optimization, prognosis, and changing movement-system diagnoses.",
+    href: "/foundations/movement-solutions-optimization",
+  },
+  {
+    status: "Developing synthesis",
+    tone: "development",
     title: "Attain, Sustain, Maintain",
     description:
       "A hierarchical framework for functional capability across organizational levels, tasks, constraints, and timescales.",
@@ -19,6 +36,7 @@ const foundations = [
   },
   {
     status: "Existing foundation",
+    tone: "established",
     title: "Movement as an emergent phenomenon",
     description:
       "The current theory scaffold for movement arising from interacting person, task, environmental, physiological, neural, mechanical, and behavioral processes.",
@@ -27,11 +45,10 @@ const foundations = [
 ] as const;
 
 const plannedFoundations = [
-  "Dynamical systems and complex adaptive systems",
   "Coordination dynamics",
+  "Complex adaptive systems",
   "Ecological psychology",
   "Ecological dynamics and constraints-led approaches",
-  "Dynamic resources and neuromechanics",
   "Scientific inference and causation",
 ];
 
@@ -41,7 +58,7 @@ export default function FoundationsPage() {
       <PageHero
         eyebrow="Scientific foundations"
         title={<>Theories organize questions. <em>Evidence revises them.</em></>}
-        summary="Movement Systems uses complementary scientific traditions to define constructs, generate competing explanations, guide measurement, and identify what an observation can and cannot establish."
+        summary="Movement Systems connects dynamical systems, constraints, complex adaptive systems, ecological approaches, biomechanics, and physical therapy movement-system reasoning without treating them as interchangeable."
       />
 
       <section className="page-section section-shell">
@@ -54,14 +71,16 @@ export default function FoundationsPage() {
             alternative explanations, measurement requirements, and limits on inference.
           </p>
           <p>
-            These perspectives are related but not interchangeable. No theoretical vocabulary
-            substitutes for construct definition, experimental manipulation, or validation.
+            The current source-grounded records develop rehabilitation and physical therapy
+            implications from Holt, Wagenaar, and Saltzman (2010) and Guccione, Neville, and George
+            (2019). No theoretical vocabulary substitutes for construct definition, experimental
+            manipulation, or validation.
           </p>
         </SectionIntro>
         <div className="foundation-record-grid">
           {foundations.map((foundation) => (
             <Link href={foundation.href} key={foundation.href}>
-              <Status>{foundation.status}</Status>
+              <Status tone={foundation.tone}>{foundation.status}</Status>
               <h2>{foundation.title}</h2>
               <p>{foundation.description}</p>
               <span>

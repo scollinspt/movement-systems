@@ -72,11 +72,16 @@ first viewport without becoming a generic marketing page.
 
 ### Scientific Foundations
 
-- Systems, constraints, emergence, and adaptation
-- Attain, Sustain, and Maintain across organizational levels and timescales
-- Capacity, task, performance, and environment
-- Variability, stability, compensation, and dysfunction
-- Motor control, motor learning, and movement solutions
+- Integrative map of dynamical systems, constraints, complex adaptive systems, ecological
+  approaches, biomechanics, and physical therapy movement-system reasoning
+- Holt-centered record connecting constraints, coordination dynamics, biomechanics,
+  dynamic resources, locomotor adaptation, and rehabilitation
+- Guccione-centered record connecting movement solutions, bounded variability,
+  context-dependent optimization, diagnosis, prognosis, and intervention
+- Attain, Sustain, and Maintain as a developing cross-cutting synthesis across
+  organizational levels and timescales
+- Capacity, task, performance, environment, variability, stability, compensation, and
+  dysfunction
 - Competing explanations, evidence, observables, and model limits
 
 The existing `/theory` route remains part of this section while reviewed foundation

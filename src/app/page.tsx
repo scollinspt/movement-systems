@@ -18,9 +18,9 @@ export default function Home() {
           <p className="eyebrow">Physical therapy · Human movement · Research &amp; development</p>
           <h1>Clinical inquiry begins with <em>movement.</em></h1>
           <p className="hero-lead">
-            Physical therapists are human movement system specialists. Movement Systems studies
-            movement as emergent, adaptive behavior and develops practical ways to observe, measure,
-            explain, and improve movement in context.
+            Physical therapists bring movement-system expertise to human function, health, and
+            participation. Movement Systems studies movement as emergent, adaptive behavior and
+            develops practical ways to observe, measure, explain, and improve movement in context.
           </p>
           <div className="hero-actions">
             <Link className="button button-primary" href="/hms-lab">

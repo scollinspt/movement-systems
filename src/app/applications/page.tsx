@@ -24,7 +24,7 @@ export default function ApplicationsPage() {
         aside={<div className="application-coordinate"><span>person</span><span>task</span><span>setting</span><strong>movement in context</strong></div>}
       />
       <section className="page-section section-shell">
-        <SectionIntro label="Application domains" title="One systems framework, different human problems.">
+        <SectionIntro label="Application domains" title="A shared systems perspective, different human problems.">
           <p>Domains organize questions and collaborations. They do not imply that every service, instrument, or research capability is currently operational.</p>
         </SectionIntro>
         <div className="application-list">

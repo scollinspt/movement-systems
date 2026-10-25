@@ -22,7 +22,7 @@ export default function ResourcesPage() {
           <p>Every substantial record will show its type, maturity, sources, limits, relationships, ownership, and review state. A published page should never make a proposal look like a result.</p>
         </SectionIntro>
         <div className="resource-directory">
-          <article><span>Theory</span><h3>Concepts and definitions</h3><p>Systems, capacity, task, variability, adaptation, compensation, control, and movement solutions.</p><Link href="/theory">Browse the initial structure</Link></article>
+          <article><span>Scientific foundations</span><h3>Theories, concepts, and definitions</h3><p>Dynamical systems, constraints, dynamic resources, ecological approaches, movement solutions, capacity, variability, and adaptation.</p><Link href="/foundations">Explore the scientific foundations</Link></article>
           <article><span>Research &amp; development</span><h3>Questions and projects</h3><p>Public questions, methods, development records, projects, approved results, and provenance.</p><Link href="/research">View the agenda</Link></article>
           <article><span>Methods</span><h3>Measurement and models</h3><p>Acquisition, calibration, uncertainty, observability, synchronization, and interpretation.</p><Link href="/measurement-modeling">Explore methods</Link></article>
           <article><span>Ecosystem</span><h3>Related scholarship</h3><p>Evidence, physiology, movement knowledge, population models, and patient-specific inference.</p><Link href="/clinical-inquiry">See the connections</Link></article>

@@ -1,7 +1,8 @@
-export type EvidenceStatus = "established" | "interpretive" | "proposed";
+export type EvidenceStatus = "documented" | "interpretive" | "proposed";
 
 export type ScientificRecordType =
   | "conceptual-framework"
+  | "scientific-foundation"
   | "research-approach";
 
 export type ScientificSource = {
@@ -17,7 +18,7 @@ export type ScientificRecord = {
   title: string;
   summary: string;
   evidenceStatus: EvidenceStatus;
-  maturity: "developing synthesis";
+  maturity: "source-grounded foundation" | "developing synthesis";
   organizationalScales: string[];
   timescales: string[];
   sources: ScientificSource[];
@@ -72,12 +73,108 @@ export const researchApproachRecord = {
   lastReviewed: "2026-10-25",
 } satisfies ScientificRecord;
 
+export const dynamicSystemsConstraintsRecord = {
+  id: "HMS-FOUNDATION-001",
+  type: "scientific-foundation",
+  title: "Dynamic Systems, Constraints, and Dynamic Resources",
+  summary:
+    "A foundation for investigating how movement patterns emerge from changing organismic, task, and environmental constraints, and how coordination and available mechanical and physiological resources contribute to those patterns.",
+  evidenceStatus: "documented",
+  maturity: "source-grounded foundation",
+  organizationalScales: [
+    "body structure and function",
+    "coordination",
+    "activity",
+    "participation",
+  ],
+  timescales: [
+    "movement cycle",
+    "continuous performance",
+    "adaptation and rehabilitation",
+    "development and disease progression",
+  ],
+  sources: [
+    {
+      id: "holt-wagenaar-saltzman-2010",
+      citation:
+        "Holt KG, Wagenaar RO, Saltzman E. A Dynamic Systems/Constraints Approach to Rehabilitation. Brazilian Journal of Physical Therapy. 2010;14(6):446-463.",
+      url: "https://doi.org/10.1590/S1413-35552010000600002",
+      contribution:
+        "Connects organismic, task, and environmental constraints with coordination dynamics, biomechanical models, dynamic resources, locomotor adaptation, and rehabilitation reasoning.",
+    },
+  ],
+  limitations: [
+    "A constraints description does not by itself identify which interaction caused an observed movement pattern.",
+    "Coordination dynamics characterize movement organization; biomechanical and physiological models are needed to investigate how a pattern is produced.",
+    "A nonstandard movement pattern may be adaptive, but that does not establish that it is harmless, efficient across all timescales, or clinically preferable.",
+  ],
+  relatedRoutes: [
+    "/theory",
+    "/foundations/movement-solutions-optimization",
+    "/foundations/attain-sustain-maintain",
+    "/measurement-modeling",
+  ],
+  lastReviewed: "2026-10-25",
+} satisfies ScientificRecord;
+
+export const movementSolutionsOptimizationRecord = {
+  id: "HMS-FOUNDATION-002",
+  type: "scientific-foundation",
+  title: "Movement Solutions, Optimization, and Physical Therapy Diagnosis",
+  summary:
+    "A physical therapy foundation for understanding purposeful movement as a changing, context-dependent solution that emerges from interacting organismic resources and constraints, task demands, and environmental conditions.",
+  evidenceStatus: "documented",
+  maturity: "source-grounded foundation",
+  organizationalScales: [
+    "body structure and function",
+    "movement behavior",
+    "activity",
+    "participation",
+  ],
+  timescales: [
+    "initial examination",
+    "task performance",
+    "episode of care",
+    "recovery and adaptation",
+  ],
+  sources: [
+    {
+      id: "guccione-neville-george-2019",
+      citation:
+        "Guccione AA, Neville BT, George SZ. Optimization of Movement: A Dynamical Systems Approach to Movement Systems as Emergent Phenomena. Physical Therapy. 2019;99(1):3-9.",
+      url: "https://doi.org/10.1093/ptj/pzy116",
+      contribution:
+        "Frames purposeful movement as an emergent behavioral solution and develops implications for bounded variability, optimization, diagnosis, prognosis, and intervention in physical therapy.",
+    },
+    {
+      id: "holt-wagenaar-saltzman-2010",
+      citation:
+        "Holt KG, Wagenaar RO, Saltzman E. A Dynamic Systems/Constraints Approach to Rehabilitation. Brazilian Journal of Physical Therapy. 2010;14(6):446-463.",
+      url: "https://doi.org/10.1590/S1413-35552010000600002",
+      contribution:
+        "Provides the dynamic systems, constraints, and dynamic-resources foundation that Guccione and colleagues extend into movement-system expertise and diagnosis.",
+    },
+  ],
+  limitations: [
+    "Optimal does not mean normal, ideal, or universally best; criteria must be specified for a person, task, environment, and time.",
+    "An initial diagnostic description supplies hypotheses and initial conditions, not a complete or permanent explanation.",
+    "Variability can support adaptable performance or reflect limitation; its amount alone does not establish health or skill.",
+  ],
+  relatedRoutes: [
+    "/theory",
+    "/foundations/dynamic-systems-constraints",
+    "/foundations/attain-sustain-maintain",
+    "/clinical-inquiry",
+  ],
+  lastReviewed: "2026-10-25",
+} satisfies ScientificRecord;
+
 export const attainSustainMaintainRecord = {
   id: "HMS-CONCEPT-001",
   type: "conceptual-framework",
   title: "Attain, Sustain, Maintain",
   summary:
-    "A hierarchical, scale-indexed framework for specifying whether a system can reach an objective, continue meeting it, and preserve or adapt the capacity required across repeated demands and longer timescales.",
+    "A hierarchical, scale-dependent framework used with existing approaches to classify constraints and limitations impacting whether a system can reach an objective, continue meeting it, and preserve or adapt the capacity required across repeated demands and longer timescales.",
   evidenceStatus: "interpretive",
   maturity: "developing synthesis",
   organizationalScales: [

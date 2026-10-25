@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { ClipboardCheck, FlaskConical, HeartHandshake, Move3d, Users } from "lucide-react";
 import { HmsLabNav } from "@/components/hms-lab-nav";
-import { PageHero, SectionIntro, Status } from "@/components/page-elements";
+import { NextLink, PageHero, SectionIntro, Status } from "@/components/page-elements";
 
 export const metadata: Metadata = {
   title: "About the HMS Lab",
@@ -40,8 +40,18 @@ const foundations = [
   },
   {
     label: "Scientific perspective",
-    title: "Systems and dynamics",
-    text: "Complex adaptive and dynamical systems perspectives focus attention on emergence, adaptation, variability, history, context, and change over time.",
+    title: "Dynamical and complex adaptive systems",
+    text: "These perspectives focus attention on emergence, coordination, stability, adaptation, history, nested scales, context, and change over time.",
+  },
+  {
+    label: "Movement organization",
+    title: "Constraints and dynamic resources",
+    text: "Organismic, task, and environmental constraints interact with available mechanical and physiological resources to shape possible movement solutions.",
+  },
+  {
+    label: "Person–environment relation",
+    title: "Ecological approaches",
+    text: "Ecological psychology and ecological dynamics direct attention to information, action capabilities, exploration, and adaptable performance in context.",
   },
   {
     label: "Development practice",
@@ -104,6 +114,7 @@ export default function HmsLabAboutPage() {
             </article>
           ))}
         </div>
+        <NextLink href="/foundations">Explore the scientific foundations</NextLink>
       </section>
 
       <section className="clinical-lab-band">

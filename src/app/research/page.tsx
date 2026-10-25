@@ -18,6 +18,39 @@ const questions = [
   "How can movement observations improve patient-specific reasoning without becoming automatic conclusions?",
 ];
 
+const researchThemes = [
+  {
+    title: "Emergence and organization of coordination",
+    description:
+      "How interacting components and constraints give rise to preferred patterns, stability, and transitions.",
+  },
+  {
+    title: "Variability, stability, and adaptability",
+    description:
+      "When variation supports exploration and flexible performance, and when it reflects a loss of useful control.",
+  },
+  {
+    title: "Dynamic resources and task performance",
+    description:
+      "How force, timing, elasticity, inertia, damping, and energy supply contribute to movement solutions.",
+  },
+  {
+    title: "Perception, action, and environmental information",
+    description:
+      "How action capabilities, information, exploration, and context shape possibilities for movement.",
+  },
+  {
+    title: "Fatigue, recovery, and multiscale capability",
+    description:
+      "How physiological demands and adaptation affect the ability to attain, sustain, and maintain function.",
+  },
+  {
+    title: "Movement solutions, intervention, and prognosis",
+    description:
+      "How changing constraints and resources influence performance, participation, response to intervention, and what is likely to happen over time.",
+  },
+] as const;
+
 export default function ResearchPage() {
   return (
     <>
@@ -52,12 +85,40 @@ export default function ResearchPage() {
         </ol>
       </section>
 
+      <section className="research-themes">
+        <div className="section-shell">
+          <SectionIntro
+            label="Research themes"
+            title="Organize development around the phenomena under study."
+          >
+            <p>
+              These themes connect the scientific foundations to questions, measurements,
+              experiments, models, and clinical translation. They are research directions, not
+              claims that every program is currently operational.
+            </p>
+          </SectionIntro>
+          <div className="research-theme-grid">
+            {researchThemes.map((theme, index) => (
+              <article key={theme.title}>
+                <span>0{index + 1}</span>
+                <h3>{theme.title}</h3>
+                <p>{theme.description}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="project-program">
         <div className="section-shell">
-          <SectionIntro label="Initial HMS Lab development" title="Build the method before making the claim.">
+          <SectionIntro
+            label="Initial method-development programs"
+            title="Build the methods needed to investigate the questions."
+          >
             <p className="lead">
-              Five proposed projects stage acquisition, sensor-count scaling, orientation validation,
-              OpenSense interoperability, and only then synchronized OpenCap comparison.
+              These initial sensor-development programs support the research questions by staging
+              acquisition, sensor-count scaling, orientation validation, OpenSense interoperability,
+              and only then synchronized OpenCap comparison.
             </p>
             <p>
               Every new sensor count, task, placement, or processing claim is tested non-human before
@@ -84,7 +145,9 @@ export default function ResearchPage() {
 
       <section className="research-pathways section-shell">
         <Link href="/research-approach"><span>Approach</span><strong>Questions, measurement &amp; learning</strong><ArrowRight aria-hidden="true" /></Link>
-        <Link href="/foundations/attain-sustain-maintain"><span>Framework</span><strong>Attain, Sustain, Maintain</strong><ArrowRight aria-hidden="true" /></Link>
+        <Link href="/foundations/dynamic-systems-constraints"><span>Foundation</span><strong>Constraints &amp; dynamic resources</strong><ArrowRight aria-hidden="true" /></Link>
+        <Link href="/foundations/movement-solutions-optimization"><span>Foundation</span><strong>Movement solutions &amp; optimization</strong><ArrowRight aria-hidden="true" /></Link>
+        <Link href="/foundations/attain-sustain-maintain"><span>Developing framework</span><strong>Attain, Sustain, Maintain</strong><ArrowRight aria-hidden="true" /></Link>
         <Link href="/measurement-modeling"><span>Methods</span><strong>Measurement &amp; modeling</strong><ArrowRight aria-hidden="true" /></Link>
         <Link href="/applications"><span>Contexts</span><strong>Clinical and human applications</strong><ArrowRight aria-hidden="true" /></Link>
         <Link href="/resources"><span>Infrastructure</span><strong>Records, glossary &amp; governance</strong><ArrowRight aria-hidden="true" /></Link>

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { PageHero, SectionIntro } from "@/components/page-elements";
+import { NextLink, PageHero, SectionIntro } from "@/components/page-elements";
 import { ScientificRecordMeta } from "@/components/scientific-record-meta";
 import { attainSustainMaintainRecord } from "@/lib/scientific-records";
 
@@ -56,15 +56,6 @@ export default function AttainSustainMaintainPage() {
         title={<>Attain. Sustain. <em>Maintain.</em></>}
         summary={attainSustainMaintainRecord.summary}
         tone="accent"
-        aside={
-          <div className="asm-time-figure" aria-hidden="true">
-            <span>milliseconds</span>
-            <strong>objective</strong>
-            <span>task duration</span>
-            <strong>recovery</strong>
-            <span>lifespan</span>
-          </div>
-        }
       />
 
       <section className="record-intro section-shell">
@@ -187,7 +178,7 @@ export default function AttainSustainMaintainPage() {
           />
           <div className="asm-evidence-grid">
             <article>
-              <span>Established source foundation</span>
+              <span>Documented source foundation</span>
               <h3>Physiology and clinical decision logic</h3>
               <p>
                 The Clinical Physiology text explicitly distinguishes attaining and sustaining
@@ -213,6 +204,35 @@ export default function AttainSustainMaintainPage() {
               </p>
             </article>
           </div>
+        </div>
+      </section>
+
+      <section className="asm-relationships section-shell">
+        <SectionIntro
+          label="Relationship to established foundations"
+          title="A cross-cutting framework, not a replacement theory."
+        >
+          <p>
+            Dynamic systems and constraints approaches help investigate how a movement solution
+            emerges. Dynamic-resource models help investigate how it is produced. Ecological
+            approaches address information and possibilities for action. ICF organizes activity
+            and participation. Attain, Sustain, and Maintain asks a different but related question:
+            whether relevant systems can meet, continue meeting, and preserve or adapt capability
+            for a specified objective.
+          </p>
+          <p>
+            Holt, Wagenaar, and Saltzman (2010) and Guccione, Neville, and George (2019) establish
+            important scientific context. They are not presented as the originators of this
+            developing synthesis.
+          </p>
+        </SectionIntro>
+        <div className="asm-relationship-links">
+          <NextLink href="/foundations/dynamic-systems-constraints">
+            Read about constraints and dynamic resources
+          </NextLink>
+          <NextLink href="/foundations/movement-solutions-optimization">
+            Read about movement solutions and optimization
+          </NextLink>
         </div>
       </section>
     </>

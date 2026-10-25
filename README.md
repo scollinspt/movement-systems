@@ -167,9 +167,14 @@ Current public routes are:
 
 - `/`: Movement Systems and HMS Lab orientation;
 - `/foundations`: scientific foundations hub and reviewed concept records;
+- `/foundations/dynamic-systems-constraints`: Holt-centered foundation connecting
+  constraints, coordination dynamics, biomechanics, and dynamic resources;
+- `/foundations/movement-solutions-optimization`: Guccione-centered foundation connecting
+  movement solutions, bounded variability, optimization, diagnosis, and prognosis;
 - `/foundations/attain-sustain-maintain`: hierarchical, scale-indexed framework for
   functional capability across tasks and timescales;
-- `/theory`: foundational movement-systems propositions and concept scaffold;
+- `/theory`: integrative map of dynamical systems, constraints, complex adaptive systems,
+  ecological approaches, and physical therapy movement-system reasoning;
 - `/research-approach`: recursive questions, measurement, learning, and revision cycle;
 - `/research`: research agenda and public record structure;
 - `/hms-lab`: HMS Lab orientation and navigation;
