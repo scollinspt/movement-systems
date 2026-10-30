@@ -1,0 +1,1632 @@
+# GitHub Copilot Development Brief
+## MovementSystems.org and the Human Movement Systems Laboratory
+### Establishing a Theory-Driven Research and Development Program for Human Movement Science
+
+**Project owner:** Sean M. Collins, PT, ScD  
+**Academic context:** Plymouth State University Doctor of Physical Therapy Program  
+**Website:** https://movementsystems.org  
+**Primary objective:** Evolve the existing Movement Systems website into a rigorous, transparent, scientifically grounded research and development platform centered on the Human Movement Systems Laboratory (HMS Lab).
+
+---
+
+# 1. Your Role and Overall Assignment
+
+You are assisting in the strategic, scientific, editorial, and technical development of the existing MovementSystems.org website.
+
+Act as a collaborative combination of:
+
+- Research website architect.
+- Scientific content developer.
+- Human movement science research assistant.
+- Open-science and research software engineer.
+- Accessible web application developer.
+- Documentation and information architecture specialist.
+
+Your responsibility is to help transform an existing, functioning website into a coherent research and development platform.
+
+This is **not a request to create a new website from scratch**.
+
+Before editing anything, inspect the repository and identify:
+
+1. The existing site architecture, framework, components, routes, content files, and deployment workflow.
+2. Current mission statements and descriptions of the Movement Systems initiative.
+3. Existing pages and navigation.
+4. Current HMS Lab projects and their development status.
+5. Existing GitHub repositories, project records, and Zotero integrations.
+6. Existing scientific and clinical content worth preserving.
+7. Existing accessibility, SEO, and responsive design conventions.
+
+Preserve functioning systems unless there is a clear, documented reason to modify them.
+
+Make changes incrementally, with reviewable commits or pull requests.
+
+**Do not make unsupported scientific claims, invent accomplishments, change project maturity labels without evidence, or present proposed technologies as validated research instruments.**
+
+The primary objective is not simply to make the site look more scientific. It is to make the scientific reasoning, theoretical foundations, research hypotheses, measurement development, and evidence pathways genuinely inspectable.
+
+---
+
+# 2. Central Intellectual Position
+
+Movement Systems should explicitly embrace a **dynamical systems, complex adaptive systems, ecological dynamics, and constraints-based approach to understanding human movement**.
+
+This perspective has been part of Sean Collins's intellectual trajectory for decades, including research involving:
+
+- Complex systems and clinical research.
+- Environmental stress and physiological regulation.
+- Ambulatory physiological measurement.
+- Variability in autonomic control.
+- Stability, decompensation, and adaptation.
+- Systems theory and causal reasoning in DPT education.
+- Movement as an emergent functional phenomenon.
+
+The new website should make this continuity visible.
+
+Avoid presenting ecological dynamics as a recent change in philosophy or as a fashionable replacement for traditional motor-control terminology.
+
+Instead, present it as an increasingly explicit movement-science application of a longstanding commitment to studying **complex, adaptive, multiscale, open biological systems in context**.
+
+## Scientific premises
+
+Develop site content around the following premises.
+
+### A. Movement is emergent
+
+Human movement emerges from interactions among physiological, neural, muscular, mechanical, perceptual, behavioral, task, environmental, and historical constraints.
+
+A movement pattern cannot generally be explained by a single impairment or isolated component.
+
+The movement visible to an observer is a realized solution produced by a complex interacting system.
+
+### B. Movement is goal-directed and context-dependent
+
+The scientific unit of interest is not merely a body segment moving through space.
+
+It is an organism attempting to accomplish a functional task within a particular environment.
+
+The same functional task may be accomplished through different movement strategies.
+
+The same observed movement strategy may arise from different underlying mechanisms.
+
+### C. Movement is dynamically organized
+
+Coordination can emerge through the interactions of coupled components.
+
+Relevant constructs include:
+
+- Coordination patterns.
+- Relative phase.
+- Coupling.
+- Order parameters.
+- Control parameters.
+- Attractors.
+- Stability and loss of stability.
+- Transitions between coordination patterns.
+- Multistability.
+- Variability.
+- Self-organization.
+- Adaptation.
+
+Use these terms precisely. They are not interchangeable metaphors.
+
+For example, changing gait variability is not automatically evidence of a phase transition, and a low-variability movement pattern is not automatically stable or healthy.
+
+### D. Movement is constrained by available dynamic resources
+
+Drawing particularly on Holt, Wagenaar, and Saltzman (2010), distinguish the organization of movement from the mechanical resources contributing to its production.
+
+Dynamic resources include:
+
+- Active, appropriately timed muscular force production.
+- Elastic energy storage and return.
+- Pendular exchanges of kinetic and gravitational potential energy.
+- Segment mass, length, and inertia.
+- Damping and mechanical energy dissipation.
+- Physiological energy supply.
+
+These resources interact with anatomical structure, task demands, environmental forces, and coordination dynamics.
+
+A person's observed movement pattern may represent an adaptation to a changed set of resources rather than an incorrectly executed ideal movement.
+
+### E. Perception and action are coupled
+
+Drawing on ecological psychology, especially James J. Gibson and subsequent ecological dynamics scholarship, recognize that movement is guided by information about possibilities for action.
+
+Important constructs include:
+
+- Affordances.
+- Effectivities or action capabilities.
+- Perception–action coupling.
+- Information available in the environment.
+- Exploratory behavior.
+- Body-scaled and action-scaled relationships.
+- Task-relevant opportunities for action.
+
+Do not collapse ecological psychology into biomechanics.
+
+Although biomechanical measurement can characterize movement, ecological hypotheses about affordance perception and action selection may require additional observations and experimental manipulations.
+
+### F. Stability and adaptability must be investigated across timescales
+
+Movement and physiological regulation involve different timescales:
+
+- Milliseconds and individual contractions.
+- Individual movement cycles.
+- Continuous task performance.
+- Repeated performances.
+- Hours and days.
+- Learning and training.
+- Recovery and rehabilitation.
+- Development and aging.
+- Long-term participation.
+
+A system may exhibit apparent stability at one timescale while changing at another.
+
+The website should encourage investigations of temporal organization rather than focusing exclusively on averaged movement measurements.
+
+### G. Observation is not explanation
+
+This must remain a defining principle of the website.
+
+Sensors produce measurements.
+
+Measurements support descriptions and estimates.
+
+Models connect measurements to possible mechanisms.
+
+Experimental manipulation and convergent evidence help discriminate among competing explanations.
+
+A plausible mechanistic interpretation is not equivalent to proof of that mechanism.
+
+Every research project should make this distinction explicit.
+
+---
+
+# 3. Mission and Vision
+
+Use the following as proposed core institutional language, subject to review by Sean Collins.
+
+## Movement Systems Mission
+
+**Movement Systems advances the scientific understanding of human movement as an emergent, adaptive phenomenon arising from interactions among biological systems, individual capabilities, tasks, and environments. Through the Human Movement Systems Laboratory, we develop, evaluate, and share accessible measurement technologies, computational models, experimental methods, and clinical reasoning approaches that connect movement observations to testable explanations and meaningful functional outcomes.**
+
+## HMS Lab Mission
+
+**The Human Movement Systems Laboratory is a clinically grounded research and development laboratory dedicated to investigating the dynamics of human movement and developing accessible, scientifically defensible methods for measuring, modeling, and understanding movement in context.**
+
+**The laboratory translates questions from physical therapy and movement science into hypotheses, experimental protocols, open measurement systems, computational tools, and reproducible research methods.**
+
+## Vision
+
+**To establish an open, clinically grounded research and development program that advances a mechanistic, multiscale, and context-sensitive science of human movement—enabling physical therapists, students, scientists, and collaborators to investigate how movement is attained, sustained, adapted, and maintained across tasks, environments, and the lifespan.**
+
+## Working Identity
+
+The site should communicate:
+
+**Movement Systems — The scientific framework.**
+
+**Human Movement Systems Laboratory — The research and development program.**
+
+**Physical Therapy — A central clinical and professional application.**
+
+These are connected but not identical.
+
+The website should be recognizable as a research enterprise, not primarily as a professional advocacy website, teaching portfolio, or collection of instruments.
+
+---
+
+# 4. Historical and Intellectual Continuity
+
+Create a substantial section that traces the scientific development of Sean Collins's work.
+
+Do not portray the current HMS Lab as a disconnected new initiative.
+
+Organize the intellectual history using verified publications, manuscripts, educational documents, and research records.
+
+## Early research: physiological regulation in environmental context
+
+The 2003 dissertation, *Job Strain and Electrocardiographically Assessed Pathophysiologic Mechanisms*, used ambulatory Holter ECG monitoring, environmental exposure assessments, and physiological variability to investigate cardiovascular regulatory responses to occupational conditions.
+
+This provides a direct historical foundation for the current interest in portable measurement of biological systems under real-world environmental demands.
+
+The essential connection is methodological and conceptual:
+
+Environmental demands interact with an organism's regulatory capacities.
+
+Continuous physiological measurement provides a window into system behavior over time.
+
+The interpretation requires attention to context, variability, and competing mechanisms.
+
+Do not imply that the dissertation directly investigated locomotor coordination.
+
+## 2005: Complex systems and clinically relevant research
+
+The 2005 commentary, *Complex System Approaches: Could They Enhance the Relevance of Clinical Research?*, raised the problem of translating findings from reductionist experiments into the complex systems encountered during physical therapist practice.
+
+Explain how that argument anticipates the HMS Lab's interest in understanding movement in realistic contexts while preserving experimental rigor.
+
+## 2005–2010: Autonomic control and multiscale variability
+
+Work with Robert Karasek and colleagues examined job strain, autonomic regulation, and variation in cardiac control.
+
+The 2010 paper on reduced vagal cardiac control variance is particularly relevant.
+
+Highlight the concept that variability can provide information about regulatory capability, but avoid assuming the interpretation of autonomic variability transfers directly to locomotor variability.
+
+Describe the transfer as a research motivation and conceptual parallel, not a demonstrated equivalence.
+
+## 2015: Stability and decompensation
+
+The Collins and Dias paper on heart failure examined stability, decompensation, function, and participation across levels of organization.
+
+Develop the connection to a general systems-theoretic interest in how functional systems remain viable under changing demands.
+
+Identify the relevance of requisite variety and regulatory capacity where supported by the article.
+
+## DPT curriculum: Systems, adaptation, and causation
+
+The Plymouth State DPT curriculum concepts explicitly identify:
+
+1. Systems.
+2. Adaptation.
+3. Causation.
+
+These concepts should be recognized as foundational elements of the present research program.
+
+Explain how they support:
+
+- Multiscale reasoning.
+- Emergence.
+- Dynamic stability.
+- Adaptive processes.
+- Complex causal relationships.
+- Generalization from controlled experiments to individuals in open systems.
+- Clinical reasoning based on evidence and mechanisms.
+
+## Current development: Movement dynamics and ecological science
+
+Present the current emphasis on coordination dynamics, ecological psychology, ecological dynamics, biomechanical modeling, and wearable measurement as an extension of this trajectory.
+
+Label the intellectual-history page as an evidence-supported account. Cite the original works and distinguish documented historical commitments from retrospective interpretation.
+
+---
+
+# 5. Scientific Foundations: A Major New Site Section
+
+Create a clearly organized scientific foundations area.
+
+Proposed route:
+
+`/foundations/`
+
+Potential subsections:
+
+### 5.1 Dynamical Systems and Complex Adaptive Systems
+
+Explain:
+
+- Dynamical states and state trajectories.
+- Interacting components.
+- Nonlinearity.
+- Emergence.
+- Feedback.
+- Multiscale organization.
+- Stability and instability.
+- Adaptation.
+- History dependence.
+- Open-system behavior.
+
+Distinguish mathematical dynamical systems theory from the broader concept of complex adaptive systems.
+
+They are related but not synonyms.
+
+### 5.2 Coordination Dynamics
+
+Explain the development of coordination dynamics through Bernstein, Kelso, Haken, Turvey, and colleagues.
+
+Include:
+
+- Degrees of freedom.
+- Collective variables.
+- Coupled oscillators.
+- Relative phase.
+- Haken–Kelso–Bunz model.
+- Coordination stability.
+- Frequency-induced transitions.
+- Order and control parameters.
+- The experimental meaning of an attractor.
+
+Connect these constructs to locomotion and rehabilitation.
+
+Explain what would constitute evidence for and against a proposed coordination-dynamics account.
+
+### 5.3 Ecological Psychology
+
+Introduce:
+
+- James J. Gibson.
+- Affordances.
+- Effectivities.
+- Ecological information.
+- Perception–action coupling.
+- Exploratory movement.
+- Person–environment relations.
+
+Clearly distinguish perceiving an affordance from simply possessing a mechanical movement capability.
+
+### 5.4 Ecological Dynamics and Constraints-Led Approaches
+
+Explain the synthesis of ecological psychology and dynamical systems perspectives.
+
+Include:
+
+- Newell's individual–task–environment constraints framework.
+- The ecological dynamics approach to motor learning.
+- Representative learning design.
+- Exploration.
+- Task and environmental manipulation.
+- Emergent coordination.
+- Skill acquisition and adaptable performance.
+
+Discuss applications to physical therapy cautiously.
+
+Do not claim all constraints-led rehabilitation interventions are empirically superior.
+
+### 5.5 Dynamic Resources and Neuromechanics
+
+Use Holt et al. (2010) as a central source.
+
+Explain the difference between:
+
+- Coordination dynamics as a characterization of movement organization.
+- Biomechanical models as potential explanations of the resources and mechanics producing particular patterns.
+
+Provide examples involving walking, running, pendular leg swing, stiffness, timed propulsion, and damping.
+
+### 5.6 Movement as an Emergent Clinical Phenomenon
+
+Use Guccione, Neville, and George (2019).
+
+Explain why movement-system expertise should involve understanding changing movement solutions rather than simply classifying static impairments.
+
+Integrate activity, participation, patient goals, and context.
+
+### 5.7 Scientific Inference and Causation
+
+Preserve the existing Clinical Inquiry and Instantiation framework.
+
+Explain:
+
+- Observational descriptions.
+- Hypothesis generation.
+- Competing explanations.
+- Manipulation of constraints.
+- Measurement validity.
+- Structural and practical identifiability.
+- Causal inference.
+- Population-to-person generalization.
+- Model revision.
+
+Do not imply that a dynamical systems model automatically provides a causal explanation.
+
+---
+
+# 6. Attain–Sustain–Maintain as a Cross-Cutting Functional Framework
+
+Integrate Sean Collins's Attain–Sustain–Maintain approach.
+
+This is a developing conceptual framework associated with his scholarly direction. It should not be attributed to Gibson, Kelso, Holt, or Guccione unless a specific source warrants the claim.
+
+## Attain
+
+The capacity of an interacting system to achieve a specified functional state or task outcome under identifiable constraints.
+
+Example:
+
+Muscle fibers contribute force with appropriate timing.
+
+At a higher scale, the resulting forces and mechanical interactions permit a limb to achieve the movement necessary for standing.
+
+At another scale, the person successfully stands from a chair.
+
+## Sustain
+
+The capacity to preserve necessary task performance or functional organization for the required duration, despite ongoing internal and external demands.
+
+Example:
+
+The person remains standing or continues walking for a task-relevant interval while managing fatigue, perturbations, and changing environmental conditions.
+
+## Maintain
+
+The capacity to retain, recover, or adapt the resources and coordination necessary for repeated functional achievement over longer periods.
+
+Example:
+
+The person maintains the ability to walk independently across repeated days, changing physical conditions, rehabilitation, disease progression, and aging.
+
+## Important distinctions
+
+These categories are not necessarily sequential.
+
+They can operate simultaneously at different scales.
+
+Maintaining function does not necessarily mean maintaining an identical movement pattern.
+
+Adaptation may preserve functional capability by changing coordination patterns.
+
+An individual may attain a task using a solution that is difficult to sustain or that imposes excessive long-term costs.
+
+Build a dedicated conceptual page and an accessible diagram showing:
+
+- Interacting organism, task, and environmental constraints.
+- Nested biological and functional levels.
+- Attain, Sustain, and Maintain as recurring functional requirements.
+- Temporal scales.
+- Dynamic resources and adaptability.
+
+Present this as a provisional conceptual synthesis requiring further theoretical clarification and empirical development.
+
+---
+
+# 7. Make the HMS Lab the Central R&D Platform
+
+Increase the prominence of the HMS Lab throughout the site.
+
+Suggested primary navigation:
+
+- Home
+- Scientific Foundations
+- Research Questions
+- HMS Lab
+- Methods & Tools
+- Publications & Resources
+- Clinical Translation
+
+Education and the Clinical Inquiry ecosystem should remain accessible through suitable navigation or linked sections.
+
+Do not remove existing pages without creating appropriate redirects.
+
+## Proposed HMS Lab identity
+
+**Human Movement Systems Laboratory**
+
+**Theory-driven measurement and modeling of movement in context.**
+
+Primary areas:
+
+1. Coordination dynamics.
+2. Ecological and constraints-based movement research.
+3. Biomechanics and dynamic resources.
+4. Ambulatory measurement and wearable sensing.
+5. Physiological regulation and multiscale stability.
+6. Computational modeling and system identification.
+7. Rehabilitation applications.
+8. Open research instrumentation and software development.
+
+The laboratory should retain its open development and maker culture.
+
+Arduino, Raspberry Pi, Movesense, OpenSim, OpenSense, and other technologies are tools, not scientific identities.
+
+Avoid making the site read primarily as an electronics workshop.
+
+---
+
+# 8. Reorganize Research Around Scientific Questions
+
+The main research portfolio should begin with a scientific phenomenon and research question, not a device.
+
+Create a hierarchy:
+
+**Research Theme → Research Question → Theoretical Prediction → Candidate Mechanisms → Required Measurements → Method Development → Experiment → Analysis → Interpretation → Result**
+
+## Proposed Research Theme A: Emergence and Organization of Coordination
+
+Central question:
+
+How do interacting organismic, task, and environmental constraints give rise to preferred movement patterns?
+
+Potential questions:
+
+- How does gait coordination change with speed?
+- How do interlimb relationships change when mechanical demands are altered?
+- Which coordination patterns remain stable under perturbation?
+- Are observed transitions gradual or discontinuous?
+- Can simplified coupled-oscillator models predict experimentally observed changes?
+
+## Theme B: Movement Variability, Stability, and Adaptability
+
+Central question:
+
+Under what conditions does movement variability reflect functional adaptability, exploration, instability, or loss of control?
+
+Avoid using variability as a general-purpose biomarker without a construct-specific justification.
+
+Distinguish:
+
+- Amount of variability.
+- Temporal structure of variability.
+- Stability of coordination.
+- Adaptability to changing conditions.
+- Response to perturbation.
+- Ability to transition between coordination patterns.
+
+## Theme C: Dynamic Resources and Mechanical Constraints
+
+Central question:
+
+How do available mechanical and physiological resources influence emergent movement solutions?
+
+Consider:
+
+- Force-production timing.
+- Stiffness.
+- Inertia.
+- Damping.
+- Energy storage and return.
+- Mechanical work.
+- Physiological energy supply.
+- Functional cost and tradeoffs.
+
+Link measurements to mathematical or biomechanical models that produce testable predictions.
+
+## Theme D: Ecological Perception–Action Research
+
+Central question:
+
+How do perceived opportunities for action interact with movement capabilities and task demands?
+
+Candidate investigations:
+
+- Body-scaled obstacle negotiation.
+- Locomotion through constrained spaces.
+- Step-height affordances.
+- Surface selection.
+- Walking speed selection.
+- Movement exploration under changing task conditions.
+
+IMUs may measure resulting movement, but investigations of perception and affordance judgments require appropriate additional methods.
+
+## Theme E: Functional Capability Across Time
+
+Central question:
+
+How do individuals attain, sustain, and maintain functional performance as constraints and available resources change?
+
+Investigate:
+
+- Task initiation.
+- Continuous performance.
+- Fatigue-related adaptation.
+- Recovery.
+- Repeated-task capability.
+- Motor learning.
+- Longitudinal functional change.
+
+## Theme F: Physiological Regulation and Movement
+
+Connect earlier autonomic research with current questions.
+
+Explore how physiological resources and regulatory responses interact with movement performance.
+
+Possible future multimodal measurements may include:
+
+- IMUs.
+- ECG.
+- Heart rate and heart-rate variability.
+- Respiration.
+- Force and pressure.
+- Video and kinematics.
+- Task and environmental descriptors.
+
+These should be developed only where required by a research hypothesis.
+
+---
+
+# 9. Establish a Theory-to-Measurement Framework
+
+This may be the single most important structural development.
+
+Create a public, inspectable framework showing how a theoretical construct becomes a measurement hypothesis.
+
+Every construct should have a structured record containing:
+
+1. Name.
+2. Theoretical definition.
+3. Principal scholarly sources.
+4. Level of organization.
+5. Relevant timescale.
+6. Observable manifestations.
+7. Candidate measurements.
+8. Required sensor modalities.
+9. Processing assumptions.
+10. Threats to validity.
+11. Alternative explanations.
+12. Required experiments or perturbations.
+13. Current evidence status.
+14. Open scientific questions.
+
+## Initial construct records
+
+Develop records for:
+
+- Interlimb relative phase.
+- Continuous relative phase.
+- Coordination variability.
+- Movement frequency.
+- Coupling strength.
+- Preferred coordination patterns.
+- Local dynamic stability.
+- Coordination transitions.
+- Functional adaptability.
+- Movement economy.
+- Dynamic resource utilization.
+- Task success.
+- Affordance-related action boundaries.
+- Functional capability across time.
+
+Crucial scientific guardrails:
+
+A measured relative phase is not a direct measurement of neural control.
+
+Relative-phase variability is not identical to attractor stability.
+
+A smooth movement trajectory is not necessarily an optimal or healthy movement.
+
+An IMU-derived angle is an estimate, not a direct anatomical observation.
+
+Agreement between two measurement systems does not automatically establish accuracy.
+
+A pattern consistent with a theoretical prediction does not uniquely establish the underlying mechanism.
+
+---
+
+# 10. Build a Modular Measurement and Modeling Architecture
+
+Preserve existing Movesense development records, but reposition them within a broader research methodology.
+
+## Layer 1: Acquisition
+
+Potential systems:
+
+- Movesense IMUs.
+- Custom microcontroller systems.
+- Arduino-compatible instrumentation.
+- Raspberry Pi-based acquisition.
+- ECG and other physiological sensors.
+- Video and markerless movement capture.
+- Force and pressure instrumentation.
+
+For every acquisition method, record:
+
+- Hardware and firmware versions.
+- Sensor placement.
+- Sampling rate.
+- Timing accuracy.
+- Synchronization.
+- Data loss.
+- Calibration.
+- Coordinate systems.
+- Environmental limitations.
+- Raw data preservation.
+
+## Layer 2: Direct Signal Analysis
+
+Develop a pipeline that does not depend on musculoskeletal modeling.
+
+Potential outputs:
+
+- Angular velocity.
+- Acceleration.
+- Periodicity.
+- Event timing.
+- Segment movement frequency.
+- Phase relationships.
+- Intersegment coordination.
+- Coordination variability.
+- Signal quality.
+
+Include theoretical and methodological conditions for each outcome.
+
+Where continuous relative phase is computed, make phase definitions, normalization, filtering, and signal limitations explicit.
+
+## Layer 3: Coordination Dynamics Analysis
+
+Develop optional methods for:
+
+- Relative-phase distributions.
+- Coordination transitions.
+- Phase locking.
+- Phase variability.
+- Frequency relationships.
+- Perturbation responses.
+- Nonlinear time-series analyses.
+- Stability-related measures where assumptions and validation support them.
+
+Do not implement advanced nonlinear metrics simply because a software library offers them.
+
+Require a research question, theoretical construct, data-quality requirements, and validation rationale.
+
+## Layer 4: OpenSense/OpenSim Integration
+
+Keep OpenSense/OpenSim as an optional modeling branch.
+
+Potential uses:
+
+- Model-based joint kinematics.
+- Anatomical interpretation.
+- Testing simplified neuromechanical accounts.
+- Comparison of segment-based and model-derived coordination measurements.
+- Investigation of what additional information biomechanical reconstruction provides.
+
+OpenSense should not be required for direct IMU coordination analysis.
+
+OpenSim-derived kinetic quantities require additional measurements and modeling assumptions. Do not imply that segment orientations alone establish forces, joint moments, muscle force, or energy transfers.
+
+## Layer 5: Independent Comparison and Validation
+
+Retain the proposed OpenCap comparison, but distinguish:
+
+- Agreement.
+- Reliability.
+- Validity.
+- Accuracy.
+- Sensitivity.
+- Measurement invariance.
+- Clinical interpretability.
+
+OpenCap should not be described as unquestionable ground truth.
+
+Use independent reference methods wherever practical.
+
+## Layer 6: Theory-Driven Interpretation
+
+Bring together:
+
+- Experimental constraints.
+- Observed movement.
+- Candidate mechanisms.
+- Model predictions.
+- Measurement uncertainty.
+- Alternative explanations.
+- Limits of causal interpretation.
+
+The objective is not merely to produce movement plots. It is to generate scientifically interpretable evidence.
+
+---
+
+# 11. Develop a Public Research Record System
+
+Preserve the current structured R&D records and improve them.
+
+Each project should have fields for:
+
+- Project ID and title.
+- Scientific motivation.
+- Research theme.
+- Theoretical foundation.
+- Scientific question.
+- Competing hypotheses.
+- Predicted observations.
+- Construct definitions.
+- Measurement requirements.
+- Instrumentation.
+- Experimental design.
+- Software and analysis methods.
+- Validation needs.
+- Human research governance.
+- Current project maturity.
+- Milestones.
+- Decision criteria.
+- Results, if any.
+- Limitations.
+- Contributors.
+- Publications.
+- Repository links.
+- Last reviewed date.
+
+Distinguish project statuses such as:
+
+- Concept.
+- Proposed.
+- Bench development.
+- Bench tested.
+- Human feasibility approved.
+- Human feasibility evaluated.
+- Validation in progress.
+- Validated for a specified use.
+- Research results available.
+- Published.
+- Archived.
+
+Do not use vague labels such as "proven," "clinical grade," or "fully functional" unless supported by explicit criteria.
+
+The existing Movesense projects should retain their identifiers and progression unless repository evidence supports a change.
+
+---
+
+# 12. Establish Flagship R&D Projects
+
+Recommend the following provisional development programs while preserving existing project identities.
+
+### Program A: Open Wearable Measurement Infrastructure
+
+Objective:
+
+Develop reproducible and accessible acquisition, synchronization, calibration, and quality-control methods for wearable measurement.
+
+Initial scope:
+
+Single Movesense sensor, then synchronized multi-sensor configurations.
+
+### Program B: Coordination Dynamics Measurement
+
+Objective:
+
+Determine whether portable inertial measurements can recover theoretically meaningful coordination variables during controlled rhythmic movement and walking.
+
+Initial emphasis:
+
+Relative phase, frequency relationships, signal processing sensitivity, and measurement uncertainty.
+
+### Program C: Constraint-Dependent Locomotor Coordination
+
+Objective:
+
+Investigate how locomotor coordination changes in response to systematic task and environmental manipulations.
+
+Possible experimental variables:
+
+Speed, cadence demands, path constraints, obstacles, and other ethically appropriate perturbations.
+
+### Program D: Model-Based Interpretation
+
+Objective:
+
+Investigate when OpenSense/OpenSim modeling provides scientifically useful information beyond direct IMU measurements.
+
+### Program E: Multiscale Physiological and Movement Regulation
+
+Objective:
+
+Extend the laboratory's historical expertise in ambulatory physiological monitoring to questions about physiological regulation, movement stability, fatigue, and adaptive capacity.
+
+### Program F: Attain–Sustain–Maintain
+
+Objective:
+
+Develop operational definitions and empirical methods for evaluating functional capability across timescales and organizational levels.
+
+These programs are proposed directions. Do not present them as funded, approved, completed, or operational projects unless documented.
+
+---
+
+# 13. Proposed Flagship Experiment
+
+Develop a methodological concept page for an initial coordination-dynamics experiment.
+
+Working title:
+
+**Measurement of Constraint-Dependent Coordination in Human Locomotion Using Wearable Inertial Sensors**
+
+Scientific question:
+
+Can direct IMU measurements characterize reproducible changes in locomotor coordination as selected task constraints change?
+
+Initial experimental approach:
+
+Use controlled rhythmic tasks and walking to develop and evaluate synchronized measurements of intersegment timing and relative phase.
+
+Possible variables:
+
+- Movement frequency.
+- Walking speed.
+- Segment angular velocity.
+- Relative phase.
+- Stride-cycle characteristics.
+- Coordination variability.
+- Responses to controlled changes in task demands.
+
+Initial scientific objectives:
+
+1. Establish reliable timing and synchronization.
+2. Compare alternative phase estimation methods.
+3. Evaluate reproducibility.
+4. Characterize sensitivity to processing choices.
+5. Determine whether observed coordination changes are reproducible.
+6. Establish what additional measurements are required to evaluate stability or identify mechanisms.
+
+The experiment should not initially claim to demonstrate attractors or dynamical phase transitions.
+
+Those are stronger scientific propositions requiring specifically designed tests.
+
+All human involvement must depend on appropriate institutional determination, research governance, and consent where required.
+
+---
+
+# 14. Preserve and Integrate Existing HMS Lab Projects
+
+The existing site includes:
+
+- Tilt ECG Measurement and Physiology Review.
+- Movesense–OpenSense Integration.
+- Ventilatory Pump Measurement and Mechanics.
+
+Do not discard them.
+
+Instead, explain how each contributes to the broader R&D mission.
+
+### Tilt ECG project
+
+Connect to physiological regulation, perturbation, multimodal measurement, and inference about system responses.
+
+### Movesense–OpenSense project
+
+Connect to coordination dynamics, biomechanical modeling, wearable sensing, observability, and movement measurement validation.
+
+### Ventilatory mechanics project
+
+Connect to dynamic resources, force generation, physiological capacity, and functional performance.
+
+Do not force every project into ecological psychology.
+
+The laboratory should support complementary scientific explanations within a coherent systems framework.
+
+---
+
+# 15. Scientific Publications and Scholarly Foundations
+
+Create a structured references area integrating laboratory-relevant scholarship.
+
+Core literature should include, subject to bibliographic verification:
+
+### Movement and dynamical systems
+
+- Bernstein, *The Co-ordination and Regulation of Movements*.
+- Haken, Kelso, and Bunz (1985), theoretical model of phase transitions.
+- Kelso, *Dynamic Patterns*.
+- Newell (1986), constraints on coordination development.
+- Holt, Wagenaar, and Saltzman (2010), dynamic systems/constraints rehabilitation.
+- Guccione, Neville, and George (2019), optimization of movement as emergent phenomena.
+
+### Ecological psychology and ecological dynamics
+
+- James J. Gibson, *The Ecological Approach to Visual Perception*.
+- Thelen and Smith, dynamic systems approaches to development.
+- Davids and colleagues, ecological dynamics and constraints-led learning.
+- Button, Seifert, Chow, Araújo, and Davids, *Dynamics of Skill Acquisition*, second edition.
+
+### Sean Collins's research trajectory
+
+- Collins (2003), dissertation on job strain and ECG-assessed mechanisms.
+- Collins (2005), complex systems and clinical research.
+- Collins, Karasek, and Costas (2005), job strain and autonomic indices.
+- Collins and Karasek (2010), vagal cardiac control variance.
+- Collins and Dias (2015), heart failure stability and decompensation.
+- Plymouth State DPT curriculum concepts document.
+
+Do not invent citations, publication dates, DOIs, institutional affiliations, or publication findings.
+
+Where possible, link to DOI landing pages, publisher pages, institutional repositories, or available open-access versions.
+
+Use the current public Zotero collection as an important literature-management resource without automatically treating every item as endorsed evidence.
+
+Create source-to-claim relationships for major scientific statements.
+
+---
+
+# 16. Scientific Societies and Professional Alignment
+
+Update descriptions of the laboratory's scientific communities.
+
+Prioritize:
+
+**American Society of Biomechanics (ASB)**  
+Biomechanical measurement, modeling, and movement science.
+
+**International Society for Ecological Psychology (ISEP)**  
+Ecological psychology, affordances, perception–action relationships, and related ecological dynamics scholarship.
+
+**International Society of Motor Control (ISMC)**  
+Broader motor-control science, coordination dynamics, and competing mechanistic perspectives.
+
+**American Physical Therapy Association (APTA)**  
+Professional application, rehabilitation, clinical expertise, and DPT education.
+
+Do not claim formal institutional partnerships, sponsorships, endorsements, or memberships beyond those confirmed by the site owner.
+
+Biomedical engineering should remain an important methodological influence, but IEEE EMBS need not be featured as a defining scientific affiliation.
+
+---
+
+# 17. Homepage Redesign
+
+The homepage should communicate the scientific and R&D identity immediately.
+
+Suggested hero:
+
+**Headline:**  
+Understanding Movement as an Emergent, Adaptive System
+
+**Subheadline:**  
+Theory-driven research and development in human movement science, coordination dynamics, ecological dynamics, biomechanics, and rehabilitation.
+
+**Supporting text:**  
+Movement Systems and the Human Movement Systems Laboratory investigate how movement emerges under interacting constraints and develop accessible methods to measure, model, and explain movement in context.
+
+**Primary navigation actions:**
+
+- Explore the Research
+- Enter the HMS Lab
+- Scientific Foundations
+
+Below the hero, organize the page around:
+
+1. The scientific problem.
+2. The laboratory mission.
+3. Core scientific foundations.
+4. Research questions.
+5. Research programs and current project statuses.
+6. Methods and technologies.
+7. Publications and research history.
+8. Clinical and educational relevance.
+9. Opportunities for collaboration.
+
+Emphasize research questions visually more than instruments.
+
+Use clear scientific diagrams rather than stock photographs.
+
+Avoid decorative claims or terminology that does not contribute to understanding.
+
+---
+
+# 18. Design System and User Experience
+
+The site should feel like a credible university-affiliated research program.
+
+Desired characteristics:
+
+- Scholarly.
+- Clear.
+- Accessible.
+- Modern but restrained.
+- Evidence-oriented.
+- Technically transparent.
+- Easy to maintain.
+
+Use a consistent hierarchy between:
+
+Scientific theories → Research questions → Methods → Projects → Evidence → Applications.
+
+Implement:
+
+- Responsive navigation.
+- Strong typographic hierarchy.
+- Accessible contrast.
+- Semantic headings.
+- Keyboard navigation.
+- Clear link labels.
+- Citation and reference components.
+- Project status indicators.
+- Last-reviewed metadata.
+- Research maturity labels.
+- Reusable scientific glossary components.
+- Source attribution for figures.
+
+Where interactive diagrams would materially help, prefer lightweight accessible web implementations.
+
+Do not introduce a complicated framework merely to produce decorative interaction.
+
+Use diagrams to show relationships among constraints, coordination, mechanical resources, measurements, and inference.
+
+Do not depict hypothetical research outputs as actual data.
+
+---
+
+# 19. Content Architecture and Structured Data
+
+Before implementation, inspect the existing content system.
+
+Prefer extending existing patterns.
+
+Where suitable, introduce structured content records for:
+
+- Foundations.
+- Scientific constructs.
+- Research questions.
+- Methods.
+- Projects.
+- Protocols.
+- Results.
+- Publications.
+- Research software.
+- Educational translations.
+
+Each record should include:
+
+- Unique identifier.
+- Title.
+- Summary.
+- Sources.
+- Author or responsible owner.
+- Status.
+- Review date.
+- Related records.
+- Limitations.
+- Revision history.
+
+Avoid duplicate factual content across pages.
+
+Make navigation and relationships between records explicit.
+
+For instance:
+
+A Relative Phase concept page should link to the corresponding scientific foundations, applicable methods, active projects, validation results, and key publications.
+
+---
+
+# 20. Open Science and Reproducibility
+
+The HMS Lab should cultivate an open research and development culture.
+
+As appropriate and permitted, publish:
+
+- Measurement protocols.
+- Hardware specifications.
+- Software repositories.
+- Calibration procedures.
+- Analysis notebooks.
+- Synthetic demonstration data.
+- Validation plans.
+- Measurement limitations.
+- Reproducible computational examples.
+- Protocol revisions.
+- Research outputs.
+
+Separate public methods and code from protected participant data.
+
+Never publish identifiable clinical or participant information.
+
+Use explicit licensing where authorized.
+
+Indicate where code is experimental and not intended for clinical decision-making.
+
+Provide software provenance and version information for measurement pipelines.
+
+---
+
+# 21. Clinical Translation and DPT Education
+
+Keep these connections visible, but subordinate them to the site's primary research identity.
+
+The scientific goal is not simply to advocate constraints-led treatment.
+
+The goal is to develop better explanations, measurements, and testable knowledge that may support rehabilitation.
+
+Create examples demonstrating how clinicians can:
+
+1. Observe a movement pattern.
+2. Specify task and environmental demands.
+3. Identify plausible organismic constraints.
+4. Consider adaptive strategies.
+5. Generate competing explanations.
+6. Identify measurements capable of distinguishing explanations.
+7. Evaluate whether proposed interventions change meaningful function.
+
+Retain the existing Clinical Inquiry and Instantiation framework.
+
+Preserve the distinction between clinical service, teaching activities, human-participant research, and technology development.
+
+Make students' participation in research and development a visible educational opportunity without implying that all student projects constitute approved research.
+
+---
+
+# 22. Critical Scientific Safeguards
+
+Implement editorial safeguards throughout.
+
+### Avoid theoretical overclaiming
+
+Ecological dynamics is an important scientific perspective, but not an empirically settled explanation of all motor control.
+
+Present alternative explanations where appropriate.
+
+### Avoid mechanism claims based on measurement alone
+
+Kinematics do not directly identify force production, stiffness, metabolic expenditure, neural control, or affordance perception.
+
+### Avoid inappropriate clinical claims
+
+A proposed movement metric is not automatically a diagnostic biomarker.
+
+A prototype is not automatically a clinical device.
+
+A feasibility study is not validation.
+
+### Avoid conflating variability and adaptability
+
+A change in variability may have multiple causes and functional meanings.
+
+### Avoid conflating individual and population inference
+
+Population findings can guide patient-specific hypotheses but do not uniquely determine an individual's mechanisms.
+
+### Avoid conflating scientific and technical maturity
+
+Working code does not imply valid measurement.
+
+Valid measurement does not imply clinical usefulness.
+
+Clinical usefulness does not establish superiority to existing practice.
+
+### Avoid misrepresenting collaborators
+
+Only display verified affiliations, permissions, and collaborations.
+
+---
+
+# 23. Implementation Phases
+
+Do not attempt a disruptive full-site rewrite.
+
+## Phase 0: Repository Audit
+
+Produce:
+
+- Route and content inventory.
+- Component inventory.
+- Scientific content audit.
+- Existing project/status inventory.
+- Broken link and accessibility observations.
+- Proposed information architecture.
+- Content to preserve, revise, relocate, or retire.
+
+Do not modify major components until the audit is complete.
+
+## Phase 1: Scientific Identity
+
+Update:
+
+- Homepage mission.
+- HMS Lab mission and vision.
+- Introductory theory language.
+- R&D positioning.
+- Scientific affiliations.
+- Navigation where necessary.
+
+Preserve the existing project's history and working links.
+
+## Phase 2: Scientific Foundations
+
+Create the foundations hub and the first concept pages.
+
+Prioritize:
+
+- Dynamical systems and CAS.
+- Coordination dynamics.
+- Ecological psychology.
+- Ecological dynamics.
+- Dynamic resources.
+- Scientific measurement and inference.
+
+## Phase 3: Research Agenda
+
+Reorganize research questions into theory-driven themes.
+
+Retain existing project identifiers and records.
+
+Add links between concepts, research questions, methods, and projects.
+
+## Phase 4: Measurement Framework
+
+Develop the theory-to-measurement matrix.
+
+Introduce structured method and construct records.
+
+Distinguish direct sensor analysis from model-based analysis.
+
+## Phase 5: Scholarly History and Publications
+
+Build the research trajectory page and source-linked bibliography.
+
+Preserve citation accuracy and acknowledge interpretive connections.
+
+## Phase 6: Scientific Visualizations and Advanced Capabilities
+
+Only after the information architecture and content are sound, consider:
+
+- Interactive conceptual diagrams.
+- Experimental protocol visualizations.
+- Synthetic coordination-dynamics demonstrations.
+- Method comparison tables.
+- Project maturity dashboards.
+
+Do not add complexity without a clear scientific or educational purpose.
+
+---
+
+# 24. Specific Deliverables Requested from Copilot
+
+First produce a written implementation plan.
+
+Include:
+
+1. Current-site audit.
+2. Proposed mission and vision placement.
+3. Revised site map.
+4. Proposed homepage content.
+5. Scientific foundations content plan.
+6. HMS Lab content structure.
+7. Research theme structure.
+8. Theory-to-measurement schema.
+9. Mapping of existing projects to proposed research themes.
+10. Research history and publications plan.
+11. Proposed reusable components.
+12. Technical risks.
+13. Accessibility and deployment considerations.
+14. Prioritized implementation milestones.
+
+Then implement the first coherent phase using existing site architecture.
+
+After each phase, provide:
+
+- Files changed.
+- Why they changed.
+- Screens or descriptions of the resulting pages.
+- Scientific assertions needing owner verification.
+- Tests run.
+- Remaining problems.
+- Recommended next phase.
+
+Do not silently invent content to fill incomplete sections.
+
+Use explicit `DRAFT`, `PROPOSED`, or `NEEDS SOURCE` labels in source content where necessary.
+
+---
+
+# 25. Definition of Success
+
+The revised MovementSystems.org should allow a first-time scientific visitor to answer:
+
+**What is this research program trying to understand?**
+
+How human movement emerges, becomes coordinated, adapts, and supports meaningful function through interactions among organismic, task, and environmental constraints.
+
+**What theories guide the research?**
+
+Dynamical systems, complex adaptive systems, coordination dynamics, ecological psychology, ecological dynamics, biomechanical modeling, and causal scientific reasoning.
+
+**What does the HMS Lab actually develop?**
+
+Measurement systems, validated methods, computational models, experimental approaches, reproducible software, and evidence that can improve explanations of movement.
+
+**Why use wearable sensors?**
+
+To obtain scientifically relevant observations of movement under specified conditions, not simply because new sensor technology is available.
+
+**How does the laboratory distinguish measurement from mechanism?**
+
+Through explicit constructs, model assumptions, competing explanations, validation, systematic manipulation of constraints, and careful interpretation of uncertainty.
+
+**How is this connected to physical therapy?**
+
+By strengthening the scientific understanding of functional movement and helping clinicians reason about movement, adaptation, and intervention in the context of individual patients.
+
+**What makes this laboratory distinctive?**
+
+The integration of a longstanding multiscale systems-science trajectory, clinically grounded questions, ecological and dynamical theories of movement, accessible instrumentation, open development, and a rigorous pathway from observation to defensible explanation.
+
+---
+
+# 26. Final Operating Instruction
+
+Treat this as the beginning of a durable scientific research platform, not a one-time website redesign.
+
+**Scientific questions should determine measurement development.**
+
+**Measurement capabilities should determine which hypotheses are currently testable.**
+
+**Empirical results should refine theories, methods, and models.**
+
+**Clinical relevance should motivate the research without compromising scientific rigor.**
+
+Preserve the essential principle:
+
+**We observe movement. We measure selected aspects of it. We develop and test explanations for how it emerges. We use what we learn to improve the science and practice of physical therapy.**
+
+Begin by inspecting the repository and delivering the Phase 0 audit and Phase 1 implementation plan. Then implement Phase 1 in a small, reviewable set of changes, preserving existing routes, project statuses, and working functionality.
+
+# 27. Repository Protection, Scientific Source Control, and Owner Approval
+
+The following instructions take precedence over any earlier instructions that could be interpreted as permitting immediate implementation.
+
+## A. In-Place Development Only
+
+This project must evolve the existing MovementSystems.org repository.
+
+Do not:
+
+- Create a replacement website.
+- Scaffold a new application.
+- Migrate to another framework without explicit authorization.
+- Replace the established design system unnecessarily.
+- Delete or overwrite existing scientific material.
+- Remove existing project records, histories, or identifiers.
+- Introduce new infrastructure when the existing implementation can accomplish the task.
+
+Work within the established architecture and preserve operational functionality.
+
+## B. Required Initial Workflow
+
+Before making substantive changes:
+
+1. Inspect the repository.
+2. Identify the framework, application structure, dependencies, and deployment process.
+3. Review the existing content, routes, and scientific terminology.
+4. Identify material already consistent with the proposed scientific direction.
+5. Identify gaps, redundancies, and inconsistencies.
+6. Prepare a proposed information architecture.
+7. Identify the smallest useful initial changes.
+8. Present the findings and proposed first implementation phase.
+
+**STOP AFTER THE AUDIT. DO NOT BEGIN PHASE 1 UNTIL SEAN COLLINS EXPLICITLY APPROVES THE IMPLEMENTATION PLAN.**
+
+Do not interpret the existence of this development brief as approval to modify every section it describes.
+
+## C. Git and Version Control
+
+Before implementing approved changes:
+
+- Confirm the current branch and working tree status.
+- Identify uncommitted work and do not overwrite it.
+- Establish a clean baseline or request instructions if that is not possible.
+- Use a dedicated development branch.
+- Make small, logically grouped changes.
+- Preserve a rollback path.
+- Do not force-push, rewrite history, delete branches, or deploy changes without explicit authorization.
+- Do not modify secrets, credentials, environment configurations, or production integrations unless specifically approved.
+
+Record which files were modified and why.
+
+## D. Scientific Source Documents
+
+Use the existing website, verified references, and source documents supplied by Sean Collins as primary sources for scientific content.
+
+Important documents include:
+
+- Holt, Wagenaar, and Saltzman (2010), *A Dynamic Systems/Constraints Approach to Rehabilitation*.
+- Guccione, Neville, and George (2019), *Optimization of Movement: A Dynamical Systems Approach to Movement Systems as Emergent Phenomena*.
+- Collins (2003), dissertation on job strain and electrocardiographically assessed pathophysiologic mechanisms.
+- Collins (2005), *Complex System Approaches: Could They Enhance the Relevance of Clinical Research?*
+- Collins, Karasek, and Costas (2005), job strain and autonomic indices of cardiovascular disease risk.
+- Collins and Karasek (2010), reduced vagal cardiac control variance.
+- Collins and Dias (2015), heart failure, stability, decompensation, and readmission.
+- Plymouth State DPT curriculum concepts document.
+
+Before using a document, confirm that it is available and readable.
+
+If a source is missing, request it or mark the relevant content as requiring source verification.
+
+Do not infer scientific conclusions solely from paper titles, abstracts, or bibliographic information when a claim requires examination of the full paper.
+
+Distinguish direct findings, authors' interpretations, theoretical propositions, and proposed future research.
+
+## E. Source of Truth and Scientific Editorial Control
+
+The existing website is the authoritative starting point for its current structure, project history, and previously approved language.
+
+The supplied scholarly works are sources for scientific arguments and empirical findings.
+
+The development brief provides strategic direction, but it does not automatically override existing scientific content.
+
+When conflicts arise, identify them for owner review rather than silently replacing the content.
+
+Maintain a record of major scientific claims and their supporting references.
+
+Do not invent citations or substitute related literature for an unavailable source without disclosure.
+
+## F. Scientific Content Approval
+
+Separate content into three categories:
+
+**Established:** Directly supported by published literature or documented completed work.
+
+**Interpretive:** A reasoned theoretical synthesis or interpretation of multiple scientific sources.
+
+**Proposed:** A future hypothesis, research agenda, experimental method, software capability, or measurement approach.
+
+Present these distinctions where scientifically consequential.
+
+All major changes to mission, vision, historical narrative, scientific foundations, and research priorities require owner review.
+
+Do not describe proposed research as completed, validated, approved, funded, or published.
+
+## G. Institutional Identity and Affiliation
+
+Movement Systems and the Human Movement Systems Laboratory should have a clear research identity.
+
+Describe Sean Collins's academic affiliation accurately, but do not assume that the website, laboratory, or its research agenda constitutes an officially sponsored institutional program beyond what is verified.
+
+Do not invent university partnerships, approvals, research facilities, personnel, or resources.
+
+Preserve the existing website's ownership and institutional relationship unless Sean Collins directs otherwise.
+
+## H. Human Research and Data Protection
+
+Clearly distinguish:
+
+- Software development.
+- Bench testing.
+- Demonstration with synthetic data.
+- Educational activities.
+- Human-participant research.
+- Clinical investigation.
+
+Do not imply that publicly described experiments have institutional review approval unless verified.
+
+Do not expose identifiable human-participant data, credentials, private research documents, or restricted information.
+
+Do not treat prototype movement measurements as validated clinical assessments.
+
+## I. Technical Quality Requirements
+
+For each approved implementation phase:
+
+1. Confirm the site builds successfully.
+2. Run existing tests and report failures.
+3. Inspect affected routes.
+4. Check navigation and internal links.
+5. Verify responsive layouts.
+6. Check accessibility.
+7. Preserve metadata and redirects.
+8. Verify the accuracy of project statuses and references.
+9. Report all technical and scientific issues needing review.
+
+Do not introduce avoidable new dependencies.
+
+Prefer reusable components consistent with the existing codebase.
+
+## J. Implementation Report
+
+At the end of each approved phase, provide:
+
+- Summary of changes.
+- Files modified.
+- New routes or components.
+- Existing content preserved.
+- Scientific claims added or revised.
+- Source verification completed.
+- Outstanding owner decisions.
+- Tests and build results.
+- Potential regressions.
+- Recommended next steps.
+
+Await approval before proceeding to the next major phase.
+
+## K. Operating Principle
+
+The purpose of Copilot is to assist Sean Collins in implementing an established and developing scientific vision.
+
+Copilot is not independently determining the laboratory's scientific philosophy, making institutional commitments, or deciding what research has been established.
+
+**Preserve the existing intellectual work. Make the emerging scientific direction clearer. Implement incrementally. Keep Sean Collins in control of the scientific and technical decisions.**
+
+# Priorities - summary
+
+Three priorities I would emphasize during implementation
+First, make the scientific foundations prominent, not peripheral. The site currently explains emergence and adaptation but seldom names the specific traditions or constructs underlying them. A visitor interested in ecological psychology, coordination dynamics, or the Haken–Kelso–Bunz model should be able to recognize the intellectual foundation immediately.
+
+Second, give the HMS Lab a theory-to-measurement infrastructure. This is the most significant opportunity. Rather than having a website organized around a collection of hardware projects, develop a public chain connecting theoretical construct → competing explanations → experimental manipulation → observable variable → instrument → validity evidence → interpretation. Your earlier research on ambulatory autonomic control provides a genuine precedent for this kind of measurement-driven systems inquiry.
+
+Third, distinguish the laboratory's scientific identity from its technical tools. ASB, ecological psychology, coordination dynamics, ecological dynamics, rehabilitation science, and causal inference can define the research program. Movesense, OpenSense, OpenSim, OpenCap, microcontrollers, and physiological acquisition systems can serve it. The current Research page is already moving in that direction, so I would deepen rather than replace it. 
+
+Movement Systems
++1
+
+
+
+
+One additional recommendation: keep Attain–Sustain–Maintain in the plan, but develop its theoretical status carefully. It has the potential to connect the multiscale physiological regulation in your earlier work to task-level coordination dynamics and longer-term functional capability. It should be presented as your developing synthesis, not as a principle already established by the Holt or Guccione papers.
+
+The resulting website could become more than a presentation of the HMS Lab. It could serve as an open, evolving scientific research framework, where theoretical concepts, measurement methods, experimental questions, evidence, and development records are linked in a way that others can examine, reproduce, challenge, and extend.
